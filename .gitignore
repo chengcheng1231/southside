@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+.DS_Store
+
+# Local legacy backups and hosting identity
+dist/
+.openai/
+*.tar.gz
