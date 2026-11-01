@@ -1,10 +1,8 @@
-'use client';
-import {useId} from 'react';
 import Link from 'next/link';
+import './contact-simple.css';
 export default function Feedback(){
- const ringId=useId();
- return <Link href="/contact" className="feedback-trigger contact-orb" aria-label="回饋與投稿">
-  <svg className="contact-ring" viewBox="0 0 120 120" aria-hidden="true"><defs><path id={ringId} d="M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0" /></defs><text><textPath href={`#${ringId}`} textLength="282.7" lengthAdjust="spacing">回饋與投稿 · FEEDBACK · SUBMISSIONS · </textPath></text></svg>
-  <svg className="contact-envelope" viewBox="0 0 64 56" fill="none" aria-hidden="true"><path d="M15 7h34a8 8 0 0 1 8 8v20a8 8 0 0 1-8 8H29L15 52V43a8 8 0 0 1-8-8V15a8 8 0 0 1 8-8Z" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round"/><circle cx="22" cy="25" r="2.5" fill="currentColor"/><circle cx="32" cy="25" r="2.5" fill="currentColor"/><circle cx="42" cy="25" r="2.5" fill="currentColor"/></svg>
+ return <Link href="/contact" className="feedback-pill" aria-label="投稿與回饋">
+  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 4h10a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-6l-5 3v-3a4 4 0 0 1-3-4V8a4 4 0 0 1 4-4Z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/><path d="M8 10h8M8 13h5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/></svg>
+  <span>投稿與回饋</span><span className="feedback-pill-arrow" aria-hidden="true">↗</span>
  </Link>;
 }

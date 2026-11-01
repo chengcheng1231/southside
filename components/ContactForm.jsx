@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useForm } from 'react-hook-form';
+import './contact-simple.css';
 const topics = ['經驗投稿', '資訊更正', '網站建議', '操作問題', '其他'];
 export default function ContactForm({ initialTopic = '網站建議' }) {
   const [sent, setSent] = useState(false);
@@ -43,33 +44,17 @@ export default function ContactForm({ initialTopic = '網站建議' }) {
     }
   }
   return (
-    <main className="contact-page">
-      <Link className="contact-close" href="/" aria-label="返回首頁">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="m5 5 14 14M19 5 5 19" />
-        </svg>
-      </Link>
+    <main className="contact-page contact-simple">
+      <header className="contact-simple-nav"><Link href="/" className="contact-simple-brand">Southside</Link><Link href="/">← 返回首頁</Link></header>
       <div className="contact-layout">
         <aside className="contact-intro">
           <p className="eyebrow">SOUTHSIDE / COMMUNITY</p>
           <h1 id="feedback-title">
-            Let's talk.
-            <br />
-            <span>投稿與回饋</span>
+            投稿與回饋
           </h1>
           
           <p>透過表單告訴我們。投稿會在確認內容與刊登同意後整理上架；一般回饋不會公開。</p>
-          <div className="contact-intro-bottom">
-            <svg viewBox="0 0 64 52" fill="none" aria-hidden="true">
-              <rect x="5" y="7" width="54" height="38" rx="6" stroke="currentColor" strokeWidth="1.5" />
-              <path d="m9 12 23 18 23-18" stroke="currentColor" strokeWidth="1.5" />
-            </svg>
-            <span>
-              AUSTRALIA WORKING HOLIDAY
-              <br />
-              EXPERIENCES & IDEAS
-            </span>
-          </div>
+
         </aside>
         <div className="contact-form-pane">
           {sent ? (

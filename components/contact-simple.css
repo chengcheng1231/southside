@@ -1,0 +1,31 @@
+.feedback-pill{position:fixed;right:26px;bottom:calc(26px + env(safe-area-inset-bottom));z-index:35;display:flex;align-items:center;gap:11px;padding:14px 19px;border:1px solid var(--line);border-radius:99px;background:var(--paper);color:var(--ink);box-shadow:0 4px 20px #283b3117;font-size:13px;transition:transform .2s,box-shadow .2s}
+.feedback-pill>svg{width:23px;height:23px;color:var(--orange)}.feedback-pill-arrow{font-size:17px;margin-left:5px}.feedback-pill:hover{transform:translateY(-2px);box-shadow:0 6px 24px #283b3126}
+.contact-page.contact-simple{background:var(--paper);color:var(--ink);padding-bottom:64px}
+.contact-simple-nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:23px 6%;border-bottom:1px solid var(--line)}.contact-simple-brand{font-size:25px;font-weight:800;letter-spacing:1px}.contact-simple-nav>a:last-child{font-size:12px;color:var(--muted)}
+.contact-simple .contact-layout{display:block;min-height:0;width:min(100% - 48px,680px);margin:0 auto}
+.contact-simple .contact-intro{background:transparent;display:block;padding:48px 0 30px;overflow:visible}
+.contact-simple .contact-intro>.eyebrow{padding:0;margin:0;color:var(--orange)}
+.contact-simple .contact-intro h1{font-size:36px;line-height:1.5;letter-spacing:0;margin:13px 0 18px;font-weight:600}
+.contact-simple .contact-intro>p:not(.eyebrow){font-size:14px;color:var(--muted);max-width:none;line-height:1.9;margin:0}
+.contact-simple .contact-form-pane{padding:28px 0 0;border-top:1px solid var(--line)}
+.contact-simple .contact-form{gap:30px}.contact-simple .contact-fields{grid-template-columns:1fr;gap:22px}
+.contact-simple .contact-form legend{font-size:17px;font-weight:600;color:var(--ink);margin-bottom:20px}
+.contact-simple .contact-form label{color:var(--ink);font-size:13px;gap:9px}
+.contact-simple .contact-form input,.contact-simple .contact-form textarea{background:#fcfbf6;color:var(--ink);border:1px solid #cbd0c2;border-radius:8px;padding:12px 15px;font-size:15px}
+.contact-simple .contact-form input::placeholder,.contact-simple .contact-form textarea::placeholder{color:#8a9184}
+.contact-simple .contact-form input:focus,.contact-simple .contact-form textarea:focus{outline-color:var(--orange)}
+.contact-simple .contact-topics{gap:9px}.contact-simple .contact-topics label{flex:0 1 auto}
+.contact-simple .contact-topics span{border-color:var(--line);min-height:43px;padding:9px 17px;font-size:13px;background:transparent}
+.contact-simple .contact-topics input:checked+span{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.contact-simple .contact-topics input:focus-visible+span{outline-color:var(--orange)}
+.contact-simple .contact-topics input{position:absolute;width:1px;height:1px;padding:0;opacity:0}
+.contact-simple .contact-form textarea{min-height:220px;line-height:1.9}
+.contact-simple .contact-form em,.contact-simple .contact-form .contact-error{color:#a2422c}
+.contact-simple .contact-form [aria-invalid=true]{border-color:#a2422c}
+.contact-simple .contact-form .contact-error{border-left-color:#a2422c}
+.contact-simple .contact-consent input{width:18px;height:18px;padding:0;accent-color:var(--orange)}
+.contact-simple .contact-form-bottom{align-items:center;border-top:1px solid var(--line);padding-top:24px}
+.contact-simple .contact-form-bottom p{color:var(--muted)}
+.contact-simple .contact-submit{border-radius:8px;background:var(--orange);color:#fffbed;font-size:13px;padding:14px 22px}
+.contact-simple .contact-success{padding-top:12px}.contact-simple .contact-success .eyebrow{color:var(--orange)}.contact-simple .contact-success h3{font-size:28px}.contact-simple .contact-success>p:not(.eyebrow){color:var(--muted)}.contact-simple .contact-success .contact-submit{display:inline-flex}
+@media(max-width:640px){.feedback-pill{right:16px;bottom:calc(16px + env(safe-area-inset-bottom));padding:12px 15px;font-size:12px;gap:8px}.feedback-pill>svg{width:21px;height:21px}.contact-simple-nav{padding-block:18px}.contact-simple-brand{font-size:23px}.contact-simple .contact-intro{padding-top:32px}.contact-simple .contact-intro h1{font-size:29px}.contact-simple .contact-form-bottom{align-items:stretch;flex-direction:column}.contact-simple .contact-submit{width:100%}.contact-simple .contact-form legend{font-size:16px}}

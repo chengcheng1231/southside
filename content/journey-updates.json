@@ -1,19 +1,23 @@
 {
   "before-departure/visa": {
-    "hash": "4fec29b5cd9b84165cfc7d355186da8b346ca3abe9a7de9f18cced4af8ab165e",
-    "updatedAt": "2026-11-01T11:20:20.297Z"
+    "hash": "99d7275a8adc8d8c12c2d663b92eb4365b696d68c1980248de65c7b5256eda56",
+    "updatedAt": "2026-11-01T11:22:12.366Z"
+  },
+  "before-departure/city-and-flights": {
+    "hash": "0989c459c70542bd50fe189fd90a6ea3fdae2f1f3c6895be82211d7c81700e85",
+    "updatedAt": null
   },
   "before-departure/accommodation": {
-    "hash": "91d5e23233a49f26e94a53cc92888f9101c9012b1e5599ad8b2635f0759c1c39",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "d8378aeeb8e2059855b524a659734471c285d2074ca8214a420215ac540ec461",
+    "updatedAt": "2026-11-01T11:22:12.366Z"
   },
   "before-departure/money-transfer": {
-    "hash": "bbe1d9759f453328e37193fdf77506bf3d1ae06b8eb53307c5052c5b77fbc385",
-    "updatedAt": "2026-11-01T08:28:22.607Z"
+    "hash": "1454a43d4125c0311780f6035c13e69a6119b14558621b83d66cf9a6d2f85e9e",
+    "updatedAt": "2026-11-01T11:22:12.366Z"
   },
   "before-departure/taiwan-mobile": {
-    "hash": "333e0d0b9ae247210911fdc18a4b1e6b3f3467be0b0af0ca0511ea4043b55775",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "ca96f34919e2155a80409007a59378713e88a8c58ae223afdaaf5471c7346da4",
+    "updatedAt": "2026-11-01T11:22:12.366Z"
   },
   "arrival/sim": {
     "hash": "6cb504bc701f2c51270e7223ae377490d06632d05b68407f9f3d10e64736921f",

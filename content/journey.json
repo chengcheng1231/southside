@@ -9,7 +9,7 @@
       "title": "出發前",
       "en": "BEFORE YOU GO",
       "symbol": "↗",
-      "desc": "簽證、初期住宿、台幣轉帳與事先申請澳洲帳戶、台灣電信",
+      "desc": "簽證、落地城市與機票、初期住宿、台幣轉帳與事先申請澳洲帳戶、台灣電信",
       "topics": [
         {
           "id": "visa",
@@ -95,7 +95,9 @@
               "groups": [
                 {
                   "title": "體檢攜帶物品與費用",
-                  "items": ["視個人需要：眼鏡、相關病歷與藥單。"],
+                  "items": [
+                    "視個人需要：眼鏡、相關病歷與藥單。"
+                  ],
                   "orderedLabel": "必備：",
                   "orderedItems": [
                     "護照正本（效期依院方要求）。",
@@ -122,7 +124,9 @@
               "id": "decision",
               "phase": "",
               "title": "等待結果：查看申請進度與通知",
-              "items": ["留意 Email 與 ImmiAccount 訊息，按要求補件或更新個人資料。"],
+              "items": [
+                "留意 Email 與 ImmiAccount 訊息，按要求補件或更新個人資料。"
+              ],
               "link": {
                 "label": "查看申請後與結果說明",
                 "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417/first-working-holiday-417#HowTo"
@@ -191,6 +195,30 @@
           }
         },
         {
+          "id": "city-and-flights",
+          "title": "決定落地城市與訂機票",
+          "intro": "簽證核准後，決定第一個落地城市與出發日期，再比較機票與初期住宿。",
+          "details": [
+            "選擇落地城市：先考慮工作或就學計畫、住宿預算、交通與是否有朋友可以協助，再決定第一站。",
+            "比較機票：確認抵達機場、日期、直飛或轉機、託運行李額度，以及改票與退票條件，再比較總價。",
+            "機票優惠：可參考[華航學生／打工度假獨享優惠](https://www.china-airlines.com/tw/zh/itinerary-booking/exclusive-offers/latest-events/global-student-promotion)。需加入華夏會員並完成學生／打工度假身分驗證，再透過指定購票專區訂票。",
+            "優惠內容：華航頁面目前列有適用票價 95 折與額外一件託運行李，L 艙不適用；開票期間至 2026/12/31，適用航班、行李與票規以活動頁及訂票畫面為準。",
+            "安排抵達：依航班落地時間確認機場交通與住宿入住方式，再接著安排初期住宿。"
+          ],
+          "source": {
+            "label": "中華航空：學生／打工度假獨享優惠",
+            "url": "https://www.china-airlines.com/tw/zh/itinerary-booking/exclusive-offers/latest-events/global-student-promotion"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          },
+          "hideExperiencePlaceholder": true
+        },
+        {
           "id": "accommodation",
           "title": "初期住宿",
           "details": [
@@ -251,7 +279,7 @@
           }
         }
       ],
-      "intro": "出發前需要準備的文件、初期住宿、轉帳與台灣電信事項。",
+      "intro": "出發前需要準備的文件、落地城市與機票、初期住宿、轉帳與台灣電信事項。",
       "id": "before-departure"
     },
     {
@@ -594,7 +622,12 @@
     "experienceEyebrow": "COMMUNITY EXPERIENCES",
     "experienceTitle": "經驗分享（待補）",
     "experienceDescription": "以下欄位供分享者補充實際經驗。",
-    "experienceFields": ["分享者、年份、城市與背景", "實際處理方式", "遇到的問題與實際花費", "建議與注意事項"],
+    "experienceFields": [
+      "分享者、年份、城市與背景",
+      "實際處理方式",
+      "遇到的問題與實際花費",
+      "建議與注意事項"
+    ],
     "sourcesTitle": "繼續查找資訊",
     "sourceNote": "官方連結為查詢起點；簽證、稅務、租屋與工作規定，請依所在地及個人情況查閱官方最新資訊。個人經驗與來源資料將分別標示。",
     "nextLabel": "下一篇"
