@@ -30,7 +30,7 @@ export default function Journey({ onArticle }) {
       <div className="stage-grid" id="stage-grid">
         {stages.map((s, i) => (
           <button
-            key={s.title}
+            key={s.id}
             ref={(el) => {
               buttons.current[i] = el;
             }}
@@ -68,11 +68,10 @@ export default function Journey({ onArticle }) {
               </button>
             </div>
             <div className="panel-articles">
-              {stage.topics.map((topic, j) => (
-                <button key={topic} className="article-link" onClick={() => onArticle(`${active}-${j}`)}>
+              {stage.topics.map((topic) => (
+                <button key={topic.id} className="article-link" onClick={() => onArticle(`${stage.id}/${topic.id}`)}>
                   <span>
-                    {topic}
-                    <small>{journey.topicCaption}</small>
+                    {topic.title}
                   </span>
                   <span aria-hidden="true">↗</span>
                 </button>

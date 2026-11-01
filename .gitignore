@@ -9,3 +9,9 @@ out/
 dist/
 .openai/
 *.tar.gz
+
+# Personal financial document: local preview only
+/public/examples/financial-statement.jpg
+/public/examples/referral-letter.png
+/public/examples/health-examination-notice.png
+/public/examples/visa-grant.png

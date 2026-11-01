@@ -4,156 +4,587 @@
   "subtitle": "依目前階段，查找需要的資訊。",
   "collapseLabel": "收起 −",
   "collapseAriaLabel": "收起階段文章",
-  "topicCaption": "主題指南 · 經驗分享待補",
   "stages": [
     {
       "title": "出發前",
       "en": "BEFORE YOU GO",
       "symbol": "↗",
-      "desc": "簽證、初期住宿、台幣轉帳、台灣電信",
-      "topics": ["簽證申請", "初期住宿", "台幣轉帳", "台灣電信"],
-      "intro": "出發前需要準備的文件、初期住宿、轉帳與台灣電信事項。"
+      "desc": "簽證、初期住宿、台幣轉帳與事先申請澳洲帳戶、台灣電信",
+      "topics": [
+        {
+          "id": "visa",
+          "title": "澳洲打工度假簽證首次 417（一簽）申請流程",
+          "details": [],
+          "source": {
+            "label": "澳洲內政部：首次 Working Holiday visa（417）",
+            "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417/first-working-holiday-417"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          },
+          "intro": "台灣一般護照首次申請 Working Holiday visa（subclass 417）的流程整理，不包含二簽／三簽流程。",
+          "hideExperiencePlaceholder": true,
+          "timelineTitle": "首次 417 申請流程",
+          "timeline": [
+            {
+              "id": "eligibility",
+              "phase": "",
+              "title": "確認基本申請條件",
+              "link": {
+                "label": "其他資格與審查條件請參考官方網站",
+                "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417/first-working-holiday-417"
+              },
+              "items": [
+                "年齡限制：需介於 18–30 歲，申請時需要在 31 歲生日前送出申請。",
+                "護照要求：持有效台灣一般護照；公務或外交護照不適用。",
+                "申請地點：申請及作出決定時均須在澳洲境外。",
+                "首次簽證（一簽）：如果以前曾持澳洲打工度假簽證入境，就不能再申請一簽。若要申請二簽或三簽，需參考該申請資格。曾申請或獲准，但從未持該簽證入境者，仍可申請一簽。"
+              ],
+              "highlight": "申請條件"
+            },
+            {
+              "id": "documents",
+              "phase": "",
+              "title": "準備文件與費用：確認主要準備項目",
+              "items": [
+                "護照資料頁：確認護照未過期，準備護照個人資料整頁的清晰彩色照片，申請時上傳。",
+                "財力證明：在戶頭準備超過 AUD 5,000 的初期生活費，再向銀行申請財力證明，可參考下方圖片。請確認文件上的英文姓名與護照一致。",
+                "服役紀錄：有人說義務役不用上傳、志願役才需要，我當初也沒有上傳。不過後來查了一下，我認為比較穩妥的做法是先準備退伍令的英文翻譯版，若被要求提供就能使用。可透過[退伍證明翻譯說明](https://www.fanyisite.com.au/taiwan-military/)申請翻譯。",
+                "簽證費用：首次 417 目前為 AUD 840（查證日期：2026/11/01），約台幣 19,300 元，以付款頁面顯示的總金額為準。"
+              ],
+              "link": {
+                "label": "查看官方完整文件清單",
+                "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417/first-working-holiday-417#HowTo"
+              },
+              "highlight": "準備文件與費用",
+              "image": {
+                "src": "/examples/financial-statement.jpg",
+                "alt": "銀行開立的英文財力證明範例",
+                "caption": "財力證明範例"
+              }
+            },
+            {
+              "id": "application",
+              "phase": "",
+              "title": "線上送件：建立 ImmiAccount，填表、上傳與付款",
+              "items": [
+                "填寫並上傳資料：至 [ImmiAccount](https://online.immi.gov.au/lusc/login) 依自己的實際情況填寫申請並上傳文件，可以參考 [STUDY CENTRAL 手把手圖文教學](https://studycentralau.com/work-in-australia/whvapply26/)。",
+                "付款送件：核對資料、附件與付款金額後，完成簽證費付款並送出申請，接著查看 Email 與 ImmiAccount 的通知。"
+              ],
+              "highlight": "線上送件"
+            },
+            {
+              "id": "checks",
+              "phase": "",
+              "title": "體檢流程：查看通知、下載體檢單、安排體檢",
+              "items": [
+                "查看通知：付款送件後，查看 Email 或 ImmiAccount「View details → Messages」，確認體檢要求與期限，以個人通知為準。[查看通知信範例](/examples/health-examination-notice.png)。",
+                "下載體檢單：開啟 [ImmiAccount](https://online.immi.gov.au/lusc/login) 該筆申請，點選「View health assessment」→「Organise health examinations」，填寫病史後下載含 HAP ID 的 Referral Letter。[查看體檢單範例](/examples/referral-letter.png)。",
+                "安排體檢：至[官方指定醫院查詢頁](https://immi.homeaffairs.gov.au/help-support/contact-us/offices-and-locations/list)選擇 Taiwan（或所在地），使用 HAP ID 依院方受理方式安排體檢。是否需預約依各院公告；無法如期完成時，透過 ImmiAccount 說明。",
+                "體檢完成：由醫院上傳體檢結果，接著等待簽證審核。"
+              ],
+              "link": {
+                "label": "官方體檢當天攜帶物品說明",
+                "url": "https://immi.homeaffairs.gov.au/help-support/meeting-our-requirements/health/your-health-examinations-appointment"
+              },
+              "highlight": "體檢流程",
+              "groups": [
+                {
+                  "title": "體檢攜帶物品與費用",
+                  "items": ["視個人需要：眼鏡、相關病歷與藥單。"],
+                  "orderedLabel": "必備：",
+                  "orderedItems": [
+                    "護照正本（效期依院方要求）。",
+                    "身分證正本。",
+                    "Referral Letter：體檢單建議列印，手機另存 PDF。",
+                    "體檢費用：約 NT$2,500–3,000，額外檢查另計，實際依醫院與項目收費；其他文件依院方要求，可參考[中國附醫體檢須知](https://www.cmuh.org.tw/Department/CustomPage/286)。"
+                  ]
+                }
+              ],
+              "images": [
+                {
+                  "src": "/examples/health-examination-notice.png",
+                  "alt": "體檢要求通知信件範例，包含回應期限說明",
+                  "caption": "體檢要求通知信件範例（Request for Health Examination）"
+                },
+                {
+                  "src": "/examples/referral-letter.png",
+                  "alt": "體檢轉介單 Referral Letter 範例",
+                  "caption": "體檢轉介單範例（Referral Letter）"
+                }
+              ]
+            },
+            {
+              "id": "decision",
+              "phase": "",
+              "title": "等待結果：查看申請進度與通知",
+              "items": ["留意 Email 與 ImmiAccount 訊息，按要求補件或更新個人資料。"],
+              "link": {
+                "label": "查看申請後與結果說明",
+                "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417/first-working-holiday-417#HowTo"
+              },
+              "highlight": "等待結果"
+            },
+            {
+              "id": "arrival",
+              "phase": "",
+              "title": "核准後：確認首次入境期限",
+              "items": [
+                "收到核准信後，下載保存，並確認最晚入境日期、可停留期間及工作／就學限制。",
+                "首次 417 須在核准後 12 個月內入境；入境後可停留最多 12 個月。"
+              ],
+              "link": {
+                "label": "查看停留與入境說明",
+                "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417/first-working-holiday-417#About"
+              },
+              "highlight": "首次入境期限",
+              "image": {
+                "src": "/examples/visa-grant.png",
+                "alt": "Working Holiday 417 簽證核准通知範例，申請狀態為 Granted",
+                "caption": "簽證核准通知範例（Visa Grant Notification）"
+              }
+            }
+          ],
+          "references": [
+            {
+              "label": "首次 417：條件、文件與步驟",
+              "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417/first-working-holiday-417"
+            },
+            {
+              "label": "ImmiAccount 操作指南",
+              "url": "https://immi.homeaffairs.gov.au/help-support/applying-online-or-on-paper/online"
+            },
+            {
+              "label": "體檢與指定診所",
+              "url": "https://immi.homeaffairs.gov.au/help-support/meeting-our-requirements/health/arrange-your-health-examinations"
+            },
+            {
+              "label": "澳洲官方：護照效期常見問題",
+              "url": "https://hcmc.consulate.gov.au/hchi/FAQs.html"
+            },
+            {
+              "label": "簽證費用與付款手續費說明",
+              "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/overview"
+            }
+          ],
+          "personalTimeline": {
+            "title": "我的申請時間軸",
+            "note": "以下為我的實際申請紀錄，審理時間因人而異。",
+            "events": [
+              {
+                "date": "2024-11-18",
+                "label": "申請簽證"
+              },
+              {
+                "date": "2024-11-29",
+                "label": "至臺安醫院完成體檢"
+              },
+              {
+                "date": "2024-12-06",
+                "label": "收到 Visa Grant Notification（簽證核准通知）"
+              }
+            ]
+          }
+        },
+        {
+          "id": "accommodation",
+          "title": "初期住宿",
+          "details": [
+            "先列出預算、交通、入住時間與行李寄放等需求。",
+            "確認取消條件、入住方式與從機場抵達住宿的路線。",
+            "替看房與熟悉城市保留彈性，避免第一週排得太滿。"
+          ],
+          "source": {
+            "label": "澳洲政府資訊入口",
+            "url": "https://www.australia.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        },
+        {
+          "id": "money-transfer",
+          "title": "台幣轉帳 & 事先申請澳洲帳戶",
+          "details": [
+            "先比較自己的銀行及匯款服務，記錄匯率、手續費與預估到帳時間。",
+            "確認收款資料與服務條件，並保留交易紀錄。",
+            "此處可補充實際使用的方式與當時費用；報價請以服務商當下資訊為準。"
+          ],
+          "source": {
+            "label": "澳洲政府資訊入口",
+            "url": "https://www.australia.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        },
+        {
+          "id": "taiwan-mobile",
+          "title": "台灣電信",
+          "details": [
+            "整理哪些銀行、登入與驗證服務仍使用台灣門號。",
+            "出發前詢問業者海外收簡訊、漫遊及合約方案。",
+            "確認方案變更的生效時間、費用及返台後的恢復方式。"
+          ],
+          "source": {
+            "label": "澳洲政府資訊入口",
+            "url": "https://www.australia.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        }
+      ],
+      "intro": "出發前需要準備的文件、初期住宿、轉帳與台灣電信事項。",
+      "id": "before-departure"
     },
     {
       "title": "剛落地",
       "en": "FIRST DAYS",
       "symbol": "⌁",
       "desc": "SIM 電話、銀行帳戶、TFN 稅號",
-      "topics": ["SIM 電話", "銀行帳戶", "TFN 稅號"],
-      "intro": "抵達澳洲後的通訊、銀行帳戶與稅號辦理事項。"
+      "topics": [
+        {
+          "id": "sim",
+          "title": "SIM 電話",
+          "details": [
+            "先確認手機是否支援預計使用的 SIM 或 eSIM。",
+            "依常住地點、通話與流量需求比較方案及涵蓋資訊。",
+            "保留門號及帳戶登入方式，之後可能需要用於工作與銀行聯繫。"
+          ],
+          "source": {
+            "label": "澳洲政府資訊入口",
+            "url": "https://www.australia.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        },
+        {
+          "id": "bank-account",
+          "title": "銀行帳戶",
+          "details": [
+            "到銀行官方網站確認開戶方式、身分文件與適用條件。",
+            "留意帳戶費用、地址與聯絡資料的填寫要求。",
+            "將實際開戶流程與遇到的問題記在下方，避免把個別經驗當成通則。"
+          ],
+          "source": {
+            "label": "澳洲政府資訊入口",
+            "url": "https://www.australia.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        },
+        {
+          "id": "tfn",
+          "title": "TFN 稅號",
+          "details": [
+            "由澳洲稅務局官方入口確認自己適用的申請方式。",
+            "提交前核對個人資料，保留申請紀錄。",
+            "妥善保存稅務資料，對分享身分與稅務資訊保持謹慎。"
+          ],
+          "source": {
+            "label": "澳洲稅務局 ATO",
+            "url": "https://www.ato.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        }
+      ],
+      "intro": "抵達澳洲後的通訊、銀行帳戶與稅號辦理事項。",
+      "id": "arrival"
     },
     {
       "title": "安頓",
       "en": "MAKE IT HOME",
       "symbol": "⌂",
       "desc": "找房／租屋、Bond 押金",
-      "topics": ["找房／租屋", "Bond 押金"],
-      "intro": "找房需求、看房、租屋合約與押金相關事項。"
+      "topics": [
+        {
+          "id": "renting",
+          "title": "找房／租屋",
+          "details": [
+            "先寫下租金範圍、通勤、房型及生活習慣等需求。",
+            "看房時確認費用包含項目、居住人數、設備與合約條件。",
+            "入住前拍照記錄房況，保存合約、付款與溝通紀錄。"
+          ],
+          "source": {
+            "label": "澳洲政府／州及領地政府入口",
+            "url": "https://www.australia.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        },
+        {
+          "id": "bond",
+          "title": "Bond 押金",
+          "details": [
+            "先確認所在地州或領地的租屋規定與押金主管機關。",
+            "了解合約中的押金安排，保留付款及登記相關證明。",
+            "入住與退租的房況紀錄，都整理在容易找到的位置。"
+          ],
+          "source": {
+            "label": "澳洲政府／州及領地政府入口",
+            "url": "https://www.australia.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        }
+      ],
+      "intro": "找房需求、看房、租屋合約與押金相關事項。",
+      "id": "settling-in"
     },
     {
       "title": "工作",
       "en": "FIND YOUR WAY",
       "symbol": "✳",
       "desc": "找工作、印履歷、工作權益",
-      "topics": ["找工作", "印履歷", "工作權益"],
-      "intro": "履歷準備、求職方式與工作權益相關事項。"
+      "topics": [
+        {
+          "id": "job-search",
+          "title": "找工作",
+          "details": [
+            "整理能工作的時間、地點、過往經驗與希望嘗試的職位。",
+            "依職位調整履歷，記錄投遞管道與後續聯絡。",
+            "在接受工作前，確認職務內容、薪資安排與雇用條件。"
+          ],
+          "source": {
+            "label": "澳洲政府資訊入口",
+            "url": "https://www.australia.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        },
+        {
+          "id": "printing-resume",
+          "title": "印履歷",
+          "details": [
+            "準備可閱讀的 PDF，先檢查聯絡資料與版面。",
+            "依投遞方式決定是否需要紙本，先少量列印檢查效果。",
+            "此處可補充列印地點、價格與投遞經驗。"
+          ],
+          "source": {
+            "label": "澳洲政府資訊入口",
+            "url": "https://www.australia.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        },
+        {
+          "id": "work-rights",
+          "title": "工作權益",
+          "details": [
+            "到 Fair Work 官方網站查閱與自己工作情況相關的資訊。",
+            "保存雇用條件、工時、薪資單與相關對話紀錄。",
+            "遇到疑問時，先整理事實與文件，再尋找官方諮詢管道。"
+          ],
+          "source": {
+            "label": "Fair Work Ombudsman",
+            "url": "https://www.fairwork.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        }
+      ],
+      "intro": "履歷準備、求職方式與工作權益相關事項。",
+      "id": "work"
     },
     {
       "title": "留澳",
       "en": "STAY A LITTLE LONGER",
       "symbol": "↟",
       "desc": "二簽／三簽、集簽",
-      "topics": ["二簽／三簽", "集簽"],
-      "intro": "延長留澳的簽證條件、指定工作與文件準備方向。"
+      "topics": [
+        {
+          "id": "visa-extension",
+          "title": "二簽／三簽",
+          "details": [
+            "從移民部官方網站確認適用的簽證條件與申請時點。",
+            "不要只依他人的工作經驗判斷自己的資格。",
+            "把規劃與文件整理分開記錄，申請前重新確認官方資訊。"
+          ],
+          "source": {
+            "label": "澳洲內政部／簽證資訊",
+            "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        },
+        {
+          "id": "specified-work",
+          "title": "集簽",
+          "details": [
+            "先到官方網站確認適用簽證對工作類別、地區與證明的要求。",
+            "選工作前核對資訊，保留實際工作與付款紀錄。",
+            "此處可補充工作地點、時間線與實際經驗，尚未填寫。"
+          ],
+          "source": {
+            "label": "澳洲內政部／簽證資訊",
+            "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        }
+      ],
+      "intro": "延長留澳的簽證條件、指定工作與文件準備方向。",
+      "id": "stay-longer"
     },
     {
       "title": "離開",
       "en": "UNTIL NEXT TIME",
       "symbol": "↙",
       "desc": "退租、退稅、退休金、關閉必要服務",
-      "topics": ["退租", "退稅", "處理退休金", "關閉必要服務"],
-      "intro": "離澳前的退租、稅務、退休金與帳戶服務處理事項。"
+      "topics": [
+        {
+          "id": "moving-out",
+          "title": "退租",
+          "details": [
+            "依合約與所在地規定確認通知方式與期限。",
+            "整理房況、清潔、鑰匙交接及押金相關紀錄。",
+            "保留退租後可聯繫的方式，追蹤未完成事項。"
+          ],
+          "source": {
+            "label": "澳洲政府／州及領地政府入口",
+            "url": "https://www.australia.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        },
+        {
+          "id": "tax-return",
+          "title": "退稅",
+          "details": [
+            "先整理薪資、收入及相關稅務文件。",
+            "到澳洲稅務局確認適用的報稅安排；是否有退稅須視個人情況。",
+            "離境後仍要能接收相關通知，妥善保存必要紀錄。"
+          ],
+          "source": {
+            "label": "澳洲稅務局 ATO",
+            "url": "https://www.ato.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        },
+        {
+          "id": "superannuation",
+          "title": "處理退休金",
+          "details": [
+            "整理退休金帳戶與可用的登入資料。",
+            "由澳洲稅務局確認離澳退休金申請的適用資格、條件與流程。",
+            "離境與簽證狀態等可能影響申請，請依官方資料判斷。"
+          ],
+          "source": {
+            "label": "澳洲稅務局 ATO",
+            "url": "https://www.ato.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        },
+        {
+          "id": "close-services",
+          "title": "關閉必要服務",
+          "details": [
+            "列出銀行、手機、網路、保險與各項訂閱及自動扣款。",
+            "先確認退款、稅務或其他款項的接收安排，再決定何時關閉帳戶。",
+            "向各服務商確認取消程序，保留結清或取消證明。"
+          ],
+          "source": {
+            "label": "澳洲政府資訊入口",
+            "url": "https://www.australia.gov.au/"
+          },
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          }
+        }
+      ],
+      "intro": "離澳前的退租、稅務、退休金與帳戶服務處理事項。",
+      "id": "departure"
     }
   ],
-  "details": {
-    "簽證申請": [
-      "把護照、個人資料與申請所需資料集中整理，並記錄文件效期。",
-      "從官方網站確認適用的簽證類別、申請條件與辦理入口。",
-      "此處可補充申請時間線、遇到的問題與實際經驗。"
-    ],
-    "初期住宿": [
-      "先列出預算、交通、入住時間與行李寄放等需求。",
-      "確認取消條件、入住方式與從機場抵達住宿的路線。",
-      "替看房與熟悉城市保留彈性，避免第一週排得太滿。"
-    ],
-    "台幣轉帳": [
-      "先比較自己的銀行及匯款服務，記錄匯率、手續費與預估到帳時間。",
-      "確認收款資料與服務條件，並保留交易紀錄。",
-      "此處可補充實際使用的方式與當時費用；報價請以服務商當下資訊為準。"
-    ],
-    "台灣電信": [
-      "整理哪些銀行、登入與驗證服務仍使用台灣門號。",
-      "出發前詢問業者海外收簡訊、漫遊及合約方案。",
-      "確認方案變更的生效時間、費用及返台後的恢復方式。"
-    ],
-    "SIM 電話": [
-      "先確認手機是否支援預計使用的 SIM 或 eSIM。",
-      "依常住地點、通話與流量需求比較方案及涵蓋資訊。",
-      "保留門號及帳戶登入方式，之後可能需要用於工作與銀行聯繫。"
-    ],
-    "銀行帳戶": [
-      "到銀行官方網站確認開戶方式、身分文件與適用條件。",
-      "留意帳戶費用、地址與聯絡資料的填寫要求。",
-      "將實際開戶流程與遇到的問題記在下方，避免把個別經驗當成通則。"
-    ],
-    "TFN 稅號": [
-      "由澳洲稅務局官方入口確認自己適用的申請方式。",
-      "提交前核對個人資料，保留申請紀錄。",
-      "妥善保存稅務資料，對分享身分與稅務資訊保持謹慎。"
-    ],
-    "找房／租屋": [
-      "先寫下租金範圍、通勤、房型及生活習慣等需求。",
-      "看房時確認費用包含項目、居住人數、設備與合約條件。",
-      "入住前拍照記錄房況，保存合約、付款與溝通紀錄。"
-    ],
-    "Bond 押金": [
-      "先確認所在地州或領地的租屋規定與押金主管機關。",
-      "了解合約中的押金安排，保留付款及登記相關證明。",
-      "入住與退租的房況紀錄，都整理在容易找到的位置。"
-    ],
-    "找工作": [
-      "整理能工作的時間、地點、過往經驗與希望嘗試的職位。",
-      "依職位調整履歷，記錄投遞管道與後續聯絡。",
-      "在接受工作前，確認職務內容、薪資安排與雇用條件。"
-    ],
-    "印履歷": [
-      "準備可閱讀的 PDF，先檢查聯絡資料與版面。",
-      "依投遞方式決定是否需要紙本，先少量列印檢查效果。",
-      "此處可補充列印地點、價格與投遞經驗。"
-    ],
-    "工作權益": [
-      "到 Fair Work 官方網站查閱與自己工作情況相關的資訊。",
-      "保存雇用條件、工時、薪資單與相關對話紀錄。",
-      "遇到疑問時，先整理事實與文件，再尋找官方諮詢管道。"
-    ],
-    "二簽／三簽": [
-      "從移民部官方網站確認適用的簽證條件與申請時點。",
-      "不要只依他人的工作經驗判斷自己的資格。",
-      "把規劃與文件整理分開記錄，申請前重新確認官方資訊。"
-    ],
-    "集簽": [
-      "先到官方網站確認適用簽證對工作類別、地區與證明的要求。",
-      "選工作前核對資訊，保留實際工作與付款紀錄。",
-      "此處可補充工作地點、時間線與實際經驗，尚未填寫。"
-    ],
-    "退租": [
-      "依合約與所在地規定確認通知方式與期限。",
-      "整理房況、清潔、鑰匙交接及押金相關紀錄。",
-      "保留退租後可聯繫的方式，追蹤未完成事項。"
-    ],
-    "退稅": [
-      "先整理薪資、收入及相關稅務文件。",
-      "到澳洲稅務局確認適用的報稅安排；是否有退稅須視個人情況。",
-      "離境後仍要能接收相關通知，妥善保存必要紀錄。"
-    ],
-    "處理退休金": [
-      "整理退休金帳戶與可用的登入資料。",
-      "由澳洲稅務局確認離澳退休金申請的適用資格、條件與流程。",
-      "離境與簽證狀態等可能影響申請，請依官方資料判斷。"
-    ],
-    "關閉必要服務": [
-      "列出銀行、手機、網路、保險與各項訂閱及自動扣款。",
-      "先確認退款、稅務或其他款項的接收安排，再決定何時關閉帳戶。",
-      "向各服務商確認取消程序，保留結清或取消證明。"
-    ]
-  },
-  "official": {
-    "visa": ["澳洲內政部／簽證資訊", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder"],
-    "tax": ["澳洲稅務局 ATO", "https://www.ato.gov.au/"],
-    "work": ["Fair Work Ombudsman", "https://www.fairwork.gov.au/"],
-    "rent": ["澳洲政府／州及領地政府入口", "https://www.australia.gov.au/"],
-    "general": ["澳洲政府資訊入口", "https://www.australia.gov.au/"]
-  },
   "article": {
     "brand": "Southside / AUSTRALIA",
     "closeLabel": "關閉文章",
@@ -165,7 +596,7 @@
     "experienceDescription": "以下欄位供分享者補充實際經驗。",
     "experienceFields": ["分享者、年份、城市與背景", "實際處理方式", "遇到的問題與實際花費", "建議與注意事項"],
     "sourcesTitle": "繼續查找資訊",
-    "sourceNote": "本頁為待完善的內容初稿，尚未串接爬蟲或完成逐項查證。官方連結為查詢起點；簽證、稅務、租屋與工作規定，請依所在地及個人情況查閱官方最新資訊。個人經驗與來源資料將分別標示。",
+    "sourceNote": "官方連結為查詢起點；簽證、稅務、租屋與工作規定，請依所在地及個人情況查閱官方最新資訊。個人經驗與來源資料將分別標示。",
     "nextLabel": "下一篇"
   }
 }

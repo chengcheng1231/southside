@@ -29,3 +29,6 @@
 
 - Noto Sans TC：由 Google Fonts 載入，採 SIL Open Font License，參見 https://fonts.google.com/noto/specimen/Noto+Sans+TC/about 。
 - 袋鼠、箭頭、訊息等 SVG：本專案內建立，程式碼依 MIT 授權；Southside 名稱與品牌使用權不因程式碼開源而授予。
+
+
+- Banner 中文主標：辰宇落雁體 2.0 Thin，由 Chenyu-otf 官方專案下載，本地託管，OFL 1.1；授權檔 `public/fonts/ChenYuluoyan-LICENSE.txt`，來源 https://github.com/Chenyu-otf/chenyuluoyan_thin 。

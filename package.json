@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --hostname 127.0.0.1 --port 8000",
+    "dev": "node scripts/dev.mjs",
     "build": "next build",
-    "start": "next start --hostname 127.0.0.1 --port 8000"
+    "start": "next start --hostname 127.0.0.1 --port 8000",
+    "prebuild": "node scripts/sync-guide-updates.mjs"
   },
   "dependencies": {
     "next": "^16.4.3",
