@@ -191,7 +191,7 @@
 .marker-highlight{color:inherit;background:linear-gradient(transparent 48%,rgba(224,211,100,.55) 48%,rgba(224,211,100,.55) 91%,transparent 91%);padding:0 .08em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 
 @font-face{font-family:"ChenYuluoyan";src:url("/fonts/ChenYuluoyan-2.0-Thin.ttf") format("truetype");font-weight:100;font-style:normal;font-display:swap}
-.hero h1{font-family:"ChenYuluoyan",var(--sans);font-weight:100;letter-spacing:.035em}
+.hero h1{font-family:var(--hero-handwriting),"ChenYuluoyan",var(--sans);font-weight:100;letter-spacing:.035em}
 :root .guide-example{margin:24px 0 0}
 .guide-example-preview{display:block;width:min(100%,210px);padding:8px;border:1px solid var(--line);border-radius:8px;background:#fff;cursor:zoom-in}
 .guide-example-preview img{width:100%;height:auto;object-fit:contain}

@@ -32,3 +32,4 @@
 
 
 - Banner 中文主標：辰宇落雁體 2.0 Thin，由 Chenyu-otf 官方專案下載，本地託管，OFL 1.1；授權檔 `public/fonts/ChenYuluoyan-LICENSE.txt`，來源 https://github.com/Chenyu-otf/chenyuluoyan_thin 。
+- `public/fonts/southside-hero.woff2`：上述字體的標題用字子集，衍生字體名稱為 Southside Hero，沿用 OFL 1.1 授權；字形未改動。

@@ -60,6 +60,8 @@ npm start
 
 ## 文章分享者與自動更新時間
 
+首頁手寫標題使用 `public/fonts/southside-hero.woff2`（僅含目前標題用字），由 Next.js 預載。修改 `components/Hero.jsx` 主標後，可用安裝了 `fonttools` 與 `brotli` 的 Python 執行 `python3 scripts/build-hero-font.py`，重新產生子集字體；一般開發與建置不需要 Python。尚未包含的字會使用完整原字體。
+
 在 `content/journey.json` 每個主題的 `author` 填入 `name`、`email`、`avatar`。頭像放 `public/`，例如 `public/authors/wilson.jpg` 對應 `/authors/wilson.jpg`；空白時使用預設人像。姓名與 Email 為公開資訊，請取得分享者同意。
 
 `npm run dev` 會監看主題資料；`npm run build` 前也會同步。每個主題以固定 ID 與內容雜湊追蹤，實質內容（包含作者、來源或所屬階段介紹）改變時，自動記錄到 `content/journey-updates.json`，頁面以墨爾本時間顯示更新年月。單純排版 JSON 或修改其他主題不會更新該篇日期。這份追蹤檔需一起提交，請勿手動修改 hash。

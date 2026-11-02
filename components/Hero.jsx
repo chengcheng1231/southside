@@ -1,5 +1,15 @@
 'use client';
 import { useState, useEffect } from 'react';
+import localFont from 'next/font/local';
+const heroFont = localFont({
+  src: '../public/fonts/southside-hero.woff2',
+  weight: '100',
+  style: 'normal',
+  display: 'block',
+  preload: true,
+  adjustFontFallback: false,
+  variable: '--hero-handwriting',
+});
 const slides = [
   {
     image: '/hero.jpg?v=52b2aef2ee',
@@ -69,7 +79,7 @@ export default function Hero() {
         <p className="eyebrow light">
           <span className="tiny-line" /> AUSTRALIA WORKING HOLIDAY EXPERIENCES
         </p>
-        <h1 id="hero-title">台灣人的澳洲打工度假<br />生活經驗分享</h1>
+        <h1 id="hero-title" className={heroFont.variable}>台灣人的澳洲打工度假<br />生活經驗分享</h1>
       </div>
       <a className="hero-scroll" href="#about" aria-label="向下捲動至下一個區塊">
         <svg viewBox="0 0 32 40" fill="none" aria-hidden="true">
