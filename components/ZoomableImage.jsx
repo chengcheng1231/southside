@@ -5,7 +5,7 @@ import {useRef} from 'react';
 export default function ZoomableImage({image,inlineLabel}) {
  const dialog = useRef(null);
  const Wrapper=inlineLabel?'span':'figure';
- return <Wrapper className={inlineLabel?'guide-example-inline':'guide-example'}>
+ return <Wrapper className={inlineLabel?'guide-example-inline':`guide-example${image.wide?' guide-example-wide':''}`}>
   {!inlineLabel&&<figcaption>{image.caption}</figcaption>}
   <button type="button" className={inlineLabel?'guide-image-text-link':'guide-example-preview'} aria-label={`${image.caption}，點擊放大`} onClick={()=>dialog.current.showModal()}>
    {inlineLabel||<img src={image.src} alt={image.alt} loading="lazy" />}

@@ -1,27 +1,23 @@
 {
   "before-departure/visa": {
-    "hash": "99d7275a8adc8d8c12c2d663b92eb4365b696d68c1980248de65c7b5256eda56",
-    "updatedAt": "2026-11-01T11:22:12.366Z"
+    "hash": "d82d733dad1d3ee3447e22155b2b6f677e25ff2bec0460955ce704b079413679",
+    "updatedAt": "2026-11-02T14:17:27.394Z"
   },
   "before-departure/city-and-flights": {
-    "hash": "5da761369e04a7306280456abd837956f9f3abdd1574d7e980063beb46f406ef",
-    "updatedAt": "2026-11-02T08:07:11.672Z"
-  },
-  "before-departure/accommodation": {
-    "hash": "d8378aeeb8e2059855b524a659734471c285d2074ca8214a420215ac540ec461",
-    "updatedAt": "2026-11-01T11:22:12.366Z"
+    "hash": "d6d2fd5cb5d9455896cc9bcdddf1ce819de3867d5a2aca844a3aa6ea207e9554",
+    "updatedAt": "2026-11-02T23:09:34.864Z"
   },
   "before-departure/money-transfer": {
-    "hash": "1454a43d4125c0311780f6035c13e69a6119b14558621b83d66cf9a6d2f85e9e",
-    "updatedAt": "2026-11-01T11:22:12.366Z"
+    "hash": "9c44899c652f2fdf506458afc665b55a6322144a91b6175128c4b3eb036c0f2d",
+    "updatedAt": "2026-11-05T09:10:16.952Z"
   },
   "before-departure/taiwan-mobile": {
-    "hash": "ca96f34919e2155a80409007a59378713e88a8c58ae223afdaaf5471c7346da4",
-    "updatedAt": "2026-11-01T11:22:12.366Z"
+    "hash": "83f96ca22741f01ed85781d44c0080725376db372c0493ac996d82e82c788e88",
+    "updatedAt": "2026-11-02T23:47:45.732Z"
   },
   "arrival/sim": {
-    "hash": "6cb504bc701f2c51270e7223ae377490d06632d05b68407f9f3d10e64736921f",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "dd3a5dbf933fd4bf51412999bacd936ed770ccf59507db76be3f285617ee23db",
+    "updatedAt": "2026-11-02T23:54:05.225Z"
   },
   "arrival/bank-account": {
     "hash": "0ca0a3126779f291839ddca38fc159f7be2687a48ee97a301c5995ea440e3830",
@@ -32,8 +28,8 @@
     "updatedAt": "2026-11-01T06:21:18.104Z"
   },
   "settling-in/renting": {
-    "hash": "6288d18bf9ce19cba3e5228773c8c54bd03d576f0efbe6afda2c01c6dca4c74b",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "3655d9157fa8f8f7f942e0d604a4e2ac19976cba28db10ab476004d2a0bbcd01",
+    "updatedAt": "2026-11-02T22:41:14.884Z"
   },
   "settling-in/bond": {
     "hash": "34406e12cd12d856c5fd2029f2c2cf85e5e31ba569023410420df51a6ea8a44c",

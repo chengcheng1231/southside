@@ -23,7 +23,7 @@ npm start
 
 - `content/about.txt`：關於介紹；換行會保留，反引號標色，`[文字](/contact)` 建立站內連結。
 - `content/about.json`：關於區塊標題。
-- `content/journey.json`：六階段、文章內容與相關連結。
+- `content/journey.json`：準備階段、跨階段的住宿／工作主題、文章內容與相關連結。
 - `content/faq.json`：常見問題，目前隱藏。
 - `lib/stories.js`：經驗文章示例，非真實使用者投稿。
 - `components/`：頁面元件；`app/globals.css`：樣式。

@@ -93,7 +93,7 @@ export default function Hero() {
         </svg>
       </a>
       <div className="hero-bottom">
-        <span>VISA · ARRIVAL · HOUSING · WORK · EXTENSION · DEPARTURE</span>
+        <span>BEFORE YOU GO · ARRIVAL · EXTENSION · DEPARTURE</span>
         <div className="slide-controls" aria-label="橫幅圖片輪播">
           {slides.map((slide, i) => (
             <button

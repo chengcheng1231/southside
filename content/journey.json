@@ -1,15 +1,15 @@
 {
-  "eyebrow": "HOW TO USE THIS GUIDE",
-  "title": "澳洲打工度假六階段",
+  "eyebrow": "PREPARE FOR AUSTRALIA",
+  "title": "澳洲打工度假準備流程",
   "subtitle": "依目前階段，查找需要的資訊。",
   "collapseLabel": "收起 −",
-  "collapseAriaLabel": "收起階段文章",
+  "collapseAriaLabel": "收起文章列表",
   "stages": [
     {
       "title": "出發前",
       "en": "BEFORE YOU GO",
       "symbol": "↗",
-      "desc": "簽證、落地城市與機票、初期住宿、台幣轉帳與事先申請澳洲帳戶、台灣電信",
+      "desc": "簽證、第一站與機票、轉帳與銀行帳戶、台灣電信",
       "topics": [
         {
           "id": "visa",
@@ -27,7 +27,6 @@
             "avatarRotation": -90
           },
           "intro": "台灣一般護照首次申請 Working Holiday visa（subclass 417）的流程整理，不包含二簽／三簽流程。",
-          "hideExperiencePlaceholder": true,
           "timelineTitle": "首次 417 申請流程",
           "timeline": [
             {
@@ -196,7 +195,7 @@
         },
         {
           "id": "city-and-flights",
-          "title": "決定落地城市與訂機票",
+          "title": "決定第一站與機票",
           "intro": "",
           "details": [],
           "source": {
@@ -210,18 +209,27 @@
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
           },
-          "hideExperiencePlaceholder": true,
           "sections": [
             {
-              "title": "決定落地城市",
-              "intro": "每個人選擇第一站的方式不同，大致上可以參考這幾種：",
+              "title": "決定第一站",
+              "intro": "城市、工作與住宿通常會一起考慮，但是這部分很看個人，但可以大致分為：",
               "items": [
-                "先選城市，再找工作：先到自己想生活的城市，落地後再找工作。",
-                "跟著語言學校或課程：已報名語言學校或其他課程，就先從學校所在地落地。",
-                "先找到工作：已有工作安排，就依工作地點決定第一站。",
-                "先去朋友所在的城市：當地有朋友能協助落地、暫住或一起找房，也可以作為起點。",
-                "先完成集簽：先找符合集簽資格的工作與地區，再決定飛往哪裡。",
-                "還沒有特別安排：先比較機票、前兩週住宿與交通費用，選一個負擔得起的起點。"
+                "先選城市：有想生活的城市，先安排短住，落地後再找工作。",
+                "跟著工作：已有工作安排，無論是出發前就找到集簽或是其他工作，就剩確認交通與住宿。",
+                "跟著學校：先讀語言學校或其他課程，找通勤方便的住處。",
+                "跟著朋友：先到有人能協助的城市，確認能否暫住與期限。",
+                "還沒方向：先比較機票、短住與交通成本，保留移動彈性。",
+                "心之所向：不設限於以上幾種路線，有人一開始就以取得 PR（永久居留）為長期目標，也有人打算到處車宿、邊走邊看，依自己的想法安排第一站。"
+              ],
+              "links": [
+                {
+                  "label": "找住宿管道 ↗",
+                  "url": "#guide/settling-in/renting"
+                },
+                {
+                  "label": "找工作管道 ↗",
+                  "url": "#guide/work/job-search"
+                }
               ]
             },
             {
@@ -229,43 +237,29 @@
               "items": [
                 "比較機票：確認抵達機場、日期、直飛或轉機、託運行李額度，以及改票與退票條件，再比較總價。",
                 "機票優惠：可參考[華航學生／打工度假獨享優惠](https://www.china-airlines.com/tw/zh/itinerary-booking/exclusive-offers/latest-events/global-student-promotion)，優惠內容與申請方式請見活動頁。",
-                "轉機選擇：也可以比較[國泰航空經香港轉機前往澳洲](https://flights.cathaypacific.com/destinations/en_TW/flights-from-taipei-to-australia)的票價，連同行李額度與轉機時間一起評估是否划算。",
-                "安排抵達：依航班落地時間確認機場交通與住宿入住方式，再接著安排初期住宿。"
+                "轉機選擇：也可以比較[國泰航空經香港轉機前往澳洲](https://flights.cathaypacific.com/destinations/en_TW/flights-from-taipei-to-australia)的票價，連同行李額度與轉機時間一起評估是否划算。我當時買過單程約台幣 1 萬元的機票，實際票價依日期與航班而異。",
+                "安排抵達：確認航班落地時間、機場到住宿的交通、入住方式與行李寄放；訂房前也先看取消條件。"
               ]
+            }
+          ],
+          "references": [
+            {
+              "label": "中華航空：學生／打工度假獨享優惠",
+              "url": "https://www.china-airlines.com/tw/zh/itinerary-booking/exclusive-offers/latest-events/global-student-promotion"
+            },
+            {
+              "label": "國泰航空：台北出發前往澳洲",
+              "url": "https://flights.cathaypacific.com/destinations/en_TW/flights-from-taipei-to-australia"
             }
           ]
         },
         {
-          "id": "accommodation",
-          "title": "初期住宿",
-          "details": [
-            "先列出預算、交通、入住時間與行李寄放等需求。",
-            "確認取消條件、入住方式與從機場抵達住宿的路線。",
-            "替看房與熟悉城市保留彈性，避免第一週排得太滿。"
-          ],
-          "source": {
-            "label": "澳洲政府資訊入口",
-            "url": "https://www.australia.gov.au/"
-          },
-          "author": {
-            "name": "Wilson",
-            "email": "yuchenghsu1231@gmail.com",
-            "avatar": "/authors/wilson.jpg",
-            "avatarPosition": "65% 50%",
-            "avatarRotation": -90
-          }
-        },
-        {
           "id": "money-transfer",
-          "title": "台幣轉帳 & 事先申請澳洲帳戶",
-          "details": [
-            "先比較自己的銀行及匯款服務，記錄匯率、手續費與預估到帳時間。",
-            "確認收款資料與服務條件，並保留交易紀錄。",
-            "此處可補充實際使用的方式與當時費用；報價請以服務商當下資訊為準。"
-          ],
+          "title": "出發前資金準備：澳幣現金、澳洲開戶與台幣跨國匯款",
+          "details": [],
           "source": {
-            "label": "澳洲政府資訊入口",
-            "url": "https://www.australia.gov.au/"
+            "label": "CommBank：Moving to Australia 行前開戶",
+            "url": "https://www.commbank.com.au/moving-to-australia.html"
           },
           "author": {
             "name": "Wilson",
@@ -273,19 +267,200 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "intro": "",
+          "sections": [
+            {
+              "title": "澳幣現鈔兌換",
+              "items": [],
+              "blocks": [
+                {
+                  "title": "可兌換澳幣現鈔",
+                  "items": [],
+                  "links": [
+                    {
+                      "label": "臺灣銀行",
+                      "url": "https://www.bot.com.tw/tw/personal-banking/foreign-exchange"
+                    },
+                    {
+                      "label": "兆豐銀行",
+                      "url": "https://www.megabank.com.tw/personal/savings/foreign-service/fx-cash"
+                    },
+                    {
+                      "label": "台新銀行",
+                      "url": "https://web.taishinbank.com.tw/TSB/personal/deposit/foreign-service/travel-and-check/"
+                    },
+                    {
+                      "label": "玉山銀行",
+                      "url": "https://www.esunbank.com/zh-tw/personal/deposit/foreign-service/currency"
+                    },
+                    {
+                      "label": "台北富邦",
+                      "url": "https://www.fubon.com/banking/Personal/deposit/currency_travel_check/currency_travel_check.htm"
+                    }
+                  ],
+                  "layout": "bank-directory",
+                  "linksStyle": "bank-directory",
+                  "intro": "以下銀行提供澳幣現鈔兌換，但不是每間分行都有，出發前請先查詢可兌換的分行。"
+                },
+                {
+                  "title": "不提供澳幣現鈔",
+                  "links": [
+                    {
+                      "label": "國泰世華官方說明 ↗",
+                      "url": "https://www.cathaybk.com.tw/cathaybk/personal/contact/help/faq/"
+                    }
+                  ],
+                  "layout": "note",
+                  "intro": "國泰世華目前不提供澳幣現鈔兌換，但仍可將台幣換成澳幣存入外幣帳戶，再透過「一般外幣匯出」匯款到澳洲。",
+                  "items": []
+                }
+              ]
+            },
+            {
+              "title": "出發前申請澳洲帳戶",
+              "timeline": [
+                {
+                  "id": "apply-online",
+                  "phase": "出發前",
+                  "title": "線上申請澳洲帳戶",
+                  "highlight": "線上申請",
+                  "items": [
+                    "申請時間：CommBank 目前接受預計 14 天內抵澳者線上申請，可從[官方行前開戶頁面](https://www.commbank.com.au/moving-to-australia.html)開始。",
+                    "操作教學：可參考[STUDY CENTRAL：CommBank 開戶教學](https://studycentralau.com/work-in-australia/commbank2022/)，申請條件與期限仍以 CommBank 官方頁面及開戶通知為準。",
+                    "收到開戶通知：完成線上申請後，會收到 CommBank 開戶通知（Welcome Letter），內有帳戶資料與後續辦理說明，可參考下方圖片。到澳洲分行驗證身分時，請攜帶這份通知，或預先存在手機裡供行員查看。"
+                  ],
+                  "image": {
+                    "src": "/examples/commbank-transfer-details.jpg",
+                    "alt": "CommBank 開戶通知與收款資料範例，帳戶號碼等欄位已遮蔽",
+                    "caption": "CommBank 開戶通知（Welcome Letter）範例"
+                  }
+                },
+                {
+                  "id": "verify-identity",
+                  "phase": "抵澳後",
+                  "title": "到分行完成身分驗證",
+                  "highlight": "身分驗證",
+                  "items": [
+                    "驗證期限：目前須在開戶後 20 天內到分行完成身分驗證，否則帳戶可能自動關閉。"
+                  ],
+                  "groups": [
+                    {
+                      "title": "需攜帶的文件與資料",
+                      "orderedItems": [
+                        "有效護照正本：用於核對身分。",
+                        "稅籍編號（TIN）：提供各海外稅務居住國的稅籍編號；若為台灣稅務居民，且有台灣身分證，台灣的 TIN 就是「身分證字號」，不用另外申請。開戶時不需要先取得澳洲 TFN，收到後再補填即可。",
+                        "澳洲政府的簽證核准信：建議手機備好電子檔，依開戶通知要求提供。",
+                        "CommBank 開戶通知（Welcome Letter）：就是線上申請後收到、上方圖片所示的開戶通知；請攜帶或存在手機裡供行員查看。",
+                        "澳洲居住地址：你當時住處的英文地址，例如短租或 Hostel，不是銀行分行地址。"
+                      ],
+                      "items": [],
+                      "afterList": "實際所需文件依開戶通知與分行要求準備。"
+                    }
+                  ]
+                },
+                {
+                  "id": "activate-and-use",
+                  "phase": "完成驗證後",
+                  "title": "確認領卡並開始使用帳戶",
+                  "highlight": "開始使用帳戶",
+                  "items": [
+                    "匯款時機：出發前取得澳洲帳戶資料後，可以先設定台幣跨國轉帳，或依使用的匯款服務辦理受款帳號約定；但須先在澳洲分行完成身分驗證，才能存入款項或使用帳戶付款，先不要把錢匯入尚未驗證的帳戶。"
+                  ]
+                }
+              ],
+              "introParagraphs": [
+                "澳洲四大銀行有 Commonwealth Bank（CommBank）、Westpac、ANZ 與 National Australia Bank（NAB），可以依自己的需求選擇。以下分享我使用 Commonwealth Bank of Australia（澳洲聯邦銀行，簡稱 CommBank）的經驗。",
+                "我當時在出發前 14 天線上申請 CommBank，抵澳後到指定分行核對身分，當天就領到 Debit Card（簽帳金融卡），省去住宿還沒穩定時等待寄卡的麻煩。"
+              ]
+            },
+            {
+              "title": "設定台幣跨國轉帳",
+              "items": [],
+              "intro": "有了澳洲帳戶資料，接著就可以考慮是否要先到台灣銀行臨櫃設定約定受款帳號。若預計匯款金額較大，建議出發前先辦好；若只是小額匯款，且金額在所選服務的非約定額度內，就不一定需要臨櫃。不論是否需要臨櫃約定，都要在出發前確認台灣銀行帳戶的跨國匯款功能已開通、App 能正常操作，並確認所需的驗證方式與交易額度。我個人使用過國泰一般外幣匯出、國泰的小額跨境匯款和台新易匯通。",
+              "blocks": [
+                {
+                  "title": "國泰｜一般外幣匯出",
+                  "intro": "台幣換澳幣 → 國泰外幣帳戶 → SWIFT 匯到澳洲。若外幣帳戶已有足夠澳幣，可直接匯出。",
+                  "items": [
+                    "事先設定：需先到外匯指定分行臨櫃，將澳洲帳戶綁定為約定匯款帳戶，完成後才能透過網銀匯出。",
+                    "收款資料：需準備收款銀行的 SWIFT Code 及其他受款資料。操作與設定方式詳見[國泰外匯匯款 FAQ](https://www.cathaybk.com.tw/cathaybk/personal/contact/help/faq/)。"
+                  ]
+                },
+                {
+                  "title": "國泰｜CUBE 小額跨境匯款",
+                  "intro": "直接扣台幣，由服務處理換匯，不用自己先買澳幣。",
+                  "items": [
+                    "事先設定：不用先臨櫃約定受款帳號，出發前仍需確認帳戶的匯款功能、驗證方式與交易額度可正常使用。",
+                    "收款資料：匯到澳洲不用填 SWIFT Code，在 App 填寫 BSB 前三碼、後三碼、銀行帳號及其他收款資料即可。操作方式與適用條件請見[國泰小額跨境匯款說明](https://www.cathaybk.com.tw/cathaybk/promo/event/exchange/product/cub_vda/index.html)。",
+                    "到帳時間：快的話當天就能收到款；官方提供的時間範圍為 30 分鐘至 2 個工作天，實際依交易與收款銀行處理情況而定。"
+                  ],
+                  "afterword": "範例 BSB 062-123：前三碼 062 填入「受款銀行分支代碼」，後三碼 123 填入「受款銀行分行代碼」；Account number 12345678 填入「受款帳號」。姓名與號碼僅供教學，請改填自己的資料；居住地址請填目前住處，不是銀行分行地址。",
+                  "image": {
+                    "src": "/examples/commbank-cathay-field-mapping.png",
+                    "alt": "CommBank 開戶資料對照國泰小額跨境匯款欄位：範例姓名 WEI LIN、銀行 Commonwealth Bank of Australia、BSB 062-123 拆為分支代碼 062 與分行代碼 123、帳號 12345678。姓名與號碼皆為教學範例。",
+                    "caption": "CommBank 開戶資料 → 國泰小額跨境匯款欄位對照（教學範例）",
+                    "wide": true
+                  },
+                  "blocks": [
+                    {
+                      "title": "國泰小額跨境匯款試算範例",
+                      "intro": "以下為一次試算畫面，匯率與優惠依實際交易時的報價為準。",
+                      "items": [
+                        "試算金額：匯出 AUD 2,200，台幣扣款 NT$49,762，手續費 NT$0，合計扣款 NT$49,762。",
+                        "含手續費的換算成本：49,762 ÷ 2,200 ≈ 22.619，也就是每 AUD 1 約花 NT$22.619。比較其他服務時，可用台幣總扣款除以澳幣實收金額。"
+                      ],
+                      "image": {
+                        "src": "/examples/cathay-remittance-calculation-redacted.png",
+                        "alt": "國泰小額跨境匯款試算：澳幣 2,200、台幣總扣款 49,762、手續費 0；扣款帳號與可用餘額已遮蔽",
+                        "caption": "國泰小額跨境匯款試算範例（扣款帳號與餘額已遮蔽）"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "title": "台新銀行｜易匯通",
+                  "items": [
+                    "收款資料：需準備收款銀行的 SWIFT Code。",
+                    "非約定匯款：不用先臨櫃約定受款帳號，單筆最高等值 USD 1,500。",
+                    "約定匯款：需先臨櫃設定，單筆最高提升至等值 USD 15,000。",
+                    "操作方式：請見[台新易匯通說明](https://mkp.taishinbank.com.tw/TsCms/marketing/expose/WM_20200114114958271/index.html)。",
+                    "到帳時間：我的經驗是約 1–2 天，實際依交易與收款銀行處理情況而定。"
+                  ],
+                  "intro": "我當時有親自到台新銀行臨櫃開通易匯通服務。"
+                }
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "CommBank：Moving to Australia 行前開戶",
+              "url": "https://www.commbank.com.au/moving-to-australia.html"
+            },
+            {
+              "label": "STUDY CENTRAL：CommBank 開戶教學",
+              "url": "https://studycentralau.com/work-in-australia/commbank2022/"
+            },
+            {
+              "label": "國泰世華：CUBE App 小額跨境匯款",
+              "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/exchange/product/cub_vda/index.html"
+            },
+            {
+              "label": "台新銀行：台新易匯通",
+              "url": "https://mkp.taishinbank.com.tw/TsCms/marketing/expose/WM_20200114114958271/index.html"
+            }
+          ],
+          "introParagraphs": [
+            "出發前可以先準備一些澳幣現金備用，並安排好澳洲開戶與台幣跨國匯款。生活初期還沒有澳洲工作收入時，就能從台灣帳戶匯款支應生活費，不必把生活費（現金）全部帶在身上。"
+          ]
         },
         {
           "id": "taiwan-mobile",
-          "title": "台灣電信",
-          "details": [
-            "整理哪些銀行、登入與驗證服務仍使用台灣門號。",
-            "出發前詢問業者海外收簡訊、漫遊及合約方案。",
-            "確認方案變更的生效時間、費用及返台後的恢復方式。"
-          ],
+          "title": "台灣電信與簡訊、健保繳費＆國民年金",
+          "details": [],
           "source": {
-            "label": "澳洲政府資訊入口",
-            "url": "https://www.australia.gov.au/"
+            "label": "健保署：保險費繳納方式",
+            "url": "https://www.nhi.gov.tw/ch/cp-3291-af80a-2595-1.html"
           },
           "author": {
             "name": "Wilson",
@@ -293,10 +468,62 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "intro": "出國後，台灣的銀行驗證、門號與保費仍需要處理。出發前先確認收簡訊與繳費方式，人在澳洲也能自行辦理。",
+          "sections": [
+            {
+              "title": "台灣電信與簡訊驗證",
+              "items": [
+                "保留收驗證碼的方式：使用台灣信用卡線上刷卡、操作網銀或登入服務時，可能需要寄到台灣門號的簡訊驗證碼；出發前先確認各銀行綁定的手機號碼與驗證方式。",
+                "海外收簡訊：向電信業者確認目前方案在澳洲能否接收一般簡訊、是否需開通國際漫遊，以及手機與 SIM 卡的支援情況。收簡訊、打電話與使用漫遊數據是不同服務，費用與設定請向自己的業者確認。",
+                "門號與帳單：若想改成較低月租或其他方案，先確認合約、海外收簡訊與門號效期，再安排電信費繳納，避免停話後收不到驗證碼。"
+              ]
+            },
+            {
+              "title": "健保繳費：掃描繳款單 QR Code",
+              "items": [
+                "出國期間的保費：目前已取消出國停保規定，仍符合健保投保資格者須持續加保與繳費；離職後也要確認健保接續投保的方式。",
+                "線上繳費：掃描健保繳款單上的 QR Code，依頁面指示確認繳款資訊並選擇付款方式；也可使用健保署列出的行動支付 App 掃碼繳費。",
+                "人在澳洲：先安排好繳款單的接收方式，或申辦轉帳代繳；繳費後保留交易紀錄。操作入口與付款方式可參考[健保費繳納專區](https://cloudicweb.nhi.gov.tw/nhiapp/paybill/WebPayment.aspx)及[健保署繳費方式說明](https://www.nhi.gov.tw/ch/cp-3291-af80a-2595-1.html)。"
+              ]
+            },
+            {
+              "title": "國民年金（如適用）",
+              "items": [
+                "確認是否納保：年滿 25 歲、未滿 65 歲，在台灣設有戶籍，且未參加勞保等相關社會保險者，可能屬於國民年金納保對象；是否適用仍依完整資格與勞保局認定，不是每位出國者都需要。可先查[國民年金納保資格](https://www.bli.gov.tw/0013590.htm)。",
+                "線上繳費：若收到國民年金繳款單，可掃描單上的 QR Code，連至 e-Bill 全國繳費網，核對資訊後依指示繳納；也可申辦轉帳代繳。詳見[勞保局繳費方式說明](https://www.bli.gov.tw/0107834.html)。"
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "遠傳：國際漫遊與海外收簡訊說明",
+              "url": "https://www.fetnet.net/content/cbu/tw/roaming/index.html"
+            },
+            {
+              "label": "中華電信：國際漫遊說明",
+              "url": "https://www.cht.com.tw/home/consumer/mobservice/roaming/266"
+            },
+            {
+              "label": "健保署：保險費繳納方式",
+              "url": "https://www.nhi.gov.tw/ch/cp-3291-af80a-2595-1.html"
+            },
+            {
+              "label": "衛福部：取消健保停復保規定",
+              "url": "https://dep.mohw.gov.tw/pro/cp-2731-80938-120.html"
+            },
+            {
+              "label": "勞保局：國民年金被保險人資格",
+              "url": "https://www.bli.gov.tw/0013590.htm"
+            },
+            {
+              "label": "勞保局：國民年金繳納方式",
+              "url": "https://www.bli.gov.tw/0107834.html"
+            }
+          ]
         }
       ],
-      "intro": "出發前需要準備的文件、落地城市與機票、初期住宿、轉帳與台灣電信事項。",
+      "intro": "出發前的簽證、第一站與機票、轉帳及台灣電信事項。",
       "id": "before-departure"
     },
     {
@@ -309,9 +536,11 @@
           "id": "sim",
           "title": "SIM 電話",
           "details": [
-            "先確認手機是否支援預計使用的 SIM 或 eSIM。",
-            "依常住地點、通話與流量需求比較方案及涵蓋資訊。",
-            "保留門號及帳戶登入方式，之後可能需要用於工作與銀行聯繫。"
+            "先確認手機支援：檢查是否能使用 eSIM，並讓台灣門號與澳洲門號同時啟用。若是雙實體 SIM 卡手機，也可以選擇兩張實體卡。",
+            "選有電話號碼的方案：申請時確認包含澳洲電話號碼、通話與簡訊功能，不要只選純上網的旅遊 eSIM，方便找工作、銀行與日常聯繫。",
+            "台灣門號收簡訊：出發前向原電信業者確認在澳洲接收簡訊的服務與設定，保留銀行及刷卡驗證所需的台灣門號。",
+            "比較澳洲方案：依常住地點、通話與流量需求比較方案及涵蓋資訊。",
+            "保存門號資料：保留澳洲門號、帳戶登入及儲值或續約方式，之後換工作或搬家也可能持續使用。"
           ],
           "source": {
             "label": "澳洲政府資訊入口",
@@ -323,7 +552,8 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "intro": "我建議保留台灣實體 SIM 卡，搭配有澳洲電話號碼的 eSIM：台灣門號留著收銀行與刷卡驗證簡訊，澳洲門號則用於當地聯繫與上網。若手機支援雙實體 SIM 卡，也可以使用台灣卡＋澳洲實體卡，依自己的手機與需求選擇。"
         },
         {
           "id": "bank-account",
@@ -370,19 +600,15 @@
       "id": "arrival"
     },
     {
-      "title": "安頓",
-      "en": "MAKE IT HOME",
+      "title": "找住宿",
+      "en": "FIND A PLACE",
       "symbol": "⌂",
-      "desc": "找房／租屋、Bond 押金",
+      "desc": "找房管道、短租與長租、看房、租約與 Bond 押金",
       "topics": [
         {
           "id": "renting",
-          "title": "找房／租屋",
-          "details": [
-            "先寫下租金範圍、通勤、房型及生活習慣等需求。",
-            "看房時確認費用包含項目、居住人數、設備與合約條件。",
-            "入住前拍照記錄房況，保存合約、付款與溝通紀錄。"
-          ],
+          "title": "找住宿：短期落腳、長住與找房管道",
+          "details": [],
           "source": {
             "label": "澳洲政府／州及領地政府入口",
             "url": "https://www.australia.gov.au/"
@@ -393,7 +619,62 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "intro": "剛到澳洲先找落腳處，或之後換工作、搬城市需要換住宿，都可以依目前情況查找。",
+          "sections": [
+            {
+              "title": "剛到澳洲，先找落腳處",
+              "items": [
+                "先安排短期落腳處：工作或長住地點還沒確定時，可以先訂短租或 Hostel，保留後續調整的彈性。",
+                "訂房前確認：價格、可住期間、取消條件、入住時間與行李寄放方式。",
+                "抵達安排：確認從機場前往住宿的路線，以及晚班機抵達時能否入住。",
+                "工作附住宿或朋友暫住：先確認可入住日期、費用與能住多久。"
+              ]
+            },
+            {
+              "title": "準備住久一點，或之後換住宿",
+              "items": [
+                "依目前需求找房：確認工作或學校地點、通勤範圍、租金預算、房型與預計租期，再選分租或整租。",
+                "銜接搬家日期：先核對現有住處的退租與新住處的入住日期，避免中間沒有地方住，或重疊負擔兩邊租金。",
+                "看房時確認費用包含項目、居住人數、設備與合約條件。",
+                "入住前拍照記錄房況，保存合約、付款與溝通紀錄。",
+                "押金安排：簽約前確認 Bond 金額與處理方式，可參考[Bond 押金](#guide/settling-in/bond)。"
+              ]
+            },
+            {
+              "title": "找住宿的管道",
+              "items": [
+                "LINE 社群：在 LINE App 點選「社群」分頁，搜尋「澳洲打工」、「澳洲」或「城市名」，即可看到社群，找幾個人數較多的加入即可。",
+                "Facebook 社團：中文、英文租屋社團都可以找；搜尋城市名稱加上「租屋」「短租」，或「rooms for rent」「share house」。例如[墨爾本 台灣人 情報交流站](https://www.facebook.com/groups/361161347395449/)，我時常看到有人在裡面發布租屋或轉租資訊。",
+                "Threads：搜尋城市名稱加上「租屋」「短租」或「轉租」，留意近期的房源貼文。",
+                "小紅書：想找華人租屋資訊，也可以搜尋城市名稱加上「租房」「短租」或「轉租」。",
+                "[Flatmates](https://flatmates.com.au/)：想用英文找房，可以搜尋分租房間與室友，聯絡後安排看房。",
+                "Hostel：先訂短期床位，落地後一邊找工作、一邊透過 Flatmates 或社群找房，保留看房與熟悉城市的時間。",
+                "寵物照顧／看屋換宿（Pet / House Sitting）：可參考 Facebook 社團[Pet Sitters of Melbourne](https://www.facebook.com/groups/888071511763980/)，找照顧寵物或看屋換住宿的機會；先確認是否提供住宿、日期、費用與照顧責任。",
+                "工作提供住宿：住宿可能與工作綁定，先確認費用、交通、入住及離職後的安排。",
+                "[realestate.com.au](https://www.realestate.com.au/rent/)、[Domain](https://www.domain.com.au/rent/)：確定地點、考慮整租或長住時，可用來查詢租屋物件。押金事項可參考[Bond 押金](#guide/settling-in/bond)。"
+              ],
+              "afterword": "各平台也會有人在短暫離澳時出租自己的房間，日期合適的話，可以比較這類短期轉租，節省初期住宿費；先確認價格、入住期間與房況。"
+            }
+          ],
+          "references": [
+            {
+              "label": "Flatmates：分租與室友",
+              "url": "https://flatmates.com.au/"
+            },
+            {
+              "label": "realestate.com.au：租屋搜尋",
+              "url": "https://www.realestate.com.au/rent/"
+            },
+            {
+              "label": "Domain：租屋搜尋",
+              "url": "https://www.domain.com.au/rent/"
+            },
+            {
+              "label": "澳洲政府／州及領地政府入口",
+              "url": "https://www.australia.gov.au/"
+            }
+          ]
         },
         {
           "id": "bond",
@@ -417,11 +698,12 @@
         }
       ],
       "intro": "找房需求、看房、租屋合約與押金相關事項。",
-      "id": "settling-in"
+      "id": "settling-in",
+      "kind": "topic"
     },
     {
-      "title": "工作",
-      "en": "FIND YOUR WAY",
+      "title": "找工作",
+      "en": "FIND WORK",
       "symbol": "✳",
       "desc": "找工作、印履歷、工作權益",
       "topics": [
@@ -487,7 +769,8 @@
         }
       ],
       "intro": "履歷準備、求職方式與工作權益相關事項。",
-      "id": "work"
+      "id": "work",
+      "kind": "topic"
     },
     {
       "title": "留澳",
@@ -636,17 +919,13 @@
     "typeLine": "內容類型：準備方向／版型初稿",
     "dateLine": "分享者與經驗年份：待填寫 · 資料查證日期：待補",
     "stepsTitle": "先從這幾件事開始",
-    "experienceEyebrow": "COMMUNITY EXPERIENCES",
-    "experienceTitle": "經驗分享（待補）",
-    "experienceDescription": "以下欄位供分享者補充實際經驗。",
-    "experienceFields": [
-      "分享者、年份、城市與背景",
-      "實際處理方式",
-      "遇到的問題與實際花費",
-      "建議與注意事項"
-    ],
     "sourcesTitle": "繼續查找資訊",
     "sourceNote": "官方連結為查詢起點；簽證、稅務、租屋與工作規定，請依所在地及個人情況查閱官方最新資訊。個人經驗與來源資料將分別標示。",
     "nextLabel": "下一篇"
+  },
+  "common": {
+    "title": "住宿與工作",
+    "eyebrow": "HOUSING & WORK",
+    "subtitle": "出發前、剛落地，或住了一段時間，都可以從這裡查找。"
   }
 }

@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import useGuideNavigation from './useGuideNavigation';
 import Link from 'next/link';
 import Navigation from './Navigation';
 import Hero from './Hero';
@@ -7,14 +7,14 @@ import FormattedText from './FormattedText';
 import Feedback from './Feedback';
 import Journey from './Journey';
 import ArticleDialog from './ArticleDialog';
+import {stories} from '../lib/stories';
+const featuredStory=stories.find(story=>!story.sample)||stories[0];
 export default function Southside({about}) {
-  const [articleId, setArticleId] = useState(null);
-  const openArticle = (id) => setArticleId(id);
-  const closeArticle = () => setArticleId(null);
+  const {articleId,openArticle,closeArticle,historyVersion}=useGuideNavigation();
   return (
     <>
       <a className="skip" href="#journey">
-        跳到旅程指南
+        跳到準備流程
       </a>
       <Navigation />
       <main>
@@ -37,26 +37,25 @@ export default function Southside({about}) {
             </div>
           <div className="notes-heading-actions">
             <Link className="button dark" href="/contact?topic=submission">投稿／分享經驗 ＋</Link>
-          <p className="demo-caption">目前文章為版型示例。投稿請填寫表單，確認內容與刊登同意後再上架。</p></div>
+          <p className="demo-caption">部分文章為版型示例。投稿請填寫表單，確認內容與刊登同意後再上架。</p></div>
           </div>
           <div className="editorial-grid">
-            <Link className="story story-feature" href="/stories/first-accommodation">
-              <div className="story-image">
-                <img src="/journey.jpg" alt="日光下的戶外旅行風景" loading="lazy" />
-                <span className="photo-label">BEFORE YOU GO</span>
+            <Link className="story story-feature" href={`/stories/${featuredStory.slug}`}>
+              <div className={`story-image${featuredStory.cover?'':' story-cover-typography'}`}>
+                {featuredStory.cover?<img src={featuredStory.cover} alt={featuredStory.coverAlt||featuredStory.title} loading="lazy" />:<><span className="story-cover-code" aria-hidden="true">LF</span><span className="story-cover-location">PORT MELBOURNE · {featuredStory.year}</span></>}
+                <span className="photo-label">WORKING HOLIDAY EXPERIENCE</span>
                 <span className="round-arrow">↗</span>
               </div>
               <div className="story-meta">
-                <span>01 出發前</span>
-                <span>準備指南</span>
+                <span>{featuredStory.category}</span>
+                <span>{featuredStory.city}</span>
+                <span>{featuredStory.publishedAt?.replaceAll('-','/')}</span>
               </div>
               <h3>
-                初期住宿：
-                <br />
-                預算、地點與入住準備
+                {featuredStory.title}
               </h3>
-              <p>比較住宿條件，確認交通、入住方式與取消規則。</p>
-              <span className="read-link">閱讀住宿準備指南 ↗</span>
+              <p>{featuredStory.excerpt}</p>
+              <span className="read-link">閱讀文章 ↗</span>
             </Link>
             <div className="story-side">
               <Link className="story" href="/stories/rental-preparation">
@@ -65,7 +64,7 @@ export default function Southside({about}) {
                   <span className="round-arrow">↗</span>
                 </div>
                 <div className="story-meta">
-                  <span>03 安頓</span>
+                  <span>找住宿</span>
                   <span>租屋指南</span>
                 </div>
                 <h3>
@@ -76,7 +75,7 @@ export default function Southside({about}) {
               </Link>
               <Link className="story story-text" href="/stories/job-preparation">
                 <div className="story-meta">
-                  <span>04 工作</span>
+                  <span>找工作</span>
                   <span>工作指南</span>
                 </div>
                 <h3>
@@ -121,7 +120,7 @@ export default function Southside({about}) {
         </div>
       </footer>
       <Feedback />
-<ArticleDialog articleId={articleId} onClose={closeArticle} onArticle={openArticle} />
+<ArticleDialog historyVersion={historyVersion} articleId={articleId} onClose={closeArticle} onArticle={openArticle} />
     </>
   );
 }

@@ -33,8 +33,9 @@ export default function Navigation() {
         </a>
         <nav className="desktop-nav" aria-label="主要導覽">
           <a href="#journey">
-            旅程指南 <span>↗</span>
+            準備流程 <span>↗</span>
           </a>
+          <a href="#housing-and-work">住宿與工作</a>
           <a href="/#notes">經驗分享</a>
           
           <a href="#about">關於這裡</a>
@@ -55,8 +56,9 @@ export default function Navigation() {
         hidden={!menuOpen}
         onClick={() => setMenuOpen(false)}
       >
-        <a href="#journey">旅程指南</a>
-        <a href="/#notes">經驗分享</a>
+        <a href="#journey">準備流程</a>
+        <a href="#housing-and-work">住宿與工作</a>
+          <a href="/#notes">經驗分享</a>
         
           <a href="#about">關於這裡</a>
       </nav>

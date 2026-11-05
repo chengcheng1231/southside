@@ -1,8 +1,14 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
-import { stages } from '../lib/guides';
+import { preparationStages, commonTopics, guideGroupLabel, guideArticleHash } from '../lib/guides';
 import journey from '../content/journey.json';
 export default function Journey({ onArticle }) {
+  return <>
+    <GuideCollection id="journey" stages={preparationStages} title={journey.title} eyebrow={journey.eyebrow} subtitle={journey.subtitle} onArticle={onArticle}/>
+    <GuideCollection id="housing-and-work" stages={commonTopics} {...journey.common} onArticle={onArticle} common/>
+  </>;
+}
+function GuideCollection({id,stages,title,eyebrow,subtitle,onArticle,common=false}) {
   const [active, setActive] = useState(null);
   const panel = useRef(null),
     buttons = useRef([]);
@@ -19,15 +25,15 @@ export default function Journey({ onArticle }) {
     setActive(null);
   }
   return (
-    <section id="journey" className="journey section-wrap" aria-labelledby="journey-title">
+    <section id={id} className={`journey section-wrap ${common?'common-topics':'preparation-flow'}`} aria-labelledby={`${id}-title`}>
       <div className="section-heading">
         <div>
-          <p className="eyebrow">{journey.eyebrow}</p>
-          <h2 id="journey-title">{journey.title}</h2>
-          <p className="heading-note journey-subtitle">{journey.subtitle}</p>
+          <p className="eyebrow">{eyebrow}</p>
+          <h2 id={`${id}-title`}>{title}</h2>
+          <p className="heading-note journey-subtitle">{subtitle}</p>
         </div>
       </div>
-      <div className="stage-grid" id="stage-grid">
+      <div className="stage-grid">
         {stages.map((s, i) => (
           <button
             key={s.id}
@@ -36,12 +42,12 @@ export default function Journey({ onArticle }) {
             }}
             className="stage"
             aria-expanded={active === i}
-            aria-controls="guide-panel"
+            aria-controls={`${id}-panel`}
             onClick={() => setActive(i)}
           >
-            <div className="stage-top">
+            {!common&&<div className="stage-top">
               <span className="stage-number">0{i + 1}</span>
-            </div>
+            </div>}
             <h3>
               {s.title}
               <small>{s.en}</small>
@@ -53,13 +59,13 @@ export default function Journey({ onArticle }) {
           </button>
         ))}
       </div>
-      <div className="guide-panel" id="guide-panel" ref={panel} hidden={!stage}>
+      <div className="guide-panel" id={`${id}-panel`} ref={panel} hidden={!stage}>
         {stage && (
           <>
             <div className="guide-panel-heading">
               <div>
                 <p className="eyebrow">
-                  0{active + 1} — {stage.en}
+                  {common?'常用主題':guideGroupLabel(stage)} — {stage.en}
                 </p>
                 <h3>{stage.title}</h3>
               </div>
@@ -69,12 +75,12 @@ export default function Journey({ onArticle }) {
             </div>
             <div className="panel-articles">
               {stage.topics.map((topic) => (
-                <button key={topic.id} className="article-link" onClick={() => onArticle(`${stage.id}/${topic.id}`)}>
+                <a key={topic.id} className="article-link" href={guideArticleHash(`${stage.id}/${topic.id}`)} onClick={event => {if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();onArticle(`${stage.id}/${topic.id}`);}}>
                   <span>
                     {topic.title}
                   </span>
                   <span aria-hidden="true">↗</span>
-                </button>
+                </a>
               ))}
             </div>
           </>
