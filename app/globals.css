@@ -259,7 +259,9 @@ dialog.guide-image-lightbox{position:fixed;inset:0;box-sizing:border-box;width:1
 .article-toolbar .article-pagination button:last-child{align-items:flex-end;text-align:right}
 .article-pagination small{font-size:11px;font-weight:400;color:var(--muted)}
 .article-pagination strong{font-size:13px;font-weight:600;line-height:1.6;overflow-wrap:anywhere}
-.article-toolbar>button{flex-shrink:0;align-self:flex-start;padding-top:8px}
+.article-toolbar>button{flex-shrink:0;align-self:flex-start;display:grid;place-items:center;width:40px;height:40px;padding:0;border-radius:50%;transition:background-color .18s ease}
+.article-toolbar>button span{margin-left:0;line-height:1}
+.article-toolbar>button:hover,.article-toolbar>button:focus-visible{background:rgba(255,255,255,.75)}
 @media(max-width:640px){.article-toolbar{gap:12px}.article-pagination{gap:16px}.article-pagination strong{font-size:12px}}
 
 .article-pagination-next-only>button{grid-column:2}
@@ -279,3 +281,7 @@ dialog.guide-image-lightbox{position:fixed;inset:0;box-sizing:border-box;width:1
 .article-body .guide-article-note>p{font-size:14px;line-height:1.9}
 .guide-article-note>.article-related-links{margin:10px 0 0;font-size:12px}
 @media(max-width:640px){.bank-directory-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}.guide-article-bank-block.guide-article-note{padding:16px}}
+
+.guide-article-bank-block.guide-article-bullet{border-top:0;padding-top:0}
+.guide-article-bullet>h3{display:flex;align-items:baseline;gap:12px}
+.guide-article-bullet>h3::before{content:"";width:6px;height:6px;flex-shrink:0;align-self:center;border-radius:50%;background:currentColor}
