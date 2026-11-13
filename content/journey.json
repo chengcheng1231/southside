@@ -748,11 +748,11 @@
       "title": "抵澳後",
       "en": "FIRST DAYS",
       "symbol": "⌁",
-      "desc": "澳洲 SIM 電話、銀行帳戶、TFN 稅號",
+      "desc": "澳洲門號申辦、銀行帳戶、TFN 稅號",
       "topics": [
         {
           "id": "sim",
-          "title": "澳洲 SIM 電話",
+          "title": "澳洲門號申辦",
           "source": {
             "label": "Telstra、Optus 與 Vodafone 官方覆蓋資訊",
             "url": "https://www.telstra.com.au/coverage-networks/our-coverage"
@@ -767,22 +767,22 @@
           "intro": "我建議保留台灣實體 SIM 卡，搭配有澳洲電話號碼的 eSIM：台灣門號留著收銀行與刷卡驗證簡訊，澳洲門號則用於當地聯繫與上網。若手機支援雙實體 SIM 卡，也可以使用台灣卡＋澳洲實體卡，依自己的手機與需求選擇。",
           "sections": [
             {
-              "title": "申請含澳洲電話號碼的方案",
+              "title": "怎麼申辦",
               "introParagraphs": [
                 "大型機場通常設有電信櫃檯，抵達後可以直接詢問並申辦澳洲門號；現場可辦理的方案與 eSIM 服務依櫃檯提供為準。",
                 "申請時向櫃檯說明需要包含澳洲電話號碼、通話與簡訊功能的 eSIM，方便找工作、銀行與日常聯繫，避免選到只有上網功能的旅遊方案。可以這樣開口：「Hi, I'd like to get an eSIM with an Australian phone number, calls, texts and mobile data, please.」依櫃檯要求提供身分文件，完成開通後，現場確認通話、簡訊與上網都正常，再離開。",
-                "預付卡還是綁約：初期可先比較 Prepaid（預付型）方案，確認有效天數、流量、續費價格，以及是否開啟自動扣款，別只看首次優惠。"
+                "初期可先考慮 Prepaid（預付型）方案，確認有效天數、續費價格與是否自動扣款，別只看首次優惠。",
+                "澳洲大部分的手機方案都有網路流量限制，跟台灣很多人習慣用吃到飽不同，所以可以先確認自己過往每個月的網路用量，以及預計在澳洲會用多少。例如自己很喜歡追劇，就可能要考慮較大的流量。"
               ]
             },
             {
               "title": "澳洲主要電信業者",
-              "intro": "澳洲主要行動網路有 Telstra、Optus 與 Vodafone。先看自己會住、工作及移動的地點，再比較流量、費用與方案內容。有些集簽地點比較偏遠，可以先透過以下連結查詢工作與住宿地址的訊號覆蓋，也向雇主或目前住在當地的人確認哪家實際收訊較好。",
+              "intro": "澳洲主要行動網路有 Telstra、Optus 與 Vodafone。若要去偏遠地區集簽，可以先查下方覆蓋地圖，也問雇主或當地人哪家實際收訊較好。",
               "items": [
-                "Telstra：地理覆蓋範圍較廣，若會前往偏遠地區工作或經常跨區移動，可以優先比較。可查[Telstra 訊號覆蓋地圖](https://www.telstra.com.au/coverage-networks/our-coverage)。",
-                "Optus：另一家主要電信業者，可與 Telstra 一起比較常住地和工作地的訊號，再選適合的方案。可查[Optus 訊號覆蓋地圖](https://optus.com.au/living-network/coverage)。",
-                "Vodafone：也是主要選擇之一，近年已擴大偏遠地區覆蓋，不必只憑過去印象判斷；仍應查實際地址。可查[Vodafone 訊號覆蓋地圖](https://www.vodafone.com.au/network/coverage-checker)。"
-              ],
-              "afterword": "覆蓋地圖是預測值，室內、地形與手機型號都可能影響收訊。若選擇使用 Telstra 網路的其他品牌，也要確認該品牌自己的覆蓋地圖；批發網路與 Telstra 直營方案的覆蓋範圍可能不同，可參考[Telstra Wholesale 覆蓋地圖](https://www.telstrawholesale.com.au/products/mobiles/coverage.html)。"
+                "Telstra：地理覆蓋範圍較廣，偏遠地區工作或經常跨區移動可以優先比較。[覆蓋地圖](https://www.telstra.com.au/coverage-networks/our-coverage)",
+                "Optus：可與 Telstra 比較工作及住宿地點的覆蓋情況。[覆蓋地圖](https://optus.com.au/living-network/coverage)",
+                "Vodafone：近年已擴大偏遠地區覆蓋，也可以納入選擇。[覆蓋地圖](https://www.vodafone.com.au/network/coverage-checker)"
+              ]
             }
           ],
           "references": [
@@ -805,6 +805,10 @@
             {
               "label": "Telstra Wholesale：覆蓋地圖",
               "url": "https://www.telstrawholesale.com.au/products/mobiles/coverage.html"
+            },
+            {
+              "label": "Telstra：預付方案流量比較",
+              "url": "https://www.telstra.com.au/prepaid/mobile-plans/compare-plans"
             }
           ]
         },
