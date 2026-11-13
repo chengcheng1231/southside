@@ -15,9 +15,13 @@
     "hash": "4c7760ae650ab157b7928dea545906d999f4cb418248951e60697b878ec7db93",
     "updatedAt": "2026-11-08T08:20:32.906Z"
   },
+  "before-departure/driving-insurance-packing": {
+    "hash": "eaeba8ea83632e5602936cee30d1c207bb26168225ad8b691155c5a2777fdf4a",
+    "updatedAt": "2026-11-13T13:55:01.029Z"
+  },
   "arrival/sim": {
-    "hash": "dd3a5dbf933fd4bf51412999bacd936ed770ccf59507db76be3f285617ee23db",
-    "updatedAt": "2026-11-02T23:54:05.225Z"
+    "hash": "fcafb94ea89be83372fc64cb1254111ff25a2da81b03db8ff93905f976eba448",
+    "updatedAt": "2026-11-08T08:35:21.768Z"
   },
   "arrival/bank-account": {
     "hash": "0ca0a3126779f291839ddca38fc159f7be2687a48ee97a301c5995ea440e3830",
@@ -44,8 +48,8 @@
     "updatedAt": "2026-11-01T06:21:18.104Z"
   },
   "work/work-rights": {
-    "hash": "ae2d4a8abe809be809ad4b8bda7ce52351919151f62da985c74c8fc3a69f4a5f",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "f0dade7de9e20db371d9de6509cdea70b813ede67f29216107ffdbf32708b7c1",
+    "updatedAt": "2026-11-08T08:25:01.262Z"
   },
   "stay-longer/visa-extension": {
     "hash": "c942f50407aca4b08c2b3be012cf4c0c9e63939e29827bf45f89e46898d6d616",

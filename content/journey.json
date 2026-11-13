@@ -608,30 +608,154 @@
               "url": "https://www.fetnet.net/content/cbu/tw/postpaid/volte.html"
             }
           ]
+        },
+        {
+          "id": "driving-insurance-packing",
+          "title": "其他行前準備：駕照與醫療保險",
+          "intro": "除了簽證、機票與帳戶，出發前也可以先處理駕照文件，並確認在澳洲的醫療保障。",
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          },
+          "details": [],
+          "source": {
+            "label": "Austroads：各州海外駕照使用規定",
+            "url": "https://austroads.gov.au/drivers-and-vehicles/overseas-drivers"
+          },
+          "sections": [
+            {
+              "title": "駕照與交通準備（如需）",
+              "table": {
+                "caption": "各州／領地駕照規定：台灣駕照、打工度假簽證（資料查詢：2026/11/13；手機可左右滑動）",
+                "headers": [
+                  "州／領地",
+                  "駕照文件要求（持台灣駕照開車）",
+                  "海外駕照使用期限與換照時間點",
+                  "台灣駕照免試換照時程"
+                ],
+                "rows": [
+                  [
+                    "維多利亞 VIC（墨爾本）",
+                    "1＋（2／3／4 擇一）。[文件規定](https://www.vicroads.vic.gov.au/licences/convert-your-licence/convert-overseas-licence)",
+                    "從開始在維州居住起算 6 個月，之後要繼續開車須換維州駕照；離境再回來不會重新起算。[官方規定](https://www.vicroads.vic.gov.au/licences/convert-your-licence/driving-with-your-overseas-licence)換照是否需考試，請依 [VicRoads 換照查詢](https://www.vicroads.vic.gov.au/licences/new-to-victoria/convert-your-overseas-licence)確認。",
+                    "尚未公告實施日期。"
+                  ],
+                  [
+                    "新南威爾斯 NSW（雪梨）",
+                    "1＋（4／5 擇一）；5 須符合 NSW 的英文譯本規定。[文件規定](https://www.nsw.gov.au/driving-boating-and-transport/driver-and-rider-licences/visiting-moving-nsw/visiting-from-overseas-or-interstate)",
+                    "臨時簽證持有人若打算連續居住 6 個月以上，須在 6 個月內取得 NSW 駕照，才能繼續開車。[官方規定](https://www.nsw.gov.au/driving-boating-and-transport/driver-and-rider-licences/visiting-moving-nsw/visiting-from-overseas-or-interstate/new-rules-faqs)若要換成 NSW 駕照，請另確認[換照用譯本的要求](https://www.nsw.gov.au/driving-boating-and-transport/driver-and-rider-licences/visiting-moving-nsw/moving-overseas-licence/prepare-your-application)。",
+                    "預計 2027/1/1 開始。"
+                  ],
+                  [
+                    "北領地 NT（達爾文）",
+                    "1＋（4／5 擇一）；5 適用於未事先取得 IDP 者，須由北領地授權翻譯員製作。[文件規定](https://nt.gov.au/driving/licence/new-nt-residents-and-visitors/driver-licence-rules-for-new-nt-residents-and-visiting-drivers)",
+                    "最多 3 個月；連續停留超過 3 個月，要繼續開車須換 NT 駕照。[官方規定](https://nt.gov.au/driving/licence/new-nt-residents-and-visitors/driver-licence-rules-for-new-nt-residents-and-visiting-drivers)",
+                    "預計 2027/1/1 開始。"
+                  ],
+                  [
+                    "昆士蘭 QLD（布里斯本）",
+                    "1＋（2／4 擇一）；其他譯本依當地認可要求確認。[文件規定](https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/driving)／[IDP 說明](https://streetsmarts.initiatives.qld.gov.au/initiatives/driving-in-queensland/)",
+                    "持臨時簽證期間，符合條件可繼續使用有效海外駕照；一般的「3 個月換照」規定主要涉及公民及永久居留等身分。[官方規定](https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/driving)",
+                    "已於 2026/10/31 開始。[免試資格](https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/transfer/exempt-countries)"
+                  ],
+                  [
+                    "西澳 WA（伯斯）",
+                    "1＋（4／5 擇一）；接受的翻譯來源可向 Transport WA 確認。[訪客文件原則](https://austroads.gov.au/drivers-and-vehicles/overseas-drivers/visiting-drivers)／[西澳官方入口](https://www.transport.wa.gov.au/licensing/drivers-licence/visit-move-wa/visiting-overseas-interstate)",
+                    "以訪客、臨時工作者身分停留，符合條件可使用有效海外駕照。[官方規定](https://www.transport.wa.gov.au/licensing/drivers-licence/visit-move-wa)",
+                    "已於 2026/10/31 開始。[實施公告](https://transport.wa.gov.au/14-jurisdictions-added-to-the-recognised-overseas-licences-scheme)"
+                  ],
+                  [
+                    "南澳 SA（阿德雷德）",
+                    "1＋（2／3／4／5 擇一）；5 限指定政府翻譯服務，譯本須符合簽章等要求。[文件規定](https://www.sa.gov.au/topics/driving-and-transport/licences/interstate-and-overseas/driving-with-an-overseas-licence)",
+                    "訪客或臨時簽證持有人，符合條件可使用有效海外駕照。[官方規定](https://www.sa.gov.au/__data/assets/pdf_file/0005/903308/Fact-Sheet-Overseas-Licence-Holders.pdf)",
+                    "預計 2027/1/1 開始。"
+                  ],
+                  [
+                    "塔斯 TAS",
+                    "1＋（2／4／5 擇一）；5 須由具認證資格的翻譯員製作。[文件規定](https://www.transport.tas.gov.au/licensing/interstate_or_overseas_licences/driving_in_tasmania_on_an_interstate_or_overseas_licence)",
+                    "訪客或臨時簽證持有人，符合條件可使用有效海外駕照。[官方規定](https://www.service.tas.gov.au/services/transport/driver-and-rider-licences/convert-an-overseas-driver-licence/)",
+                    "預計 2027/2/1 開始。"
+                  ],
+                  [
+                    "首都領地 ACT（坎培拉）",
+                    "1＋（2／3／4／5 擇一）；5 限官方列出的政府翻譯管道。[文件規定](https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/drivers-with-licences-from-overseas)",
+                    "打工度假者列為訪客類型，符合條件可使用有效海外駕照。[官方規定](https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/drivers-with-licences-from-overseas)",
+                    "最新官方頁面已將台灣列為認可地區，可依資格免試；頁面未載明實施起日，申辦前向 Access Canberra 確認。"
+                  ]
+                ]
+              },
+              "introParagraphs": [
+                "如果還不確定是否要買車，或已打算買車，除了準備約 AUD 5,000–10,000 的二手車購車預算，也需要先確認各州對駕照的規範。",
+                "駕照文件依以下編號對照表格；1 為必備，括號內的文件依各州要求擇一搭配。"
+              ],
+              "orderedItems": [
+                "有效的台灣駕照正本。",
+                "NAATI 認證英文譯本：可從 [NAATI 官方名錄](https://directory.naati.com.au/)查找中翻英認證翻譯員，委託翻譯台灣駕照；不是向 NAATI 本身申請譯本。",
+                "駐澳館處認可英文譯本：向台灣駐澳辦事處詢問翻譯或譯本驗證程序，例如[駐墨爾本辦事處](https://www.boca.gov.tw/sp-foof-areacp-16-9b625-1.html)。",
+                "有效的國際駕照（IDP）：在台灣向監理所／站申請，須搭配台灣駕照正本使用。可查[公路局申領說明](https://www.thb.gov.tw/cp.aspx?n=96)。",
+                "其他當地認可英文譯本：部分州接受指定政府翻譯服務或當地授權翻譯員製作的文件，依該州官方規定確認。"
+              ]
+            },
+            {
+              "title": "海外醫療保險",
+              "items": [
+                "保障範圍：確認生病、意外及工作受傷是否能理賠，特別是預計去農場、工廠等地方工作的人。",
+                "保障期間：確認能保多久，以及能否延長。",
+                "就醫與理賠：若在海外先墊付醫療費用，記得向醫院取得診斷證明、費用明細及付款收據，回台後可依資格與期限申請健保核退，並依保單條款辦理商業保險理賠。"
+              ],
+              "introParagraphs": [
+                "如果沒有 Medicare（澳洲公費醫療保障），建議出發前先在台灣確認自己的醫療保險是否涵蓋海外就醫。在澳洲工作或旅遊時，若意外受傷需要去醫院，可能是一筆不小的花費。",
+                "急診費用可能達數百澳幣或更高；例如 [Bendigo Health 公開費用表](https://vetinari.bendigohealth.org.au/Assets/Files/Overseas%20Ineligible%20Patients%202024.pdf)曾列急診就診費 AUD 600，檢查、藥物或住院可能另計，實際以醫院收費為準。所以我認為，這筆保險費不用省。",
+                "我自己有長期醫療保險，也另外投保旅遊平安險。若沒有個人醫療保險，建議比較涵蓋海外就醫的保險方案；已有保險也要確認保障範圍與天數，不一定所有保單都涵蓋海外醫療。這部分可以向各家保險機構詢問、比價，再依自己的需求選擇。在澳洲受僱工作，一般有工傷保障，但不等於日常醫療保險；生病、旅遊或非工作造成的受傷，仍需另外確認自己的醫療保障。"
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "公路局：申領國際駕照",
+              "url": "https://www.thb.gov.tw/cp.aspx?n=96"
+            },
+            {
+              "label": "Austroads：各州海外駕照使用規定",
+              "url": "https://austroads.gov.au/drivers-and-vehicles/overseas-drivers"
+            },
+            {
+              "label": "澳洲政府：訪客醫療保險",
+              "url": "https://www.privatehealth.gov.au/health_insurance/overseas/overseas_visitors_health_cover.htm"
+            },
+            {
+              "label": "Austroads：台灣駕照認可與各州實施時程",
+              "url": "https://austroads.gov.au/drivers-and-vehicles/overseas-drivers/applying-for-a-licence"
+            },
+            {
+              "label": "Access Canberra：海外駕照與認可地區",
+              "url": "https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/drivers-with-licences-from-overseas"
+            },
+            {
+              "label": "Safe Work Australia：移民工作者與工傷保障",
+              "url": "https://www.safeworkaustralia.gov.au/safety-topic/industry-and-business/migrant-workers/overview"
+            }
+          ]
         }
       ],
       "intro": "出發前的簽證、第一站與機票、轉帳及台灣電信事項。",
       "id": "before-departure"
     },
     {
-      "title": "剛落地",
+      "title": "抵澳後",
       "en": "FIRST DAYS",
       "symbol": "⌁",
-      "desc": "SIM 電話、銀行帳戶、TFN 稅號",
+      "desc": "澳洲 SIM 電話、銀行帳戶、TFN 稅號",
       "topics": [
         {
           "id": "sim",
-          "title": "SIM 電話",
-          "details": [
-            "先確認手機支援：檢查是否能使用 eSIM，並讓台灣門號與澳洲門號同時啟用。若是雙實體 SIM 卡手機，也可以選擇兩張實體卡。",
-            "選有電話號碼的方案：申請時確認包含澳洲電話號碼、通話與簡訊功能，不要只選純上網的旅遊 eSIM，方便找工作、銀行與日常聯繫。",
-            "台灣門號收簡訊：出發前向原電信業者確認在澳洲接收簡訊的服務與設定，保留銀行及刷卡驗證所需的台灣門號。",
-            "比較澳洲方案：依常住地點、通話與流量需求比較方案及涵蓋資訊。",
-            "保存門號資料：保留澳洲門號、帳戶登入及儲值或續約方式，之後換工作或搬家也可能持續使用。"
-          ],
+          "title": "澳洲 SIM 電話",
           "source": {
-            "label": "澳洲政府資訊入口",
-            "url": "https://www.australia.gov.au/"
+            "label": "Telstra、Optus 與 Vodafone 官方覆蓋資訊",
+            "url": "https://www.telstra.com.au/coverage-networks/our-coverage"
           },
           "author": {
             "name": "Wilson",
@@ -640,7 +764,49 @@
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
           },
-          "intro": "我建議保留台灣實體 SIM 卡，搭配有澳洲電話號碼的 eSIM：台灣門號留著收銀行與刷卡驗證簡訊，澳洲門號則用於當地聯繫與上網。若手機支援雙實體 SIM 卡，也可以使用台灣卡＋澳洲實體卡，依自己的手機與需求選擇。"
+          "intro": "我建議保留台灣實體 SIM 卡，搭配有澳洲電話號碼的 eSIM：台灣門號留著收銀行與刷卡驗證簡訊，澳洲門號則用於當地聯繫與上網。若手機支援雙實體 SIM 卡，也可以使用台灣卡＋澳洲實體卡，依自己的手機與需求選擇。",
+          "sections": [
+            {
+              "title": "申請含澳洲電話號碼的方案",
+              "introParagraphs": [
+                "大型機場通常設有電信櫃檯，抵達後可以直接詢問並申辦澳洲門號；現場可辦理的方案與 eSIM 服務依櫃檯提供為準。",
+                "申請時向櫃檯說明需要包含澳洲電話號碼、通話與簡訊功能的 eSIM，方便找工作、銀行與日常聯繫，避免選到只有上網功能的旅遊方案。可以這樣開口：「Hi, I'd like to get an eSIM with an Australian phone number, calls, texts and mobile data, please.」依櫃檯要求提供身分文件，完成開通後，現場確認通話、簡訊與上網都正常，再離開。",
+                "預付卡還是綁約：初期可先比較 Prepaid（預付型）方案，確認有效天數、流量、續費價格，以及是否開啟自動扣款，別只看首次優惠。"
+              ]
+            },
+            {
+              "title": "澳洲主要電信業者",
+              "intro": "澳洲主要行動網路有 Telstra、Optus 與 Vodafone。先看自己會住、工作及移動的地點，再比較流量、費用與方案內容。有些集簽地點比較偏遠，可以先透過以下連結查詢工作與住宿地址的訊號覆蓋，也向雇主或目前住在當地的人確認哪家實際收訊較好。",
+              "items": [
+                "Telstra：地理覆蓋範圍較廣，若會前往偏遠地區工作或經常跨區移動，可以優先比較。可查[Telstra 訊號覆蓋地圖](https://www.telstra.com.au/coverage-networks/our-coverage)。",
+                "Optus：另一家主要電信業者，可與 Telstra 一起比較常住地和工作地的訊號，再選適合的方案。可查[Optus 訊號覆蓋地圖](https://optus.com.au/living-network/coverage)。",
+                "Vodafone：也是主要選擇之一，近年已擴大偏遠地區覆蓋，不必只憑過去印象判斷；仍應查實際地址。可查[Vodafone 訊號覆蓋地圖](https://www.vodafone.com.au/network/coverage-checker)。"
+              ],
+              "afterword": "覆蓋地圖是預測值，室內、地形與手機型號都可能影響收訊。若選擇使用 Telstra 網路的其他品牌，也要確認該品牌自己的覆蓋地圖；批發網路與 Telstra 直營方案的覆蓋範圍可能不同，可參考[Telstra Wholesale 覆蓋地圖](https://www.telstrawholesale.com.au/products/mobiles/coverage.html)。"
+            }
+          ],
+          "references": [
+            {
+              "label": "Telstra：網路與覆蓋範圍",
+              "url": "https://www.telstra.com.au/coverage-networks"
+            },
+            {
+              "label": "Telstra：覆蓋地圖",
+              "url": "https://www.telstra.com.au/coverage-networks/our-coverage"
+            },
+            {
+              "label": "Optus：覆蓋地圖",
+              "url": "https://optus.com.au/living-network/coverage"
+            },
+            {
+              "label": "Vodafone：覆蓋地圖",
+              "url": "https://www.vodafone.com.au/network/coverage-checker"
+            },
+            {
+              "label": "Telstra Wholesale：覆蓋地圖",
+              "url": "https://www.telstrawholesale.com.au/products/mobiles/coverage.html"
+            }
+          ]
         },
         {
           "id": "bank-account",
@@ -836,12 +1002,7 @@
         },
         {
           "id": "work-rights",
-          "title": "工作權益",
-          "details": [
-            "到 Fair Work 官方網站查閱與自己工作情況相關的資訊。",
-            "保存雇用條件、工時、薪資單與相關對話紀錄。",
-            "遇到疑問時，先整理事實與文件，再尋找官方諮詢管道。"
-          ],
+          "title": "Fair Work｜工作權益",
           "source": {
             "label": "Fair Work Ombudsman",
             "url": "https://www.fairwork.gov.au/"
@@ -852,7 +1013,47 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "intro": "Fair Work Ombudsman 是澳洲提供薪資與工作權益資訊、諮詢及協助的政府機構。在澳洲工作的打工度假者與留學生，也享有適用的最低薪資與工作條件保障。",
+          "sections": [
+            {
+              "title": "確認自己的薪資",
+              "intro": "薪資會依工作內容、雇用類型、適用的 Award（行業薪資與工作條件規範）或企業協議而不同。可使用[Fair Work 薪資試算工具](https://calculate.fairwork.gov.au/)查詢，並確認週末、國定假日及加班是否適用不同費率。"
+            },
+            {
+              "title": "保存工時與薪資單",
+              "items": [
+                "自行記錄上下班時間、休息時間與實際工時，保留合約、排班表、入帳紀錄及與雇主的對話。",
+                "雇主須在發薪後 1 個工作日內提供薪資單（Pay slip）。收到後核對工時、時薪及扣款；可參考[官方薪資單說明](https://www.fairwork.gov.au/workplace-problems/common-workplace-problems/im-not-getting-pay-slips)。"
+              ]
+            },
+            {
+              "title": "遇到欠薪或工作條件問題",
+              "intro": "先整理實際工時、應領與實領金額，以及相關紀錄。若安全且合適，可先向雇主提出問題；未能解決或不確定如何處理時，可向 Fair Work 尋求協助。可參考[處理工作問題的官方步驟](https://www.fairwork.gov.au/workplace-problems/fixing-a-workplace-problem/resolving-your-problem-in-the-workplace)。"
+            },
+            {
+              "title": "需要中文協助",
+              "intro": "可撥打翻譯與口譯服務 131 450，請對方協助轉接 Fair Work 的 13 13 94。更多資訊可參考[簽證持有人與移民工作者專區](https://www.fairwork.gov.au/find-help-for/visa-holders-migrants)。"
+            }
+          ],
+          "references": [
+            {
+              "label": "Fair Work：簽證持有人與移民工作者",
+              "url": "https://www.fairwork.gov.au/find-help-for/visa-holders-migrants"
+            },
+            {
+              "label": "Fair Work：薪資試算工具",
+              "url": "https://calculate.fairwork.gov.au/"
+            },
+            {
+              "label": "Fair Work：薪資單要求",
+              "url": "https://www.fairwork.gov.au/workplace-problems/common-workplace-problems/im-not-getting-pay-slips"
+            },
+            {
+              "label": "Fair Work：處理工作問題",
+              "url": "https://www.fairwork.gov.au/workplace-problems/fixing-a-workplace-problem/resolving-your-problem-in-the-workplace"
+            }
+          ]
         }
       ],
       "intro": "履歷準備、求職方式與工作權益相關事項。",
@@ -1013,6 +1214,6 @@
   "common": {
     "title": "住宿與工作",
     "eyebrow": "HOUSING & WORK",
-    "subtitle": "出發前、剛落地，或住了一段時間，都可以從這裡查找。"
+    "subtitle": "出發前、抵澳後，或住了一段時間，都可以從這裡查找。"
   }
 }

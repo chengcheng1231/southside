@@ -8,6 +8,7 @@ import Feedback from './Feedback';
 import Journey from './Journey';
 import ArticleDialog from './ArticleDialog';
 import {stories} from '../lib/stories';
+const medicalStory=stories.find(story=>story.slug==='australia-emergency-medical-reimbursement');
 const featuredStory=stories.find(story=>!story.sample)||stories[0];
 export default function Southside({about}) {
   const {articleId,openArticle,closeArticle,historyVersion}=useGuideNavigation();
@@ -73,18 +74,14 @@ export default function Southside({about}) {
                   需求、看房與合約
                 </h3>
               </Link>
-              <Link className="story story-text" href="/stories/job-preparation">
+              <Link className="story story-text" href={`/stories/${medicalStory.slug}`}>
                 <div className="story-meta">
-                  <span>找工作</span>
-                  <span>工作指南</span>
+                  <span>{medicalStory.category}</span>
+                  <span>{medicalStory.year}</span>
                 </div>
-                <h3>
-                  找工作：
-                  <br />
-                  履歷準備與投遞方式
-                </h3>
-                <p>從整理經歷、準備履歷，到選擇投遞方式。</p>
-                <span className="read-link">查看工作指南 ↗</span>
+                <h3>{medicalStory.title}</h3>
+                <p>{medicalStory.excerpt}</p>
+                <span className="read-link">閱讀文章 ↗</span>
               </Link>
             </div>
           </div>

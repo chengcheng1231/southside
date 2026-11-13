@@ -11,7 +11,7 @@ export function syncGuideUpdates(root=process.cwd(),now=new Date().toISOString()
   const id=`${stage.id}/${topic.id}`;
   if(next[id])throw new Error('Duplicate article ID');
   const hash=createHash('sha256').update(JSON.stringify({intro:stage.intro,topic})).digest('hex');
-  next[id]={hash,updatedAt:previous[id]?previous[id].hash===hash?previous[id].updatedAt:now:null};
+  next[id]={hash,updatedAt:previous[id]?.hash===hash?(previous[id].updatedAt||now):now};
  }}
  const serialized=JSON.stringify(next,null,2)+'\n';
  if(!fs.existsSync(target)||fs.readFileSync(target,'utf8')!==serialized){fs.writeFileSync(target+'.tmp',serialized);fs.renameSync(target+'.tmp',target);}
