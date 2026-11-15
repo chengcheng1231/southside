@@ -826,14 +826,10 @@
         {
           "id": "tfn",
           "title": "TFN 稅號",
-          "details": [
-            "由澳洲稅務局官方入口確認自己適用的申請方式。",
-            "提交前核對個人資料，保留申請紀錄。",
-            "妥善保存稅務資料，對分享身分與稅務資訊保持謹慎。"
-          ],
+          "details": [],
           "source": {
-            "label": "澳洲稅務局 ATO",
-            "url": "https://www.ato.gov.au/"
+            "label": "ATO：臨時簽證持有人的 TFN 申請",
+            "url": "https://www.ato.gov.au/individuals-and-families/tax-file-number/apply-for-a-tfn/foreign-passport-holders-permanent-migrants-and-temporary-visitors-tfn-application"
           },
           "author": {
             "name": "Wilson",
@@ -841,7 +837,40 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "intro": "如果打算在澳洲工作，就需要申請 TFN（Tax File Number，稅籍編號），之後工作與報稅都會用到。",
+          "sections": [
+            {
+              "title": "抵澳後線上申請",
+              "intro": "持打工度假簽證者須等抵澳後才能透過這個管道申請，不必等找到工作。申請免費。",
+              "orderedItems": [
+                "準備資料：有效護照、個人資料、聯絡電話、Email，以及能確實收到信的澳洲地址。住短租或 Hostel 時，先確認能否代收與保管信件。",
+                "進入申請系統：開啟 [ATO 官方申請頁](https://www.ato.gov.au/individuals-and-families/tax-file-number/apply-for-a-tfn/foreign-passport-holders-permanent-migrants-and-temporary-visitors-tfn-application)，點選線上申請連結，進入 Individual Auto-Registration（IAR）系統並開始填寫。",
+                "填寫並送出：依護照填寫個人資料及相關問題，確認澳洲收件地址與聯絡方式無誤後送出，並保存 ATO receipt ID（申請編號，非 TFN），供後續查詢使用。",
+                "等待通知信：通常會在 28 天內收到 TFN 通知。超過 28 天仍未收到，可準備 ATO receipt ID 聯絡 ATO 查詢，等待期間不要重複申請。"
+              ],
+              "afterword": "最後會收到像下圖這樣的 TFN 通知信，收到後妥善保存，再將 TFN 提供給雇主。",
+              "image": {
+                "src": "/examples/tfn-notice-redacted.png",
+                "alt": "ATO 寄發的 TFN 通知信範例，姓名、地址、稅號及識別資料已遮蔽",
+                "caption": "TFN 通知信範例（個人資料已遮蔽）"
+              }
+            },
+            {
+              "title": "還沒收到 TFN，可以先工作嗎？",
+              "intro": "可以。如果已申請、還在等待 TFN，可以先工作，並告知雇主已申請，收到後再補交。到職時依雇主的報到流程填寫稅務資料，有 28 天可補交 TFN。超過期限仍未提供，雇主須依未提供 TFN 的較高稅率扣稅。"
+            }
+          ],
+          "references": [
+            {
+              "label": "ATO：臨時簽證持有人的 TFN 申請",
+              "url": "https://www.ato.gov.au/individuals-and-families/tax-file-number/apply-for-a-tfn/foreign-passport-holders-permanent-migrants-and-temporary-visitors-tfn-application"
+            },
+            {
+              "label": "ATO：員工尚未取得 TFN 時的處理方式",
+              "url": "https://smallbusiness.taxsuperandyou.gov.au/hiring-workers/tax-file-number-declaration-form"
+            }
+          ]
         }
       ],
       "intro": "抵達澳洲後的通訊、銀行帳戶與稅號辦理事項。",
