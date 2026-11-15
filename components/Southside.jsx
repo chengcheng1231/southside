@@ -113,7 +113,7 @@ export default function Southside({about}) {
         </div>
         <div className="footer-bottom">
           <span>© 2026 Southside · Australia</span>
-          <span>經驗有時間背景；簽證、稅務及權益資訊，請以官方最新公告為準。</span>
+          <span>經驗有時間背景。簽證、稅務及權益資訊，請以官方最新公告為準。</span>
         </div>
       </footer>
       <Feedback />

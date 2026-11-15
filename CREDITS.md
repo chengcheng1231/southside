@@ -4,7 +4,7 @@
 
 ## 輪播圖片
 
-以下作者及來源由站主提供；檔案與來源的對應仍應於公開前人工核對。
+以下作者及來源由站主提供。檔案與來源的對應仍應於公開前人工核對。
 
 | 本地檔案                     | 作者        | 來源                                    |
 | ---------------------------- | ----------- | --------------------------------------- |
@@ -28,8 +28,8 @@
 ## 字體與圖示
 
 - Noto Sans TC：由 Google Fonts 載入，採 SIL Open Font License，參見 https://fonts.google.com/noto/specimen/Noto+Sans+TC/about 。
-- 袋鼠、箭頭、訊息等 SVG：本專案內建立，程式碼依 MIT 授權；Southside 名稱與品牌使用權不因程式碼開源而授予。
+- 袋鼠、箭頭、訊息等 SVG：本專案內建立，程式碼依 MIT 授權。Southside 名稱與品牌使用權不因程式碼開源而授予。
 
 
-- Banner 中文主標：辰宇落雁體 2.0 Thin，由 Chenyu-otf 官方專案下載，本地託管，OFL 1.1；授權檔 `public/fonts/ChenYuluoyan-LICENSE.txt`，來源 https://github.com/Chenyu-otf/chenyuluoyan_thin 。
-- `public/fonts/southside-hero.woff2`：上述字體的標題用字子集，衍生字體名稱為 Southside Hero，沿用 OFL 1.1 授權；字形未改動。
+- Banner 中文主標：辰宇落雁體 2.0 Thin，由 Chenyu-otf 官方專案下載，本地託管，OFL 1.1。授權檔 `public/fonts/ChenYuluoyan-LICENSE.txt`，來源 https://github.com/Chenyu-otf/chenyuluoyan_thin 。
+- `public/fonts/southside-hero.woff2`：上述字體的標題用字子集，衍生字體名稱為 Southside Hero，沿用 OFL 1.1 授權。字形未改動。

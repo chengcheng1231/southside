@@ -39,7 +39,7 @@
               },
               "items": [
                 "年齡限制：需介於 18–30 歲，申請時需要在 31 歲生日前送出申請。",
-                "護照要求：持有效台灣一般護照；公務或外交護照不適用。",
+                "護照要求：持有效台灣一般護照。公務或外交護照不適用。",
                 "申請地點：申請及作出決定時均須在澳洲境外。",
                 "首次簽證（一簽）：如果以前曾持澳洲打工度假簽證入境，就不能再申請一簽。若要申請二簽或三簽，需參考該申請資格。曾申請或獲准，但從未持該簽證入境者，仍可申請一簽。"
               ],
@@ -83,7 +83,7 @@
               "items": [
                 "查看通知：付款送件後，查看 Email 或 ImmiAccount「View details → Messages」，確認體檢要求與期限，以個人通知為準。[查看通知信範例](/examples/health-examination-notice.png)。",
                 "下載體檢單：開啟 [ImmiAccount](https://online.immi.gov.au/lusc/login) 該筆申請，點選「View health assessment」→「Organise health examinations」，填寫病史後下載含 HAP ID 的 Referral Letter。[查看體檢單範例](/examples/referral-letter.png)。",
-                "安排體檢：至[官方指定醫院查詢頁](https://immi.homeaffairs.gov.au/help-support/contact-us/offices-and-locations/list)選擇 Taiwan（或所在地），使用 HAP ID 依院方受理方式安排體檢。是否需預約依各院公告；無法如期完成時，透過 ImmiAccount 說明。",
+                "安排體檢：至[官方指定醫院查詢頁](https://immi.homeaffairs.gov.au/help-support/contact-us/offices-and-locations/list)選擇 Taiwan（或所在地），使用 HAP ID 依院方受理方式安排體檢。是否需預約依各院公告。無法如期完成時，透過 ImmiAccount 說明。",
                 "體檢完成：由醫院上傳體檢結果，接著等待簽證審核。"
               ],
               "link": {
@@ -102,7 +102,7 @@
                     "護照正本（效期依院方要求）。",
                     "身分證正本。",
                     "Referral Letter：體檢單建議列印，手機另存 PDF。",
-                    "體檢費用：約 NT$2,500–3,000，額外檢查另計，實際依醫院與項目收費；其他文件依院方要求，可參考[中國附醫體檢須知](https://www.cmuh.org.tw/Department/CustomPage/286)。"
+                    "體檢費用：約 NT$2,500–3,000，額外檢查另計，實際依醫院與項目收費。其他文件依院方要求，可參考[中國附醫體檢須知](https://www.cmuh.org.tw/Department/CustomPage/286)。"
                   ]
                 }
               ],
@@ -138,7 +138,7 @@
               "title": "核准後：確認首次入境期限",
               "items": [
                 "收到核准信後，下載保存，並確認最晚入境日期、可停留期間及工作／就學限制。",
-                "首次 417 須在核准後 12 個月內入境；入境後可停留最多 12 個月。"
+                "首次 417 須在核准後 12 個月內入境。入境後可停留最多 12 個月。"
               ],
               "link": {
                 "label": "查看停留與入境說明",
@@ -238,7 +238,7 @@
                 "比較機票：確認抵達機場、日期、直飛或轉機、託運行李額度，以及改票與退票條件，再比較總價。",
                 "機票優惠：可參考[華航學生／打工度假獨享優惠](https://www.china-airlines.com/tw/zh/itinerary-booking/exclusive-offers/latest-events/global-student-promotion)，優惠內容與申請方式請見活動頁。",
                 "轉機選擇：也可以比較[國泰航空經香港轉機前往澳洲](https://flights.cathaypacific.com/destinations/en_TW/flights-from-taipei-to-australia)的票價，連同行李額度與轉機時間一起評估是否划算。我當時買過單程約台幣 1 萬元的機票，實際票價依日期與航班而異。",
-                "安排抵達：確認航班落地時間、機場到住宿的交通、入住方式與行李寄放；訂房前也先看取消條件。"
+                "安排抵達：確認航班落地時間、機場到住宿的交通、入住方式與行李寄放。訂房前也先看取消條件。"
               ]
             }
           ],
@@ -319,65 +319,13 @@
             },
             {
               "title": "出發前申請澳洲帳戶",
-              "timeline": [
-                {
-                  "id": "apply-online",
-                  "phase": "出發前",
-                  "title": "線上申請澳洲帳戶",
-                  "highlight": "線上申請",
-                  "items": [
-                    "申請時間：CommBank 目前接受預計 14 天內抵澳者線上申請，可從[官方行前開戶頁面](https://www.commbank.com.au/moving-to-australia.html)開始。",
-                    "操作教學：可參考[STUDY CENTRAL：CommBank 開戶教學](https://studycentralau.com/work-in-australia/commbank2022/)，申請條件與期限仍以 CommBank 官方頁面及開戶通知為準。",
-                    "收到開戶通知：完成線上申請後，會收到 CommBank 開戶通知（Welcome Letter），內有帳戶資料與後續辦理說明，可參考下方圖片。到澳洲分行驗證身分時，請攜帶這份通知，或預先存在手機裡供行員查看。"
-                  ],
-                  "image": {
-                    "src": "/examples/commbank-transfer-details.jpg",
-                    "alt": "CommBank 開戶通知與收款資料範例，帳戶號碼等欄位已遮蔽",
-                    "caption": "CommBank 開戶通知（Welcome Letter）範例"
-                  }
-                },
-                {
-                  "id": "verify-identity",
-                  "phase": "抵澳後",
-                  "title": "到分行完成身分驗證",
-                  "highlight": "身分驗證",
-                  "items": [
-                    "驗證期限：目前須在開戶後 20 天內到分行完成身分驗證，否則帳戶可能自動關閉。"
-                  ],
-                  "groups": [
-                    {
-                      "title": "需攜帶的文件與資料",
-                      "orderedItems": [
-                        "有效護照正本：用於核對身分。",
-                        "稅籍編號（TIN）：提供各海外稅務居住國的稅籍編號；若為台灣稅務居民，且有台灣身分證，台灣的 TIN 就是「身分證字號」，不用另外申請。開戶時不需要先取得澳洲 TFN，收到後再補填即可。",
-                        "澳洲政府的簽證核准信：建議手機備好電子檔，依開戶通知要求提供。",
-                        "CommBank 開戶通知（Welcome Letter）：就是線上申請後收到、上方圖片所示的開戶通知；請攜帶或存在手機裡供行員查看。",
-                        "澳洲居住地址：你當時住處的英文地址，例如短租或 Hostel，不是銀行分行地址。"
-                      ],
-                      "items": [],
-                      "afterList": "實際所需文件依開戶通知與分行要求準備。"
-                    }
-                  ]
-                },
-                {
-                  "id": "activate-and-use",
-                  "phase": "完成驗證後",
-                  "title": "確認領卡並開始使用帳戶",
-                  "highlight": "開始使用帳戶",
-                  "items": [
-                    "匯款時機：出發前取得澳洲帳戶資料後，可以先設定台幣跨國轉帳，或依使用的匯款服務辦理受款帳號約定；但須先在澳洲分行完成身分驗證，才能存入款項或使用帳戶付款，先不要把錢匯入尚未驗證的帳戶。"
-                  ]
-                }
-              ],
-              "introParagraphs": [
-                "澳洲四大銀行有 Commonwealth Bank（CommBank）、Westpac、ANZ 與 National Australia Bank（NAB），可以依自己的需求選擇。以下分享我使用 Commonwealth Bank of Australia（澳洲聯邦銀行，簡稱 CommBank）的經驗。",
-                "我當時在出發前 14 天線上申請 CommBank，抵澳後到指定分行核對身分，當天就領到 Debit Card（簽帳金融卡），省去住宿還沒穩定時等待寄卡的麻煩。"
-              ]
+              "intro": "以 CommBank 為例，可在預計抵澳前 14 天內線上申請。提前申請的好處是，抵澳後完成分行身分驗證就能領卡，省去等待寄送的時間，也不用擔心前期住宿還不確定、不方便收件。",
+              "afterword": "詳細可參考[澳洲開戶、分行驗證與領卡說明 ↗](#guide/arrival/bank-account)"
             },
             {
               "title": "設定台幣跨國轉帳",
               "items": [],
-              "intro": "有了澳洲帳戶資料，接著就可以考慮是否要先到台灣銀行臨櫃設定約定受款帳號。若預計匯款金額較大，建議出發前先辦好；若只是小額匯款，且金額在所選服務的非約定額度內，就不一定需要臨櫃。不論是否需要臨櫃約定，都要在出發前確認台灣銀行帳戶的跨國匯款功能已開通、App 能正常操作，並確認所需的驗證方式與交易額度。我個人使用過國泰一般外幣匯出、國泰的小額跨境匯款和台新易匯通。",
+              "intro": "有了澳洲帳戶資料，接著就可以考慮是否要先到台灣銀行臨櫃設定約定受款帳號。若預計匯款金額較大，建議出發前先辦好。若只是小額匯款，且金額在所選服務的非約定額度內，就不一定需要臨櫃。不論是否需要臨櫃約定，都要在出發前確認台灣銀行帳戶的跨國匯款功能已開通、App 能正常操作，並確認所需的驗證方式與交易額度。我個人使用過國泰一般外幣匯出、國泰的小額跨境匯款和台新易匯通。",
               "blocks": [
                 {
                   "title": "國泰｜一般外幣匯出",
@@ -393,9 +341,9 @@
                   "items": [
                     "事先設定：不用先臨櫃約定受款帳號，出發前仍需確認帳戶的匯款功能、驗證方式與交易額度可正常使用。",
                     "收款資料：匯到澳洲不用填 SWIFT Code，在 App 填寫 BSB 前三碼、後三碼、銀行帳號及其他收款資料即可。操作方式與適用條件請見[國泰小額跨境匯款說明](https://www.cathaybk.com.tw/cathaybk/promo/event/exchange/product/cub_vda/index.html)。",
-                    "到帳時間：快的話當天就能收到款；官方提供的時間範圍為 30 分鐘至 2 個工作天，實際依交易與收款銀行處理情況而定。"
+                    "到帳時間：快的話當天就能收到款。官方提供的時間範圍為 30 分鐘至 2 個工作天，實際依交易與收款銀行處理情況而定。"
                   ],
-                  "afterword": "範例 BSB 062-123：前三碼 062 填入「受款銀行分支代碼」，後三碼 123 填入「受款銀行分行代碼」；Account number 12345678 填入「受款帳號」。姓名與號碼僅供教學，請改填自己的資料；居住地址請填目前住處，不是銀行分行地址。",
+                  "afterword": "範例 BSB 062-123：前三碼 062 填入「受款銀行分支代碼」，後三碼 123 填入「受款銀行分行代碼」。Account number 12345678 填入「受款帳號」。姓名與號碼僅供教學，請改填自己的資料。居住地址請填目前住處，不是銀行分行地址。",
                   "image": {
                     "src": "/examples/commbank-cathay-field-mapping.png",
                     "alt": "CommBank 開戶資料對照國泰小額跨境匯款欄位：範例姓名 WEI LIN、銀行 Commonwealth Bank of Australia、BSB 062-123 拆為分支代碼 062 與分行代碼 123、帳號 12345678。姓名與號碼皆為教學範例。",
@@ -412,7 +360,7 @@
                       ],
                       "image": {
                         "src": "/examples/cathay-remittance-calculation-redacted.png",
-                        "alt": "國泰小額跨境匯款試算：澳幣 2,200、台幣總扣款 49,762、手續費 0；扣款帳號與可用餘額已遮蔽",
+                        "alt": "國泰小額跨境匯款試算：澳幣 2,200、台幣總扣款 49,762、手續費 0。扣款帳號與可用餘額已遮蔽",
                         "caption": "國泰小額跨境匯款試算範例（扣款帳號與餘額已遮蔽）"
                       }
                     }
@@ -483,12 +431,12 @@
                   "title": "免費海外收簡訊方法",
                   "intro": "出發前向電信業者確認：你的手機與門號是否支援在海外透過 Wi-Fi 通話功能接收簡訊，以及是否需要事先開通。",
                   "items": [
-                    "iPhone 設定：「設定 → 行動服務 → 選擇台灣門號 → Wi-Fi Calling」，切換至 ON；若未成功連線，可嘗試重新開機。可參考[Apple 設定說明](https://support.apple.com/zh-tw/108066)。",
-                    "Android 設定：在手機「設定」搜尋「Wi-Fi Calling（Wi-Fi 通話）」，選擇台灣門號並切換至 ON；實際路徑依品牌與機型而異。若未成功連線，可嘗試重新開機。可參考[中華電信 Android 設定教學](https://www.cht.com.tw/ipm/docs/000100006767/000100006767_0063498.pdf)。",
+                    "iPhone 設定：「設定 → 行動服務 → 選擇台灣門號 → Wi-Fi Calling」，切換至 ON。若未成功連線，可嘗試重新開機。可參考[Apple 設定說明](https://support.apple.com/zh-tw/108066)。",
+                    "Android 設定：在手機「設定」搜尋「Wi-Fi Calling（Wi-Fi 通話）」，選擇台灣門號並切換至 ON。實際路徑依品牌與機型而異。若未成功連線，可嘗試重新開機。可參考[中華電信 Android 設定教學](https://www.cht.com.tw/ipm/docs/000100006767/000100006767_0063498.pdf)。",
                     "連接 Wi-Fi：在國外需要收簡訊時，連上 Wi-Fi，並保持台灣門號與 Wi-Fi Calling 開啟，不必特別開啟飛航模式。",
-                    "確認連線：查看手機是否顯示台灣電信業者的 Wi-Fi 通話狀態，再測試接收簡訊驗證碼；若無法使用，請向業者確認服務與設定。"
+                    "確認連線：查看手機是否顯示台灣電信業者的 Wi-Fi 通話狀態，再測試接收簡訊驗證碼。若無法使用，請向業者確認服務與設定。"
                   ],
-                  "afterword": "這個方式透過 Wi-Fi 連線，不是使用台灣門號的漫遊數據。通話仍依原門號方案計費，不代表所有通話都免費；若要撥打或接聽電話，請依電信業者建議操作，避免 Wi-Fi 中斷後切回漫遊而產生話費。"
+                  "afterword": "這個方式透過 Wi-Fi 連線，不是使用台灣門號的漫遊數據。通話仍依原門號方案計費，不代表所有通話都免費。若要撥打或接聽電話，請依電信業者建議操作，避免 Wi-Fi 中斷後切回漫遊而產生話費。"
                 }
               ]
             },
@@ -518,7 +466,7 @@
                     {
                       "title": "其他繳費方式",
                       "items": [
-                        "線上繳費：掃描健保繳款單上的 QR Code，依頁面指示確認繳款資訊並選擇付款方式；也可使用健保署列出的行動支付 App 掃碼繳費。"
+                        "線上繳費：掃描健保繳款單上的 QR Code，依頁面指示確認繳款資訊並選擇付款方式。也可使用健保署列出的行動支付 App 掃碼繳費。"
                       ]
                     }
                   ],
@@ -529,7 +477,7 @@
             {
               "title": "國民年金（如適用）",
               "items": [
-                "確認是否納保：年滿 25 歲、未滿 65 歲，在台灣設有戶籍，且未參加勞保等相關社會保險者，可能屬於國民年金納保對象；是否適用仍依完整資格與勞保局認定，不是每位出國者都需要。可先查[國民年金納保資格](https://www.bli.gov.tw/0013590.htm)。"
+                "確認是否納保：年滿 25 歲、未滿 65 歲，在台灣設有戶籍，且未參加勞保等相關社會保險者，可能屬於國民年金納保對象。是否適用仍依完整資格與勞保局認定，不是每位出國者都需要。可先查[國民年金納保資格](https://www.bli.gov.tw/0013590.htm)。"
               ],
               "blocks": [
                 {
@@ -612,7 +560,7 @@
         {
           "id": "driving-insurance-packing",
           "title": "其他行前準備：駕照與醫療保險",
-          "intro": "除了簽證、機票與帳戶，出發前也可以先處理駕照文件，並確認在澳洲的醫療保障。",
+          "intro": "",
           "author": {
             "name": "Wilson",
             "email": "yuchenghsu1231@gmail.com",
@@ -629,7 +577,7 @@
             {
               "title": "駕照與交通準備（如需）",
               "table": {
-                "caption": "各州／領地駕照規定：台灣駕照、打工度假簽證（資料查詢：2026/11/13；手機可左右滑動）",
+                "caption": "各州／領地駕照規定：台灣駕照、打工度假簽證（資料查詢：2026/11/13）",
                 "headers": [
                   "州／領地",
                   "駕照文件要求（持台灣駕照開車）",
@@ -640,60 +588,60 @@
                   [
                     "維多利亞 VIC（墨爾本）",
                     "1＋（2／3／4 擇一）。[文件規定](https://www.vicroads.vic.gov.au/licences/convert-your-licence/convert-overseas-licence)",
-                    "從開始在維州居住起算 6 個月，之後要繼續開車須換維州駕照；離境再回來不會重新起算。[官方規定](https://www.vicroads.vic.gov.au/licences/convert-your-licence/driving-with-your-overseas-licence)換照是否需考試，請依 [VicRoads 換照查詢](https://www.vicroads.vic.gov.au/licences/new-to-victoria/convert-your-overseas-licence)確認。",
+                    "從開始在維州居住起算 6 個月，之後要繼續開車須換維州駕照。離境再回來不會重新起算。[官方規定](https://www.vicroads.vic.gov.au/licences/convert-your-licence/driving-with-your-overseas-licence)換照是否需考試，請依 [VicRoads 換照查詢](https://www.vicroads.vic.gov.au/licences/new-to-victoria/convert-your-overseas-licence)確認。",
                     "尚未公告實施日期。"
                   ],
                   [
                     "新南威爾斯 NSW（雪梨）",
-                    "1＋（4／5 擇一）；5 須符合 NSW 的英文譯本規定。[文件規定](https://www.nsw.gov.au/driving-boating-and-transport/driver-and-rider-licences/visiting-moving-nsw/visiting-from-overseas-or-interstate)",
+                    "1＋（4／5 擇一）。5 須符合 NSW 的英文譯本規定。[文件規定](https://www.nsw.gov.au/driving-boating-and-transport/driver-and-rider-licences/visiting-moving-nsw/visiting-from-overseas-or-interstate)",
                     "臨時簽證持有人若打算連續居住 6 個月以上，須在 6 個月內取得 NSW 駕照，才能繼續開車。[官方規定](https://www.nsw.gov.au/driving-boating-and-transport/driver-and-rider-licences/visiting-moving-nsw/visiting-from-overseas-or-interstate/new-rules-faqs)若要換成 NSW 駕照，請另確認[換照用譯本的要求](https://www.nsw.gov.au/driving-boating-and-transport/driver-and-rider-licences/visiting-moving-nsw/moving-overseas-licence/prepare-your-application)。",
                     "預計 2027/1/1 開始。"
                   ],
                   [
                     "北領地 NT（達爾文）",
-                    "1＋（4／5 擇一）；5 適用於未事先取得 IDP 者，須由北領地授權翻譯員製作。[文件規定](https://nt.gov.au/driving/licence/new-nt-residents-and-visitors/driver-licence-rules-for-new-nt-residents-and-visiting-drivers)",
-                    "最多 3 個月；連續停留超過 3 個月，要繼續開車須換 NT 駕照。[官方規定](https://nt.gov.au/driving/licence/new-nt-residents-and-visitors/driver-licence-rules-for-new-nt-residents-and-visiting-drivers)",
+                    "1＋（4／5 擇一）。5 適用於未事先取得 IDP 者，須由北領地授權翻譯員製作。[文件規定](https://nt.gov.au/driving/licence/new-nt-residents-and-visitors/driver-licence-rules-for-new-nt-residents-and-visiting-drivers)",
+                    "最多 3 個月。連續停留超過 3 個月，要繼續開車須換 NT 駕照。[官方規定](https://nt.gov.au/driving/licence/new-nt-residents-and-visitors/driver-licence-rules-for-new-nt-residents-and-visiting-drivers)",
                     "預計 2027/1/1 開始。"
                   ],
                   [
                     "昆士蘭 QLD（布里斯本）",
-                    "1＋（2／4 擇一）；其他譯本依當地認可要求確認。[文件規定](https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/driving)／[IDP 說明](https://streetsmarts.initiatives.qld.gov.au/initiatives/driving-in-queensland/)",
-                    "持臨時簽證期間，符合條件可繼續使用有效海外駕照；一般的「3 個月換照」規定主要涉及公民及永久居留等身分。[官方規定](https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/driving)",
+                    "1＋（2／4 擇一）。其他譯本依當地認可要求確認。[文件規定](https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/driving)／[IDP 說明](https://streetsmarts.initiatives.qld.gov.au/initiatives/driving-in-queensland/)",
+                    "持臨時簽證期間，符合條件可繼續使用有效海外駕照。一般的「3 個月換照」規定主要涉及公民及永久居留等身分。[官方規定](https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/driving)",
                     "已於 2026/10/31 開始。[免試資格](https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/transfer/exempt-countries)"
                   ],
                   [
                     "西澳 WA（伯斯）",
-                    "1＋（4／5 擇一）；接受的翻譯來源可向 Transport WA 確認。[訪客文件原則](https://austroads.gov.au/drivers-and-vehicles/overseas-drivers/visiting-drivers)／[西澳官方入口](https://www.transport.wa.gov.au/licensing/drivers-licence/visit-move-wa/visiting-overseas-interstate)",
+                    "1＋（4／5 擇一）。接受的翻譯來源可向 Transport WA 確認。[訪客文件原則](https://austroads.gov.au/drivers-and-vehicles/overseas-drivers/visiting-drivers)／[西澳官方入口](https://www.transport.wa.gov.au/licensing/drivers-licence/visit-move-wa/visiting-overseas-interstate)",
                     "以訪客、臨時工作者身分停留，符合條件可使用有效海外駕照。[官方規定](https://www.transport.wa.gov.au/licensing/drivers-licence/visit-move-wa)",
                     "已於 2026/10/31 開始。[實施公告](https://transport.wa.gov.au/14-jurisdictions-added-to-the-recognised-overseas-licences-scheme)"
                   ],
                   [
                     "南澳 SA（阿德雷德）",
-                    "1＋（2／3／4／5 擇一）；5 限指定政府翻譯服務，譯本須符合簽章等要求。[文件規定](https://www.sa.gov.au/topics/driving-and-transport/licences/interstate-and-overseas/driving-with-an-overseas-licence)",
+                    "1＋（2／3／4／5 擇一）。5 限指定政府翻譯服務，譯本須符合簽章等要求。[文件規定](https://www.sa.gov.au/topics/driving-and-transport/licences/interstate-and-overseas/driving-with-an-overseas-licence)",
                     "訪客或臨時簽證持有人，符合條件可使用有效海外駕照。[官方規定](https://www.sa.gov.au/__data/assets/pdf_file/0005/903308/Fact-Sheet-Overseas-Licence-Holders.pdf)",
                     "預計 2027/1/1 開始。"
                   ],
                   [
                     "塔斯 TAS",
-                    "1＋（2／4／5 擇一）；5 須由具認證資格的翻譯員製作。[文件規定](https://www.transport.tas.gov.au/licensing/interstate_or_overseas_licences/driving_in_tasmania_on_an_interstate_or_overseas_licence)",
+                    "1＋（2／4／5 擇一）。5 須由具認證資格的翻譯員製作。[文件規定](https://www.transport.tas.gov.au/licensing/interstate_or_overseas_licences/driving_in_tasmania_on_an_interstate_or_overseas_licence)",
                     "訪客或臨時簽證持有人，符合條件可使用有效海外駕照。[官方規定](https://www.service.tas.gov.au/services/transport/driver-and-rider-licences/convert-an-overseas-driver-licence/)",
                     "預計 2027/2/1 開始。"
                   ],
                   [
                     "首都領地 ACT（坎培拉）",
-                    "1＋（2／3／4／5 擇一）；5 限官方列出的政府翻譯管道。[文件規定](https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/drivers-with-licences-from-overseas)",
+                    "1＋（2／3／4／5 擇一）。5 限官方列出的政府翻譯管道。[文件規定](https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/drivers-with-licences-from-overseas)",
                     "打工度假者列為訪客類型，符合條件可使用有效海外駕照。[官方規定](https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/drivers-with-licences-from-overseas)",
-                    "最新官方頁面已將台灣列為認可地區，可依資格免試；頁面未載明實施起日，申辦前向 Access Canberra 確認。"
+                    "最新官方頁面已將台灣列為認可地區，可依資格免試。頁面未載明實施起日，申辦前向 Access Canberra 確認。"
                   ]
                 ]
               },
               "introParagraphs": [
                 "如果還不確定是否要買車，或已打算買車，除了準備約 AUD 5,000–10,000 的二手車購車預算，也需要先確認各州對駕照的規範。",
-                "駕照文件依以下編號對照表格；1 為必備，括號內的文件依各州要求擇一搭配。"
+                "駕照文件依以下編號對照表格。1 為必備，括號內的文件依各州要求擇一搭配。"
               ],
               "orderedItems": [
                 "有效的台灣駕照正本。",
-                "NAATI 認證英文譯本：可從 [NAATI 官方名錄](https://directory.naati.com.au/)查找中翻英認證翻譯員，委託翻譯台灣駕照；不是向 NAATI 本身申請譯本。",
+                "NAATI 認證英文譯本：可從 [NAATI 官方名錄](https://directory.naati.com.au/)查找中翻英認證翻譯員，委託翻譯台灣駕照。不是向 NAATI 本身申請譯本。",
                 "駐澳館處認可英文譯本：向台灣駐澳辦事處詢問翻譯或譯本驗證程序，例如[駐墨爾本辦事處](https://www.boca.gov.tw/sp-foof-areacp-16-9b625-1.html)。",
                 "有效的國際駕照（IDP）：在台灣向監理所／站申請，須搭配台灣駕照正本使用。可查[公路局申領說明](https://www.thb.gov.tw/cp.aspx?n=96)。",
                 "其他當地認可英文譯本：部分州接受指定政府翻譯服務或當地授權翻譯員製作的文件，依該州官方規定確認。"
@@ -703,10 +651,10 @@
               "title": "海外醫療保險",
               "items": [
                 "出發前，需向保險公司確認海外醫療險的海外就醫保障與申請方式。",
-                "出發後若在海外就醫，記得向醫院取得兩項文件的正本：①診斷證明；②醫療費用明細及繳費收據，以利後續申請健保核退與商業保險理賠。"
+                "出發後若在海外就醫，記得向醫院取得兩項文件的正本：①診斷證明。②醫療費用明細及繳費收據，以利後續申請健保核退與商業保險理賠。"
               ],
               "introParagraphs": [
-                "在澳洲如果沒有 Medicare（澳洲公費醫療保障），工作受傷時可以確認當地的工傷保障；但是非工作造成的受傷或生病，則需台灣的保險，基本上有健保和個人商業保險，而我個人強烈建議要有個人商業保險，原因有：",
+                "在澳洲如果沒有 Medicare（澳洲公費醫療保障），工作受傷時可以確認當地的工傷保障。但是非工作造成的受傷或生病，則需台灣的保險，基本上有健保和個人商業保險，而我個人強烈建議要有個人商業保險，原因有：",
                 "第一，澳洲就醫費用不低，急診就可能花費數百澳幣。例如 [Bendigo Health 2024 年公開費用表](https://vetinari.bendigohealth.org.au/Assets/Files/Overseas%20Ineligible%20Patients%202024.pdf)曾列急診就診費 AUD 600，檢查、藥物及住院費用可能另計。",
                 "第二，台灣健保的海外醫療核退有其[規定](https://www.nhi.gov.tw/ch/cp-5938-d33aa-2740-1.html)和[上限](https://www.nhi.gov.tw/ch/cp-5183-4df08-2742-1.html)，未必能滿足當地先墊付的醫療費用。"
               ]
@@ -768,7 +716,7 @@
             {
               "title": "怎麼申辦",
               "introParagraphs": [
-                "大型機場通常設有電信櫃檯，抵達後可以直接詢問並申辦澳洲門號；現場可辦理的方案與 eSIM 服務依櫃檯提供為準。",
+                "大型機場通常設有電信櫃檯，抵達後可以直接詢問並申辦澳洲門號。現場可辦理的方案與 eSIM 服務依櫃檯提供為準。",
                 "申請時向櫃檯說明需要包含澳洲電話號碼、通話與簡訊功能的 eSIM，方便找工作、銀行與日常聯繫，避免選到只有上網功能的旅遊方案。可以這樣開口：「Hi, I'd like to get an eSIM with an Australian phone number, calls, texts and mobile data, please.」依櫃檯要求提供身分文件，完成開通後，現場確認通話、簡訊與上網都正常，再離開。",
                 "初期可先考慮 Prepaid（預付型）方案，確認有效天數、續費價格與是否自動扣款，別只看首次優惠。",
                 "澳洲大部分的手機方案都有網路流量限制，跟台灣很多人習慣用吃到飽不同，所以可以先確認自己過往每個月的網路用量，以及預計在澳洲會用多少。例如自己很喜歡追劇，就可能要考慮較大的流量。"
@@ -813,15 +761,11 @@
         },
         {
           "id": "bank-account",
-          "title": "銀行帳戶",
-          "details": [
-            "到銀行官方網站確認開戶方式、身分文件與適用條件。",
-            "留意帳戶費用、地址與聯絡資料的填寫要求。",
-            "將實際開戶流程與遇到的問題記在下方，避免把個別經驗當成通則。"
-          ],
+          "title": "銀行身分驗證與領卡",
+          "details": [],
           "source": {
-            "label": "澳洲政府資訊入口",
-            "url": "https://www.australia.gov.au/"
+            "label": "CommBank：Moving to Australia 行前開戶",
+            "url": "https://www.commbank.com.au/moving-to-australia.html"
           },
           "author": {
             "name": "Wilson",
@@ -829,7 +773,55 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "intro": "",
+          "sections": [
+            {
+              "title": "線上申請澳洲帳戶",
+              "introParagraphs": [
+                "澳洲四大銀行有 Commonwealth Bank（CommBank）、Westpac、ANZ 與 National Australia Bank（NAB），可以依自己的需求選擇。以下分享我使用 Commonwealth Bank of Australia（澳洲聯邦銀行，簡稱 CommBank）的經驗。"
+              ],
+              "items": [
+                "申請時間：CommBank 目前接受預計 14 天內抵澳者線上申請，可從[官方行前開戶頁面](https://www.commbank.com.au/moving-to-australia.html)開始。",
+                "操作教學：可參考[STUDY CENTRAL：CommBank 開戶教學](https://studycentralau.com/work-in-australia/commbank2022/)，申請條件與期限仍以 CommBank 官方頁面及開戶通知為準。",
+                "收到開戶通知：完成線上申請後，會收到 CommBank 開戶通知（Welcome Letter），內有帳戶資料與後續辦理說明，可參考下方圖片。請先存在手機裡，抵澳後到分行驗證身分時會用到。"
+              ],
+              "image": {
+                "src": "/examples/commbank-transfer-details.jpg",
+                "alt": "CommBank 開戶通知與收款資料範例，帳戶號碼等欄位已遮蔽",
+                "caption": "CommBank 開戶通知（Welcome Letter）範例"
+              },
+              "afterword": "取得帳戶資料後，可以先設定台幣跨國轉帳或辦理受款帳號約定。完成澳洲分行身分驗證後，再匯入款項。"
+            },
+            {
+              "title": "抵澳後到分行完成身分驗證",
+              "intro": "驗證期限：目前須在開戶後 20 天內到分行完成身分驗證，否則帳戶可能自動關閉。",
+              "blocks": [
+                {
+                  "title": "需攜帶的文件與資料",
+                  "orderedItems": [
+                    "有效護照正本：用於核對身分。",
+                    "稅籍編號（TIN）：提供各海外稅務居住國的稅籍編號。若為台灣稅務居民，且有台灣身分證，台灣的 TIN 就是「身分證字號」，不用另外申請。開戶時不需要先取得澳洲 TFN，收到後再補填即可。",
+                    "澳洲政府的簽證核准信：建議手機備好電子檔，依開戶通知要求提供。",
+                    "CommBank 開戶通知（Welcome Letter）：就是線上申請後收到的開戶通知。請攜帶或存在手機裡供行員查看。",
+                    "澳洲居住地址：你當時住處的英文地址，例如短租或 Hostel，不是銀行分行地址。"
+                  ],
+                  "afterword": "實際所需文件依開戶通知與分行要求準備。"
+                },
+                {
+                  "intro": "完成分行身分驗證後，向行員確認 Debit Card（簽帳金融卡）的領取方式，再開始匯入款項與使用帳戶。"
+                }
+              ]
+            },
+            {
+              "links": [
+                {
+                  "label": "出發前：澳洲開戶與台幣跨國匯款準備 ↗",
+                  "url": "#guide/before-departure/money-transfer"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "tfn",
@@ -901,16 +893,16 @@
               "title": "找住宿的管道",
               "items": [
                 "LINE 社群：在 LINE App 點選「社群」分頁，搜尋「澳洲打工」、「澳洲」或「城市名」，即可看到社群，找幾個人數較多的加入即可。",
-                "Facebook 社團：中文、英文租屋社團都可以找；搜尋城市名稱加上「租屋」「短租」，或「rooms for rent」「share house」。例如[墨爾本 台灣人 情報交流站](https://www.facebook.com/groups/361161347395449/)，我時常看到有人在裡面發布租屋或轉租資訊。",
+                "Facebook 社團：中文、英文租屋社團都可以找。搜尋城市名稱加上「租屋」「短租」，或「rooms for rent」「share house」。例如[墨爾本 台灣人 情報交流站](https://www.facebook.com/groups/361161347395449/)，我時常看到有人在裡面發布租屋或轉租資訊。",
                 "Threads：搜尋城市名稱加上「租屋」「短租」或「轉租」，留意近期的房源貼文。",
                 "小紅書：想找華人租屋資訊，也可以搜尋城市名稱加上「租房」「短租」或「轉租」。",
                 "[Flatmates](https://flatmates.com.au/)：想用英文找房，可以搜尋分租房間與室友，聯絡後安排看房。",
                 "Hostel：先訂短期床位，落地後一邊找工作、一邊透過 Flatmates 或社群找房，保留看房與熟悉城市的時間。",
-                "寵物照顧／看屋換宿（Pet / House Sitting）：可參考 Facebook 社團[Pet Sitters of Melbourne](https://www.facebook.com/groups/888071511763980/)，找照顧寵物或看屋換住宿的機會；先確認是否提供住宿、日期、費用與照顧責任。",
+                "寵物照顧／看屋換宿（Pet / House Sitting）：可參考 Facebook 社團[Pet Sitters of Melbourne](https://www.facebook.com/groups/888071511763980/)，找照顧寵物或看屋換住宿的機會。先確認是否提供住宿、日期、費用與照顧責任。",
                 "工作提供住宿：住宿可能與工作綁定，先確認費用、交通、入住及離職後的安排。",
                 "[realestate.com.au](https://www.realestate.com.au/rent/)、[Domain](https://www.domain.com.au/rent/)：確定地點、考慮整租或長住時，可用來查詢租屋物件。押金事項可參考[Bond 押金](#guide/settling-in/bond)。"
               ],
-              "afterword": "各平台也會有人在短暫離澳時出租自己的房間，日期合適的話，可以比較這類短期轉租，節省初期住宿費；先確認價格、入住期間與房況。"
+              "afterword": "各平台也會有人在短暫離澳時出租自己的房間，日期合適的話，可以比較這類短期轉租，節省初期住宿費。先確認價格、入住期間與房況。"
             }
           ],
           "references": [
@@ -1027,12 +1019,12 @@
               "title": "保存工時與薪資單",
               "items": [
                 "自行記錄上下班時間、休息時間與實際工時，保留合約、排班表、入帳紀錄及與雇主的對話。",
-                "雇主須在發薪後 1 個工作日內提供薪資單（Pay slip）。收到後核對工時、時薪及扣款；可參考[官方薪資單說明](https://www.fairwork.gov.au/workplace-problems/common-workplace-problems/im-not-getting-pay-slips)。"
+                "雇主須在發薪後 1 個工作日內提供薪資單（Pay slip）。收到後核對工時、時薪及扣款。可參考[官方薪資單說明](https://www.fairwork.gov.au/workplace-problems/common-workplace-problems/im-not-getting-pay-slips)。"
               ]
             },
             {
               "title": "遇到欠薪或工作條件問題",
-              "intro": "先整理實際工時、應領與實領金額，以及相關紀錄。若安全且合適，可先向雇主提出問題；未能解決或不確定如何處理時，可向 Fair Work 尋求協助。可參考[處理工作問題的官方步驟](https://www.fairwork.gov.au/workplace-problems/fixing-a-workplace-problem/resolving-your-problem-in-the-workplace)。"
+              "intro": "先整理實際工時、應領與實領金額，以及相關紀錄。若安全且合適，可先向雇主提出問題。未能解決或不確定如何處理時，可向 Fair Work 尋求協助。可參考[處理工作問題的官方步驟](https://www.fairwork.gov.au/workplace-problems/fixing-a-workplace-problem/resolving-your-problem-in-the-workplace)。"
             },
             {
               "title": "需要中文協助",
@@ -1144,7 +1136,7 @@
           "title": "退稅",
           "details": [
             "先整理薪資、收入及相關稅務文件。",
-            "到澳洲稅務局確認適用的報稅安排；是否有退稅須視個人情況。",
+            "到澳洲稅務局確認適用的報稅安排。是否有退稅須視個人情況。",
             "離境後仍要能接收相關通知，妥善保存必要紀錄。"
           ],
           "source": {
@@ -1211,7 +1203,7 @@
     "dateLine": "分享者與經驗年份：待填寫 · 資料查證日期：待補",
     "stepsTitle": "先從這幾件事開始",
     "sourcesTitle": "繼續查找資訊",
-    "sourceNote": "官方連結為查詢起點；簽證、稅務、租屋與工作規定，請依所在地及個人情況查閱官方最新資訊。個人經驗與來源資料將分別標示。",
+    "sourceNote": "官方連結為查詢起點。簽證、稅務、租屋與工作規定，請依所在地及個人情況查閱官方最新資訊。個人經驗與來源資料將分別標示。",
     "nextLabel": "下一篇"
   },
   "common": {

@@ -53,7 +53,7 @@ export default function ContactForm({ initialTopic = '網站建議' }) {
             投稿與回饋
           </h1>
           
-          <p>透過表單告訴我們。投稿會在確認內容與刊登同意後整理上架；一般回饋不會公開。</p>
+          <p>透過表單告訴我們。投稿會在確認內容與刊登同意後整理上架。一般回饋不會公開。</p>
 
         </aside>
         <div className="contact-form-pane">
@@ -154,7 +154,7 @@ export default function ContactForm({ initialTopic = '網站建議' }) {
                   placeholder={
                     isStory
                       ? '當時的情況、實際做法、遇到的問題，以及給其他人的建議……'
-                      : '請描述你的建議或問題；若是資訊更正，也請附上文章名稱或參考連結。'
+                      : '請描述你的建議或問題。若是資訊更正，也請附上文章名稱或參考連結。'
                   }
                   maxLength={5000}
                   aria-invalid={!!errors.message}

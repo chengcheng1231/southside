@@ -17,3 +17,6 @@ dist/
 /public/examples/visa-grant.png
 /public/examples/commbank-transfer-details.jpg
 /public/examples/cathay-remittance-calculation-redacted.png
+
+# Internal planning notes: local only, excluded from public repository
+/.local-notes/

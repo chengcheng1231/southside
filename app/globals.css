@@ -302,3 +302,6 @@ dialog.guide-image-lightbox{position:fixed;inset:0;box-sizing:border-box;width:1
 .guide-table-wide td:nth-child(2){width:30%}
 .guide-table-wide td:nth-child(3){width:30%}
 .guide-table-wide td:nth-child(4){width:22%}
+
+.guide-timeline.guide-timeline-unmarked>li{display:block}
+.guide-timeline.guide-timeline-unmarked>li::before{display:none}
