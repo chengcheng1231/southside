@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 import './contact-simple.css';
 const topics = ['經驗投稿', '資訊更正', '網站建議', '操作問題', '其他'];
-export default function ContactForm({ initialTopic = '網站建議' }) {
+export default function ContactForm({ initialTopic = '網站建議', emailOnly = false }) {
   const [sent, setSent] = useState(false);
   const {
     register,
@@ -53,11 +53,12 @@ export default function ContactForm({ initialTopic = '網站建議' }) {
             投稿與回饋
           </h1>
           
-          <p>透過表單告訴我們。投稿會在確認內容與刊登同意後整理上架。一般回饋不會公開。</p>
+          <p>{emailOnly?'歡迎透過 Email 投稿或提供回饋。':'透過表單告訴我們。'}投稿會在確認內容與刊登同意後整理上架。一般回饋不會公開。</p>
+          <p>歡迎分享二簽、三簽與集簽經驗。</p>
 
         </aside>
         <div className="contact-form-pane">
-          {sent ? (
+          {emailOnly ? (<div className="contact-success"><p className="eyebrow">CONTACT SOUTHSIDE</p><h2>投稿與回饋，歡迎來信。</h2><p>可以寫下想分享的主題、澳洲生活經驗，或網站需要補充與更正的資訊。</p><a className="contact-submit" href="mailto:yuchenghsu1231@gmail.com?subject=Southside%20%E6%8A%95%E7%A8%BF%E8%88%87%E5%9B%9E%E9%A5%8B">寄 Email ↗</a><p><a href="mailto:yuchenghsu1231@gmail.com">yuchenghsu1231@gmail.com</a></p></div>) : sent ? (
             <div className="contact-success" role="status">
               <p className="eyebrow">MESSAGE SENT</p>
               <h3>已收到你的訊息。</h3>

@@ -41,12 +41,9 @@ npm start
 
 不要使用 `NEXT_PUBLIC_` 儲存以上資訊。修改設定後重啟伺服器。只有寄信服務接受請求才顯示成功，不代表已進入收件匣。自動化測試使用模擬寄信，不會寄出真實郵件。
 
-## 寄送限制
+## 表單驗證
 
-- 本地開發：單一程序全站每分鐘最多 5 次寄送嘗試。
-- 正式環境：需設定 `UPSTASH_REDIS_REST_URL` 與 `UPSTASH_REDIS_REST_TOKEN`，以原子計數器提供跨程序全站每小時 30 次的限制。未設定或服務失敗時拒絕寄信。
-- Redis 僅儲存計數與到期時間，不儲存投稿內容。回饋會交給 Resend 及收件信箱處理。
-- 全站限制不是每人限制，達上限後會影響所有人。對外開放後可再依部署平台加入可信 IP 限流與 CAPTCHA。
+寄信只使用 Resend，不需要 Upstash 或 Redis。保留來源檢查、欄位與內容長度驗證，以及隱藏防機器人欄位。目前未設定應用程式層的寄送次數限制。
 
 ## 公開原始碼前
 
@@ -67,3 +64,13 @@ npm start
 `npm run dev` 會監看主題資料。`npm run build` 前也會同步。每個主題以固定 ID 與內容雜湊追蹤，實質內容（包含作者、來源或所屬階段介紹）改變時，自動記錄到 `content/journey-updates.json`，頁面以墨爾本時間顯示更新年月。單純排版 JSON 或修改其他主題不會更新該篇日期。這份追蹤檔需一起提交，請勿手動修改 hash。
 
 首次建立僅記錄基準，不冒充過去更新日期。文章下一次修改後才顯示時間。新增主題也是先建立基準。監看腳本剛加入時，請重啟 `npm run dev`。已下載文件不會自動變更。
+
+## 文章公開與 Vercel 部署
+
+- `content/journey.json` 的文章設定 `status: "published"` 才能開啟。`draft` 顯示「待補」，不會加入文章導航。階段的 `hidden: true` 會隱藏整個階段。
+- 經驗分享的 `sample: true` 為版型示例，不公開。
+- Vercel 使用 Next.js 預設值，Build Command 為 `npm run build`，不要設成 `npm run start`。
+- 正式環境尚未完整設定 Resend 的三項環境變數時，`/contact` 顯示 Email 聯絡入口。開發環境保留表單供測試。
+- 贊助網址尚未提供，網站暫不顯示贊助入口。
+
+部署會依 `vercel.json` 執行 `npm run build`，先更新可用範例圖片清單。被忽略的個人文件不會上傳，正式站不顯示缺少的圖片。GitHub 自動部署需另在 Vercel 專案 Settings → Git 連接 repository。

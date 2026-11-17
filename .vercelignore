@@ -1,0 +1,28 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+.DS_Store
+
+# Local legacy backups and hosting identity
+dist/
+.openai/
+*.tar.gz
+
+# Personal financial document: local preview only
+/public/examples/financial-statement.jpg
+/public/examples/referral-letter.png
+/public/examples/health-examination-notice.png
+/public/examples/visa-grant.png
+/public/examples/commbank-transfer-details.jpg
+/public/examples/cathay-remittance-calculation-redacted.png
+
+# Internal planning notes: local only, excluded from public repository
+/.local-notes/
+
+# Local Vercel project settings
+/.vercel/
+
+.git/
+AGENTS.md

@@ -221,7 +221,7 @@ dialog.guide-image-lightbox{position:fixed;inset:0;box-sizing:border-box;width:1
 .timeline-content .timeline-numbered-list{list-style:decimal;padding-left:24px;margin:8px 0 12px}
 .article-body .timeline-group-copy{font-size:14px;line-height:1.9;margin:8px 0}
 #article-dialog{border-radius:12px}
-.preparation-flow .stage-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.preparation-flow .stage-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 .common-topics .stage-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .common-topics .stage{min-height:160px}
 .common-topics .stage h3{margin-top:0}
@@ -305,3 +305,10 @@ dialog.guide-image-lightbox{position:fixed;inset:0;box-sizing:border-box;width:1
 
 .guide-timeline.guide-timeline-unmarked>li{display:block}
 .guide-timeline.guide-timeline-unmarked>li::before{display:none}
+
+.article-link-pending{color:var(--muted);cursor:default}
+.article-link-pending:hover{background:transparent;color:var(--muted)}
+.article-pending-label{font-size:12px;white-space:nowrap}
+.pending-inline-link{color:var(--muted)}
+.story-pending{cursor:default}
+.story-pending .story-image img{transform:none!important}

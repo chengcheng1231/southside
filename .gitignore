@@ -20,3 +20,7 @@ dist/
 
 # Internal planning notes: local only, excluded from public repository
 /.local-notes/
+
+# Local Vercel project settings
+/.vercel/
+.vercel

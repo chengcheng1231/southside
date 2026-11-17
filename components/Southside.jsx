@@ -38,7 +38,7 @@ export default function Southside({about}) {
             </div>
           <div className="notes-heading-actions">
             <Link className="button dark" href="/contact?topic=submission">投稿／分享經驗 ＋</Link>
-          <p className="demo-caption">部分文章為版型示例。投稿請填寫表單，確認內容與刊登同意後再上架。</p></div>
+          <p className="demo-caption">投稿請透過 Email 聯絡，確認內容與刊登同意後再上架。</p></div>
           </div>
           <div className="editorial-grid">
             <Link className="story story-feature" href={`/stories/${featuredStory.slug}`}>
@@ -59,21 +59,21 @@ export default function Southside({about}) {
               <span className="read-link">閱讀文章 ↗</span>
             </Link>
             <div className="story-side">
-              <Link className="story" href="/stories/rental-preparation">
+              <div className="story story-pending" aria-disabled="true">
                 <div className="story-image">
                   <img src="/home.jpg" alt="明亮住宅的日常角落" loading="lazy" />
-                  <span className="round-arrow">↗</span>
+
                 </div>
                 <div className="story-meta">
                   <span>找住宿</span>
-                  <span>租屋指南</span>
+                  <span>待補</span>
                 </div>
                 <h3>
                   找房與租屋：
                   <br />
                   需求、看房與合約
                 </h3>
-              </Link>
+              </div>
               <Link className="story story-text" href={`/stories/${medicalStory.slug}`}>
                 <div className="story-meta">
                   <span>{medicalStory.category}</span>

@@ -67,14 +67,16 @@ function GuideCollection({id,stages,title,eyebrow,subtitle,onArticle,common=fals
                 <p className="eyebrow">
                   {common?'常用主題':guideGroupLabel(stage)} — {stage.en}
                 </p>
-                <h3>{stage.title}</h3>
+                {common&&<h3>{stage.title}</h3>}
               </div>
               <button className="text-button" aria-label={journey.collapseAriaLabel} onClick={close}>
                 {journey.collapseLabel}
               </button>
             </div>
             <div className="panel-articles">
-              {stage.topics.map((topic) => (
+              {stage.topics.map((topic) => topic.status!=='published' ? (
+                <div key={topic.id} className="article-link article-link-pending" aria-disabled="true"><span>{topic.title}</span><span className="article-pending-label">待補</span></div>
+              ) : (
                 <a key={topic.id} className="article-link" href={guideArticleHash(`${stage.id}/${topic.id}`)} onClick={event => {if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();onArticle(`${stage.id}/${topic.id}`);}}>
                   <span>
                     {topic.title}

@@ -20,10 +20,11 @@ export default function ArticleDialog({articleId,onClose,onArticle,historyVersio
  const source=topic?.source;
  const next=nextGuideArticle(articleId);
  const preceding=previousGuideArticle(articleId);
- const showPrevious=articleId!=='before-departure/visa';
- const showNext=articleId!=='departure/close-services';
+
  const isOpen=!!article;
  const previous=history.at(-1);
+ const showPrevious=!!(previous||preceding);
+ const showNext=!!next;
  function navigateArticle(id){
   if(id===articleId||!findGuideArticle(id))return;
   setHistory(entries=>[...entries,{id:articleId,title,scrollTop:dialog.current?.scrollTop||0}]);

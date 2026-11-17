@@ -1,78 +1,78 @@
 {
   "before-departure/visa": {
-    "hash": "19463d4bef9b720053b530908831075a15112d562a6320da238d8d21430e19f6",
-    "updatedAt": "2026-11-15T12:15:31.681Z"
+    "hash": "734750bfa218475c2e5c2fa09f6857761c59ff99e1fb0ba7a31c4b56eb5d688e",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "before-departure/city-and-flights": {
-    "hash": "5c2e000835c6fd2652fc7de5d611e634c84937a6fc61460c3b7d75e0b4bada41",
-    "updatedAt": "2026-11-15T12:15:31.681Z"
+    "hash": "5b0f3d1364374ef1a021e97a48be4332cec6ed98fcf951f6764c4b38a3c28fc5",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "before-departure/money-transfer": {
-    "hash": "92082c60a3f7cf94889b7883ec86809b48c526ef9c1c6a49012b40af7dfcea08",
-    "updatedAt": "2026-11-15T12:32:45.954Z"
+    "hash": "a0bae98c27b9b3355c2b44153b50e037e9972e544af44aca60ca5acb0a0f511f",
+    "updatedAt": "2026-11-17T14:15:49.223Z"
   },
   "before-departure/taiwan-mobile": {
-    "hash": "c584a9965683ef63be8b66d29bf914f7d45b05010986348cdc2d3b7f4c6bac03",
-    "updatedAt": "2026-11-15T12:15:31.681Z"
+    "hash": "04e3be424d617d6f912f69517e4e62c9adf24c29fdcda9382bcf0c588b51dd4a",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "before-departure/driving-insurance-packing": {
-    "hash": "1fb0e60d9438aa3dd433d523f417abd6cf87317b7b208dd4fc7e0f689d9ec2b8",
-    "updatedAt": "2026-11-15T12:15:31.681Z"
+    "hash": "07fea39a115ce79e5e4aa30e8d02ec8eab65c0e7e41ad16d4d2710e6902cc4fb",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "arrival/sim": {
-    "hash": "352a93e19b8a04a5c0c5e6e2c65d5c3d64c41479d48cc298100520eff200f54e",
-    "updatedAt": "2026-11-15T12:15:31.681Z"
+    "hash": "6951e131b84be5664598d06b40bc484d375b73c2affed85e48261f799c46eed8",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "arrival/bank-account": {
-    "hash": "26e4f5ad0106254b5f9bcf9f58367be694fbb03c8813bd5efcb6262f7b531b98",
-    "updatedAt": "2026-11-15T12:34:22.382Z"
+    "hash": "78984ae29425c0a70c6bcc403d2af3becd6829bf5ca5a52d8986f41b65dfb521",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "arrival/tfn": {
-    "hash": "89f5bd951de1f724cc86093f99aa440eb0b500ffc5ffeb947b264b8da3183fae",
-    "updatedAt": "2026-11-15T13:05:24.288Z"
+    "hash": "4f35004411c46d0fe9a3c278b331a33e88058e181bf11aa3fc60f169f4451077",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
+  },
+  "arrival/super-account": {
+    "hash": "83cf2c5aea984cfda8474462fc9f15a093cccf0cc336aba3cd9439efe28ee41d",
+    "updatedAt": "2026-11-16T15:28:49.970Z"
   },
   "settling-in/renting": {
-    "hash": "9eab398feef338d14d4af28b3a3af78e8ca4a5fdaa7f7de0a488fbfab4bbba1c",
-    "updatedAt": "2026-11-15T12:15:31.681Z"
+    "hash": "8ac9abd620dfca9c010d663a2e5ae4f69b0d2fbbe26a9454279ef34ed1e92641",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "settling-in/bond": {
-    "hash": "34406e12cd12d856c5fd2029f2c2cf85e5e31ba569023410420df51a6ea8a44c",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "a341d61ad6b6e089ae6efc3f2b1e803da641678aaf193816732d9e89de4f6fae",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "work/job-search": {
-    "hash": "917af54907b38ba2c6b6425342af57cb2e53a8361da79210b4f44b73535ad885",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "7497ae5ec0c9c28fd2e5a3f2fa9ed1d1378c05933f7b1e0e6ba27d5f990c02cd",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "work/printing-resume": {
-    "hash": "5f0677611d6102069b22c0afe144b7d5eb8916731e03cda2a8958ab6d843c954",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "25bcf4ccfd0883b4d00aa32b30f791c688ef50681f547bf359fabca055449f48",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "work/work-rights": {
-    "hash": "ef3fd14b2da9330c608c6cbb0c265348f6c72a45a33260e7f713454ff4ccee9b",
-    "updatedAt": "2026-11-15T12:15:31.681Z"
+    "hash": "260b8a9a6f30585fb8531a142f8041fd6a0c107609f7baa2089d7a365db4817e",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "stay-longer/visa-extension": {
-    "hash": "c942f50407aca4b08c2b3be012cf4c0c9e63939e29827bf45f89e46898d6d616",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "be1acc3662d6f55a652002c9c58211ac7deb9975b7bd1f751fcfc85ae71e63d2",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "stay-longer/specified-work": {
-    "hash": "bedd965c0933d0260a6da7c1cc766065d689b841f0cfefc452eef7994fd1f519",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
-  },
-  "departure/moving-out": {
-    "hash": "75f1abbeaf888f85f35ffaf47e11d1f9bf3466ded7256dd93c63c8537498d0e4",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "d7a880a72fd233f3562aeed51da5edde7747449aa61c95ffc75868c2c8acd507",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "departure/tax-return": {
-    "hash": "ab51ab48f0d724e87601eea1f6f950443c9541c6ca5efc5006cf2af651e51d89",
-    "updatedAt": "2026-11-15T12:15:31.681Z"
+    "hash": "a5d4fe395101dafd92805c7dd827a866f7babbdd7e6280a20c7ea81cb37efe31",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "departure/superannuation": {
-    "hash": "f3c6283fc0378abdab41ae0b9f9719bac12047b49ffe93a36f1623097494769b",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "c340186ba530e8ef80d0afad62c3fb8f698a1a80a7c5d356659f76dff7f8c3e9",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "departure/close-services": {
-    "hash": "7a6f3f153823de9e03324546c70265e5f021fb2f4b804f8a7f38a48d47fc3e1c",
-    "updatedAt": "2026-11-01T06:21:18.104Z"
+    "hash": "c34616540a08e1dbea7fa3522e602b7da83c9f480cad272e0508867e29ced43c",
+    "updatedAt": "2026-11-16T15:09:24.478Z"
   }
 }

@@ -6,10 +6,12 @@
     "dev": "node scripts/dev.mjs",
     "build": "next build",
     "start": "next start --hostname 127.0.0.1 --port 8000",
-    "prebuild": "node scripts/sync-guide-updates.mjs"
+    "prebuild": "node scripts/sync-guide-assets.mjs && node scripts/sync-guide-updates.mjs",
+    "predev": "node scripts/sync-guide-assets.mjs"
   },
   "dependencies": {
-    "next": "^16.4.3",
+    "@vercel/analytics": "^2.0.1",
+    "next": "^16.4.6",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-hook-form": "^7.91.0"

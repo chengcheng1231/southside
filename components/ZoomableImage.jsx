@@ -1,9 +1,11 @@
 "use client";
 
 import {useRef} from 'react';
+import availableGuideAssets from '../content/guide-assets.json';
 
 export default function ZoomableImage({image,inlineLabel}) {
  const dialog = useRef(null);
+ if(image.src.startsWith('/examples/')&&!availableGuideAssets.includes(image.src))return null;
  const Wrapper=inlineLabel?'span':'figure';
  return <Wrapper className={inlineLabel?'guide-example-inline':`guide-example${image.wide?' guide-example-wide':''}`}>
   {!inlineLabel&&<figcaption>{image.caption}</figcaption>}

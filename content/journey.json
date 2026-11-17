@@ -191,7 +191,8 @@
                 "label": "收到 Visa Grant Notification（簽證核准通知）"
               }
             ]
-          }
+          },
+          "status": "published"
         },
         {
           "id": "city-and-flights",
@@ -251,7 +252,8 @@
               "label": "國泰航空：台北出發前往澳洲",
               "url": "https://flights.cathaypacific.com/destinations/en_TW/flights-from-taipei-to-australia"
             }
-          ]
+          ],
+          "status": "published"
         },
         {
           "id": "money-transfer",
@@ -325,7 +327,6 @@
             {
               "title": "設定台幣跨國轉帳",
               "items": [],
-              "intro": "有了澳洲帳戶資料，接著就可以考慮是否要先到台灣銀行臨櫃設定約定受款帳號。若預計匯款金額較大，建議出發前先辦好。若只是小額匯款，且金額在所選服務的非約定額度內，就不一定需要臨櫃。不論是否需要臨櫃約定，都要在出發前確認台灣銀行帳戶的跨國匯款功能已開通、App 能正常操作，並確認所需的驗證方式與交易額度。我個人使用過國泰一般外幣匯出、國泰的小額跨境匯款和台新易匯通。",
               "blocks": [
                 {
                   "title": "國泰｜一般外幣匯出",
@@ -377,6 +378,10 @@
                   ],
                   "intro": "我當時有親自到台新銀行臨櫃開通易匯通服務。"
                 }
+              ],
+              "introParagraphs": [
+                "有了澳洲帳戶資料，接著就可以考慮是否要先到台灣銀行臨櫃設定約定受款帳號。若預計匯款金額較大，建議出發前先辦好。若只是小額匯款，且金額在所選服務的非約定額度內，就不一定需要臨櫃。不論是否需要臨櫃約定，都要在出發前確認台灣銀行帳戶的跨國匯款功能已開通、App 能正常操作，並確認所需的驗證方式與交易額度。我個人使用過國泰一般外幣匯出、國泰的小額跨境匯款和台新易匯通。",
+                "也有人分享使用 Wise 或 Revolut 匯款回台灣。我沒有研究這兩種方式，加上自己比較熟悉台灣的銀行，所以這裡先分享我使用過的匯款方式。"
               ]
             }
           ],
@@ -400,7 +405,8 @@
           ],
           "introParagraphs": [
             "出發前可以先準備一些澳幣現金備用，並安排好澳洲開戶與台幣跨國匯款。生活初期還沒有澳洲工作收入時，就能從台灣帳戶匯款支應生活費，不必把生活費（現金）全部帶在身上。"
-          ]
+          ],
+          "status": "published"
         },
         {
           "id": "taiwan-mobile",
@@ -555,7 +561,8 @@
               "label": "遠傳：VoLTE、Wi-Fi 通話與 IP 簡訊",
               "url": "https://www.fetnet.net/content/cbu/tw/postpaid/volte.html"
             }
-          ]
+          ],
+          "status": "published"
         },
         {
           "id": "driving-insurance-packing",
@@ -685,7 +692,8 @@
               "label": "Safe Work Australia：移民工作者與工傷保障",
               "url": "https://www.safeworkaustralia.gov.au/safety-topic/industry-and-business/migrant-workers/overview"
             }
-          ]
+          ],
+          "status": "published"
         }
       ],
       "intro": "出發前的簽證、第一站與機票、轉帳及台灣電信事項。",
@@ -695,7 +703,7 @@
       "title": "抵澳後",
       "en": "FIRST DAYS",
       "symbol": "⌁",
-      "desc": "澳洲門號申辦、銀行帳戶、TFN 稅號",
+      "desc": "澳洲門號申辦、銀行驗證與領卡、TFN 稅號、退休金帳戶",
       "topics": [
         {
           "id": "sim",
@@ -757,7 +765,8 @@
               "label": "Telstra：預付方案流量比較",
               "url": "https://www.telstra.com.au/prepaid/mobile-plans/compare-plans"
             }
-          ]
+          ],
+          "status": "published"
         },
         {
           "id": "bank-account",
@@ -821,7 +830,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "status": "published"
         },
         {
           "id": "tfn",
@@ -870,10 +880,54 @@
               "label": "ATO：員工尚未取得 TFN 時的處理方式",
               "url": "https://smallbusiness.taxsuperandyou.gov.au/hiring-workers/tax-file-number-declaration-form"
             }
-          ]
+          ],
+          "status": "published"
+        },
+        {
+          "id": "super-account",
+          "title": "退休金帳戶 Super",
+          "details": [],
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          },
+          "intro": "開始在澳洲工作時，也要確認退休金（Superannuation，簡稱 Super）帳戶，讓雇主將退休金提撥到你的帳戶。我使用的是 Aware Super，以下以它為例。",
+          "source": {
+            "label": "澳洲政府：退休金帳戶的選擇",
+            "url": "https://moneysmart.gov.au/how-super-works/stapled-super-fund"
+          },
+          "sections": [
+            {
+              "title": "選擇退休金基金並開戶",
+              "intro": "可以依自己的需求選擇退休金基金，例如 [AustralianSuper](https://www.australiansuper.com/join)、[Australian Retirement Trust（ART）](https://www.australianretirementtrust.com.au/join/your-details)與 [Aware Super](https://aware.com.au/member/welcome/join-aware-super)，從官方網站線上申請。若沒有自行選擇，雇主會先查詢你是否已有退休金帳戶，沒有才使用雇主預設的基金。",
+              "items": [
+                "個人資料：準備姓名、出生日期、澳洲地址與聯絡方式。如需驗證身分，再依基金要求提供護照、駕照或其他證件。",
+                "TFN：建議取得後提供給退休金基金，避免額外扣稅。尚未取得時，先向基金確認申請方式。"
+              ]
+            },
+            {
+              "title": "到職時提供給雇主",
+              "intro": "到職時，依雇主要求提供你的退休金帳戶資料，讓雇主將退休金提撥到你的帳戶。",
+              "afterword": "之後換工作也可以沿用同一個退休金帳戶，不必每份工作都重新開戶。"
+            }
+          ],
+          "references": [
+            {
+              "label": "澳洲政府：退休金帳戶的選擇",
+              "url": "https://moneysmart.gov.au/how-super-works/stapled-super-fund"
+            },
+            {
+              "label": "Aware Super：管理退休金與換工作",
+              "url": "https://aware.com.au/member/super/manage-your-super"
+            }
+          ],
+          "status": "published"
         }
       ],
-      "intro": "抵達澳洲後的通訊、銀行帳戶與稅號辦理事項。",
+      "intro": "抵達澳洲後的通訊、銀行、稅號與工作前帳戶準備。",
       "id": "arrival"
     },
     {
@@ -951,7 +1005,8 @@
               "label": "澳洲政府／州及領地政府入口",
               "url": "https://www.australia.gov.au/"
             }
-          ]
+          ],
+          "status": "published"
         },
         {
           "id": "bond",
@@ -971,7 +1026,8 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "status": "draft"
         }
       ],
       "intro": "找房需求、看房、租屋合約與押金相關事項。",
@@ -1002,7 +1058,8 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "status": "draft"
         },
         {
           "id": "printing-resume",
@@ -1022,7 +1079,8 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "status": "draft"
         },
         {
           "id": "work-rights",
@@ -1077,7 +1135,8 @@
               "label": "Fair Work：處理工作問題",
               "url": "https://www.fairwork.gov.au/workplace-problems/fixing-a-workplace-problem/resolving-your-problem-in-the-workplace"
             }
-          ]
+          ],
+          "status": "published"
         }
       ],
       "intro": "履歷準備、求職方式與工作權益相關事項。",
@@ -1108,7 +1167,8 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "status": "draft"
         },
         {
           "id": "specified-work",
@@ -1128,38 +1188,20 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "status": "draft"
         }
       ],
       "intro": "延長留澳的簽證條件、指定工作與文件準備方向。",
-      "id": "stay-longer"
+      "id": "stay-longer",
+      "hidden": true
     },
     {
       "title": "離開",
       "en": "UNTIL NEXT TIME",
       "symbol": "↙",
-      "desc": "退租、退稅、退休金、關閉必要服務",
+      "desc": "退稅、退休金、關閉必要服務",
       "topics": [
-        {
-          "id": "moving-out",
-          "title": "退租",
-          "details": [
-            "依合約與所在地規定確認通知方式與期限。",
-            "整理房況、清潔、鑰匙交接及押金相關紀錄。",
-            "保留退租後可聯繫的方式，追蹤未完成事項。"
-          ],
-          "source": {
-            "label": "澳洲政府／州及領地政府入口",
-            "url": "https://www.australia.gov.au/"
-          },
-          "author": {
-            "name": "Wilson",
-            "email": "yuchenghsu1231@gmail.com",
-            "avatar": "/authors/wilson.jpg",
-            "avatarPosition": "65% 50%",
-            "avatarRotation": -90
-          }
-        },
         {
           "id": "tax-return",
           "title": "退稅",
@@ -1178,11 +1220,12 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "status": "draft"
         },
         {
           "id": "superannuation",
-          "title": "處理退休金",
+          "title": "離澳退休金領回",
           "details": [
             "整理退休金帳戶與可用的登入資料。",
             "由澳洲稅務局確認離澳退休金申請的適用資格、條件與流程。",
@@ -1198,7 +1241,8 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "status": "draft"
         },
         {
           "id": "close-services",
@@ -1218,10 +1262,11 @@
             "avatar": "/authors/wilson.jpg",
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
-          }
+          },
+          "status": "draft"
         }
       ],
-      "intro": "離澳前的退租、稅務、退休金與帳戶服務處理事項。",
+      "intro": "離澳前的稅務、退休金與帳戶服務處理事項。",
       "id": "departure"
     }
   ],
