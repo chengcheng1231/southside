@@ -312,3 +312,7 @@ dialog.guide-image-lightbox{position:fixed;inset:0;box-sizing:border-box;width:1
 .pending-inline-link{color:var(--muted)}
 .story-pending{cursor:default}
 .story-pending .story-image img{transform:none!important}
+
+.stage:disabled{cursor:default}
+.stage:disabled:hover{background:transparent}
+.stage-arrow.stage-pending-label{font-size:12px;color:var(--muted)}

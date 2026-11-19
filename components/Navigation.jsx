@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import {showExperiences} from '../lib/site-features';
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,7 +37,7 @@ export default function Navigation() {
             準備流程 <span>↗</span>
           </a>
           <a href="#housing-and-work">住宿與工作</a>
-          <a href="/#notes">經驗分享</a>
+          {showExperiences&&<a href="/#notes">經驗分享</a>}
           
           <a href="#about">關於這裡</a>
         </nav>
@@ -58,7 +59,7 @@ export default function Navigation() {
       >
         <a href="#journey">準備流程</a>
         <a href="#housing-and-work">住宿與工作</a>
-          <a href="/#notes">經驗分享</a>
+          {showExperiences&&<a href="/#notes">經驗分享</a>}
         
           <a href="#about">關於這裡</a>
       </nav>

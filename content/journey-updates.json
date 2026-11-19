@@ -36,24 +36,16 @@
     "updatedAt": "2026-11-16T15:28:49.970Z"
   },
   "settling-in/renting": {
-    "hash": "8ac9abd620dfca9c010d663a2e5ae4f69b0d2fbbe26a9454279ef34ed1e92641",
-    "updatedAt": "2026-11-16T15:09:24.478Z"
-  },
-  "settling-in/bond": {
-    "hash": "a341d61ad6b6e089ae6efc3f2b1e803da641678aaf193816732d9e89de4f6fae",
-    "updatedAt": "2026-11-16T15:09:24.478Z"
+    "hash": "61d667dad412785f6daa8c6664a863d4b76dc7a064787f44a1f18a6cc5edce1b",
+    "updatedAt": "2026-11-19T13:07:46.769Z"
   },
   "work/job-search": {
-    "hash": "7497ae5ec0c9c28fd2e5a3f2fa9ed1d1378c05933f7b1e0e6ba27d5f990c02cd",
-    "updatedAt": "2026-11-16T15:09:24.478Z"
-  },
-  "work/printing-resume": {
-    "hash": "25bcf4ccfd0883b4d00aa32b30f791c688ef50681f547bf359fabca055449f48",
-    "updatedAt": "2026-11-16T15:09:24.478Z"
+    "hash": "39d40ffe05fc64a391044ed331592794b79ddf69571eff8e60f14473a9ea81f4",
+    "updatedAt": "2026-11-19T14:07:13.330Z"
   },
   "work/work-rights": {
-    "hash": "260b8a9a6f30585fb8531a142f8041fd6a0c107609f7baa2089d7a365db4817e",
-    "updatedAt": "2026-11-16T15:09:24.478Z"
+    "hash": "2c753efdc0aede0c7c79bf3e2ba48c16e7fa11bae63a617ace6ddcf0c7d69396",
+    "updatedAt": "2026-11-19T16:03:45.363Z"
   },
   "stay-longer/visa-extension": {
     "hash": "be1acc3662d6f55a652002c9c58211ac7deb9975b7bd1f751fcfc85ae71e63d2",
@@ -72,7 +64,7 @@
     "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "departure/close-services": {
-    "hash": "c34616540a08e1dbea7fa3522e602b7da83c9f480cad272e0508867e29ced43c",
-    "updatedAt": "2026-11-16T15:09:24.478Z"
+    "hash": "ed3ca74c4b3a765f9e5e094edf6642856a757cef7dbbda10c816a69464edf5a1",
+    "updatedAt": "2026-11-19T13:06:24.958Z"
   }
 }

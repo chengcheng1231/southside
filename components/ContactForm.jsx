@@ -49,9 +49,13 @@ export default function ContactForm({ initialTopic = '網站建議', emailOnly =
       <div className="contact-layout">
         <aside className="contact-intro">
           <p className="eyebrow">SOUTHSIDE / COMMUNITY</p>
-          <h1 id="feedback-title">
-            投稿與回饋
-          </h1>
+          <div className="contact-heading-row">
+            <h1 id="feedback-title">投稿與回饋</h1>
+            <a className="contact-support-link" href="https://portaly.cc/southside-wilson/support" target="_blank" rel="noopener noreferrer" aria-label="請我喝杯咖啡（另開 Portaly 贊助頁）">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 8h12v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V8Zm12 1h2a3 3 0 1 1 0 6h-2M8 3v2m4-2v2M3 22h15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            <span>請我喝杯咖啡</span><span aria-hidden="true">↗</span>
+          </a>
+          </div>
           
           <p>{emailOnly?'歡迎透過 Email 投稿或提供回饋。':'透過表單告訴我們。'}投稿會在確認內容與刊登同意後整理上架。一般回饋不會公開。</p>
           <p>歡迎分享二簽、三簽與集簽經驗。</p>

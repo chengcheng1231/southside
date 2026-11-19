@@ -34,16 +34,30 @@ function GuideCollection({id,stages,title,eyebrow,subtitle,onArticle,common=fals
         </div>
       </div>
       <div className="stage-grid">
-        {stages.map((s, i) => (
+        {stages.map((s, i) => {
+          const published=s.topics.filter(topic=>topic.status==='published');
+          const directTopic=common&&published.length===1?published[0]:null;
+          const pending=common&&published.length===0;
+          return (
           <button
             key={s.id}
             ref={(el) => {
               buttons.current[i] = el;
             }}
+            type="button"
             className="stage"
-            aria-expanded={active === i}
-            aria-controls={`${id}-panel`}
-            onClick={() => setActive(i)}
+            disabled={pending}
+            aria-expanded={pending||directTopic?undefined:active === i}
+            aria-controls={pending?undefined:directTopic?'article-dialog':`${id}-panel`}
+            aria-haspopup={directTopic?'dialog':undefined}
+            onClick={() => {
+              if(directTopic){
+                setActive(null);
+                onArticle(`${s.id}/${directTopic.id}`);
+              }else{
+                setActive(i);
+              }
+            }}
           >
             {!common&&<div className="stage-top">
               <span className="stage-number">0{i + 1}</span>
@@ -53,11 +67,10 @@ function GuideCollection({id,stages,title,eyebrow,subtitle,onArticle,common=fals
               <small>{s.en}</small>
             </h3>
             <p>{s.desc}</p>
-            <span className="stage-arrow" aria-hidden="true">
-              ↗
-            </span>
+            {pending?<span className="stage-arrow stage-pending-label">Coming soon</span>:<span className="stage-arrow" aria-hidden="true">↗</span>}
           </button>
-        ))}
+          );
+        })}
       </div>
       <div className="guide-panel" id={`${id}-panel`} ref={panel} hidden={!stage}>
         {stage && (
@@ -75,7 +88,7 @@ function GuideCollection({id,stages,title,eyebrow,subtitle,onArticle,common=fals
             </div>
             <div className="panel-articles">
               {stage.topics.map((topic) => topic.status!=='published' ? (
-                <div key={topic.id} className="article-link article-link-pending" aria-disabled="true"><span>{topic.title}</span><span className="article-pending-label">待補</span></div>
+                <div key={topic.id} className="article-link article-link-pending" aria-disabled="true"><span>{topic.title}</span><span className="article-pending-label">Coming soon</span></div>
               ) : (
                 <a key={topic.id} className="article-link" href={guideArticleHash(`${stage.id}/${topic.id}`)} onClick={event => {if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();onArticle(`${stage.id}/${topic.id}`);}}>
                   <span>

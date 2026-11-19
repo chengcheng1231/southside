@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { stories } from '../../../lib/stories';
+import {showExperiences} from '../../../lib/site-features';
 import CommunityShell from '../../../components/CommunityShell';
 import StoryContent from '../../../components/StoryContent';
 export function generateStaticParams() {
@@ -16,8 +17,8 @@ export default async function Page({ params }) {
   if (!story) notFound();
   return (
     <CommunityShell>
-      <Link className="back-link" href="/#notes">
-        ← 經驗分享
+      <Link className="back-link" href={showExperiences?'/#notes':'/'}>
+        {showExperiences?'← 經驗分享':'← 返回首頁'}
       </Link>
       <StoryContent story={story} />
       <div className="article-actions">

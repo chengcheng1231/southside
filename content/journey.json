@@ -969,7 +969,7 @@
                 "銜接搬家日期：先核對現有住處的退租與新住處的入住日期，避免中間沒有地方住，或重疊負擔兩邊租金。",
                 "看房時確認費用包含項目、居住人數、設備與合約條件。",
                 "入住前拍照記錄房況，保存合約、付款與溝通紀錄。",
-                "押金安排：簽約前確認 Bond 金額與處理方式，可參考[Bond 押金](#guide/settling-in/bond)。"
+                "押金安排：簽約前確認所在地的 Bond 押金規定、金額與處理方式，保留付款及登記證明。"
               ]
             },
             {
@@ -983,7 +983,7 @@
                 "Hostel：先訂短期床位，落地後一邊找工作、一邊透過 Flatmates 或社群找房，保留看房與熟悉城市的時間。",
                 "寵物照顧／看屋換宿（Pet / House Sitting）：可參考 Facebook 社團[Pet Sitters of Melbourne](https://www.facebook.com/groups/888071511763980/)，找照顧寵物或看屋換住宿的機會。先確認是否提供住宿、日期、費用與照顧責任。",
                 "工作提供住宿：住宿可能與工作綁定，先確認費用、交通、入住及離職後的安排。",
-                "[realestate.com.au](https://www.realestate.com.au/rent/)、[Domain](https://www.domain.com.au/rent/)：確定地點、考慮整租或長住時，可用來查詢租屋物件。押金事項可參考[Bond 押金](#guide/settling-in/bond)。"
+                "[realestate.com.au](https://www.realestate.com.au/rent/)、[Domain](https://www.domain.com.au/rent/)：確定地點、考慮整租或長住時，可用來查詢租屋物件。"
               ],
               "afterword": "各平台也會有人在短暫離澳時出租自己的房間，日期合適的話，可以比較這類短期轉租，節省初期住宿費。先確認價格、入住期間與房況。"
             }
@@ -1006,28 +1006,8 @@
               "url": "https://www.australia.gov.au/"
             }
           ],
-          "status": "published"
-        },
-        {
-          "id": "bond",
-          "title": "Bond 押金",
-          "details": [
-            "先確認所在地州或領地的租屋規定與押金主管機關。",
-            "了解合約中的押金安排，保留付款及登記相關證明。",
-            "入住與退租的房況紀錄，都整理在容易找到的位置。"
-          ],
-          "source": {
-            "label": "澳洲政府／州及領地政府入口",
-            "url": "https://www.australia.gov.au/"
-          },
-          "author": {
-            "name": "Wilson",
-            "email": "yuchenghsu1231@gmail.com",
-            "avatar": "/authors/wilson.jpg",
-            "avatarPosition": "65% 50%",
-            "avatarRotation": -90
-          },
-          "status": "draft"
+          "status": "published",
+          "hideCategory": true
         }
       ],
       "intro": "找房需求、看房、租屋合約與押金相關事項。",
@@ -1035,10 +1015,10 @@
       "kind": "topic"
     },
     {
-      "title": "找工作",
+      "title": "找工作 & 工作權益",
       "en": "FIND WORK",
       "symbol": "✳",
-      "desc": "找工作、印履歷、工作權益",
+      "desc": "履歷準備、找工作、工作權益",
       "topics": [
         {
           "id": "job-search",
@@ -1046,6 +1026,7 @@
           "details": [
             "整理能工作的時間、地點、過往經驗與希望嘗試的職位。",
             "依職位調整履歷，記錄投遞管道與後續聯絡。",
+            "紙本履歷：準備 PDF 並確認聯絡資料與版面，依投遞方式決定是否列印，先少量印出檢查效果。",
             "在接受工作前，確認職務內容、薪資安排與雇用條件。"
           ],
           "source": {
@@ -1059,32 +1040,12 @@
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
           },
-          "status": "draft"
-        },
-        {
-          "id": "printing-resume",
-          "title": "印履歷",
-          "details": [
-            "準備可閱讀的 PDF，先檢查聯絡資料與版面。",
-            "依投遞方式決定是否需要紙本，先少量列印檢查效果。",
-            "此處可補充列印地點、價格與投遞經驗。"
-          ],
-          "source": {
-            "label": "澳洲政府資訊入口",
-            "url": "https://www.australia.gov.au/"
-          },
-          "author": {
-            "name": "Wilson",
-            "email": "yuchenghsu1231@gmail.com",
-            "avatar": "/authors/wilson.jpg",
-            "avatarPosition": "65% 50%",
-            "avatarRotation": -90
-          },
-          "status": "draft"
+          "status": "draft",
+          "intro": "==我認為最有效率的方式是，先知道對方有在徵人，再直接到現場詢問。=="
         },
         {
           "id": "work-rights",
-          "title": "Fair Work｜工作權益",
+          "title": "找工作 & 工作權益",
           "source": {
             "label": "Fair Work Ombudsman",
             "url": "https://www.fairwork.gov.au/"
@@ -1136,7 +1097,8 @@
               "url": "https://www.fairwork.gov.au/workplace-problems/fixing-a-workplace-problem/resolving-your-problem-in-the-workplace"
             }
           ],
-          "status": "published"
+          "status": "draft",
+          "hideCategory": true
         }
       ],
       "intro": "履歷準備、求職方式與工作權益相關事項。",
@@ -1249,12 +1211,15 @@
           "title": "關閉必要服務",
           "details": [
             "列出銀行、手機、網路、保險與各項訂閱及自動扣款。",
-            "先確認退款、稅務或其他款項的接收安排，再決定何時關閉帳戶。",
+            "銀行帳戶：確認離澳後是否仍符合免收帳戶管理費的條件。若已收到最後薪資、退款，並處理好退稅與退休金的收款安排，不再需要帳戶時，記得向銀行申請關戶。",
+            "帳戶管理費（Monthly account fee）：以 CommBank Everyday Smart Access 為例，目前每月 AUD 4，未滿 30 歲、每月存入至少 AUD 2,000，或符合其他條件可免收。每月存入 AUD 2,000，不是帳戶裡一直放著 AUD 2,000。離澳後沒有薪資入帳，可能不再符合免收條件，詳見[官方費用說明](https://www.commbank.com.au/banking/everyday-account-smart-access/rates-fees.html)。",
+            "澳洲電信門號：離澳前確認是否要保留或取消門號，以及是否已關閉自動儲值或續費。若銀行、myGov 等服務仍綁定這個號碼，先確認後續驗證方式，再向電信業者辦理取消，並確認合約、最後費用與停用日期。",
+            "水電、瓦斯與網路：如果租屋時是自己申辦，搬離前記得聯絡業者結束自己的帳戶或合約，確認服務結束日期、最後帳單與設備歸還方式。建議人在澳洲時先辦好，避免離境後還要打國際電話處理。以我的經驗，當時使用的 Origin 就需要打電話才能取消。",
             "向各服務商確認取消程序，保留結清或取消證明。"
           ],
           "source": {
-            "label": "澳洲政府資訊入口",
-            "url": "https://www.australia.gov.au/"
+            "label": "CommBank：帳戶管理費與免收條件",
+            "url": "https://www.commbank.com.au/banking/everyday-account-smart-access/rates-fees.html"
           },
           "author": {
             "name": "Wilson",

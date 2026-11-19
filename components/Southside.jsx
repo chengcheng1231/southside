@@ -8,6 +8,7 @@ import Feedback from './Feedback';
 import Journey from './Journey';
 import ArticleDialog from './ArticleDialog';
 import {stories} from '../lib/stories';
+import {showExperiences} from '../lib/site-features';
 const medicalStory=stories.find(story=>story.slug==='australia-emergency-medical-reimbursement');
 const featuredStory=stories.find(story=>!story.sample)||stories[0];
 export default function Southside({about}) {
@@ -30,7 +31,7 @@ export default function Southside({about}) {
           </div>
         </section>
         <Journey onArticle={openArticle} />
-        <section id="notes" className="notes section-wrap" aria-labelledby="notes-title">
+        {showExperiences&&<section id="notes" className="notes section-wrap" aria-labelledby="notes-title">
           <div className="section-heading">
             <div>
               <p className="eyebrow">03 — EXPERIENCES</p>
@@ -66,7 +67,7 @@ export default function Southside({about}) {
                 </div>
                 <div className="story-meta">
                   <span>找住宿</span>
-                  <span>待補</span>
+                  <span>Coming soon</span>
                 </div>
                 <h3>
                   找房與租屋：
@@ -87,6 +88,7 @@ export default function Southside({about}) {
           </div>
 
         </section>
+        }
         {/* 常見問題暫時隱藏，內容保留於 content/faq.json。 */}
 
       </main>
