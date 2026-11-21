@@ -566,7 +566,7 @@
         },
         {
           "id": "driving-insurance-packing",
-          "title": "其他行前準備：駕照與醫療保險",
+          "title": "駕照與交通準備（如需）",
           "intro": "",
           "author": {
             "name": "Wilson",
@@ -653,7 +653,45 @@
                 "有效的國際駕照（IDP）：在台灣向監理所／站申請，須搭配台灣駕照正本使用。可查[公路局申領說明](https://www.thb.gov.tw/cp.aspx?n=96)。",
                 "其他當地認可英文譯本：部分州接受指定政府翻譯服務或當地授權翻譯員製作的文件，依該州官方規定確認。"
               ]
+            }
+          ],
+          "references": [
+            {
+              "label": "公路局：申領國際駕照",
+              "url": "https://www.thb.gov.tw/cp.aspx?n=96"
             },
+            {
+              "label": "Austroads：各州海外駕照使用規定",
+              "url": "https://austroads.gov.au/drivers-and-vehicles/overseas-drivers"
+            },
+            {
+              "label": "Austroads：台灣駕照認可與各州實施時程",
+              "url": "https://austroads.gov.au/drivers-and-vehicles/overseas-drivers/applying-for-a-licence"
+            },
+            {
+              "label": "Access Canberra：海外駕照與認可地區",
+              "url": "https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/drivers-with-licences-from-overseas"
+            }
+          ],
+          "status": "published"
+        },
+        {
+          "id": "medical-insurance",
+          "title": "海外醫療保險",
+          "intro": "",
+          "author": {
+            "name": "Wilson",
+            "email": "yuchenghsu1231@gmail.com",
+            "avatar": "/authors/wilson.jpg",
+            "avatarPosition": "65% 50%",
+            "avatarRotation": -90
+          },
+          "details": [],
+          "source": {
+            "label": "澳洲政府：訪客醫療保險",
+            "url": "https://www.privatehealth.gov.au/health_insurance/overseas/overseas_visitors_health_cover.htm"
+          },
+          "sections": [
             {
               "title": "海外醫療保險",
               "items": [
@@ -669,24 +707,8 @@
           ],
           "references": [
             {
-              "label": "公路局：申領國際駕照",
-              "url": "https://www.thb.gov.tw/cp.aspx?n=96"
-            },
-            {
-              "label": "Austroads：各州海外駕照使用規定",
-              "url": "https://austroads.gov.au/drivers-and-vehicles/overseas-drivers"
-            },
-            {
               "label": "澳洲政府：訪客醫療保險",
               "url": "https://www.privatehealth.gov.au/health_insurance/overseas/overseas_visitors_health_cover.htm"
-            },
-            {
-              "label": "Austroads：台灣駕照認可與各州實施時程",
-              "url": "https://austroads.gov.au/drivers-and-vehicles/overseas-drivers/applying-for-a-licence"
-            },
-            {
-              "label": "Access Canberra：海外駕照與認可地區",
-              "url": "https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/drivers-with-licences-from-overseas"
             },
             {
               "label": "Safe Work Australia：移民工作者與工傷保障",
@@ -941,8 +963,8 @@
           "title": "找住宿：短期落腳、長住與找房管道",
           "details": [],
           "source": {
-            "label": "澳洲政府／州及領地政府入口",
-            "url": "https://www.australia.gov.au/"
+            "label": "Consumer Affairs Victoria：租屋資訊（維州）",
+            "url": "https://www.consumer.vic.gov.au/housing/renting"
           },
           "author": {
             "name": "Wilson",
@@ -951,41 +973,63 @@
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
           },
-          "intro": "剛到澳洲先找落腳處，或之後換工作、搬城市需要換住宿，都可以依目前情況查找。",
+          "intro": "在澳洲住哪裡，通常會依工作、集簽地點或想去的城市而不同，可以根據目前的安排，選擇短期或長期住宿。除了住 hostel，也可以透過社群、租屋平台或工作附住宿等方式找房。秉持有問有機會的信念，絕對可以找到合適的住宿。",
           "sections": [
-            {
-              "title": "剛到澳洲，先找落腳處",
-              "items": [
-                "先安排短期落腳處：工作或長住地點還沒確定時，可以先訂短租或 Hostel，保留後續調整的彈性。",
-                "訂房前確認：價格、可住期間、取消條件、入住時間與行李寄放方式。",
-                "抵達安排：確認從機場前往住宿的路線，以及晚班機抵達時能否入住。",
-                "工作附住宿或朋友暫住：先確認可入住日期、費用與能住多久。"
-              ]
-            },
-            {
-              "title": "準備住久一點，或之後換住宿",
-              "items": [
-                "依目前需求找房：確認工作或學校地點、通勤範圍、租金預算、房型與預計租期，再選分租或整租。",
-                "銜接搬家日期：先核對現有住處的退租與新住處的入住日期，避免中間沒有地方住，或重疊負擔兩邊租金。",
-                "看房時確認費用包含項目、居住人數、設備與合約條件。",
-                "入住前拍照記錄房況，保存合約、付款與溝通紀錄。",
-                "押金安排：簽約前確認所在地的 Bond 押金規定、金額與處理方式，保留付款及登記證明。"
-              ]
-            },
             {
               "title": "找住宿的管道",
               "items": [
-                "LINE 社群：在 LINE App 點選「社群」分頁，搜尋「澳洲打工」、「澳洲」或「城市名」，即可看到社群，找幾個人數較多的加入即可。",
-                "Facebook 社團：中文、英文租屋社團都可以找。搜尋城市名稱加上「租屋」「短租」，或「rooms for rent」「share house」。例如[墨爾本 台灣人 情報交流站](https://www.facebook.com/groups/361161347395449/)，我時常看到有人在裡面發布租屋或轉租資訊。",
-                "Threads：搜尋城市名稱加上「租屋」「短租」或「轉租」，留意近期的房源貼文。",
-                "小紅書：想找華人租屋資訊，也可以搜尋城市名稱加上「租房」「短租」或「轉租」。",
-                "[Flatmates](https://flatmates.com.au/)：想用英文找房，可以搜尋分租房間與室友，聯絡後安排看房。",
-                "Hostel：先訂短期床位，落地後一邊找工作、一邊透過 Flatmates 或社群找房，保留看房與熟悉城市的時間。",
-                "寵物照顧／看屋換宿（Pet / House Sitting）：可參考 Facebook 社團[Pet Sitters of Melbourne](https://www.facebook.com/groups/888071511763980/)，找照顧寵物或看屋換住宿的機會。先確認是否提供住宿、日期、費用與照顧責任。",
-                "工作提供住宿：住宿可能與工作綁定，先確認費用、交通、入住及離職後的安排。",
-                "[realestate.com.au](https://www.realestate.com.au/rent/)、[Domain](https://www.domain.com.au/rent/)：確定地點、考慮整租或長住時，可用來查詢租屋物件。"
+                "LINE 社群：在 LINE App 點選「社群」分頁，搜尋「澳洲打工」、「澳洲」或「城市名」，找幾個人數較多的加入即可。",
+                "Facebook 社團：搜尋「台灣人」+「城市」。例如[墨爾本 台灣人 情報交流站](https://www.facebook.com/groups/361161347395449/)，也有很多人發布租屋或轉租資訊。",
+                "Threads：搜尋城市名稱加上「租屋」「短租」或「轉租」。",
+                "小紅書：如果不排斥的話，可以搜尋城市名稱加上「租房」「短租」或「轉租」，但要小心詐騙。",
+                "[Flatmates](https://flatmates.com.au/)：會比較多 local 的房東或二房東，通常要約時間到現場做 inpsection。",
+                "寵物照顧／看屋換宿（Pet / House Sitting）：可參考 Facebook 社團[Pet Sitters of Melbourne](https://www.facebook.com/groups/888071511763980/)，找照顧寵物或看屋換住宿的機會，但要和飼主確認你什麼時候需要外出，我認為這個方式滿適合情侶的。",
+                "工作提供住宿：工作的地方可能就有提供住宿或是可以問說他們都住哪裡。",
+                "[realestate.com.au](https://www.realestate.com.au/rent/)、[Domain](https://www.domain.com.au/rent/)：比較適合長租，我個人有用過這個方式找到長租。",
+                "一直跟你遇到的人說你想找宿住：前期我在找長期住宿時，我曾到一家餐廳和老闆聊天，他問我來這裡做什麼，我說我最近在找長期住宿，他就說他那邊有一個房間要出租，後來這個餐廳老闆就成了我的房東和室友，價格還很合理。"
+              ]
+            },
+            {
+              "title": "短租也要有書面約定",
+              "intro": "無論住幾週或幾個月，都建議有書面約定，雙方簽名後各留一份。",
+              "items": [
+                "約定內容：雙方姓名、聯絡方式、地址與房間、租期、租金及包含的費用。若有押金，寫清楚退還時間、扣款條件，以及取消或提前搬走怎麼處理。",
+                "付款證明：轉帳保留紀錄，請對方用訊息確認收款。付現則請對方寫下日期、金額、用途、地址與雙方姓名，簽名後各留一份。",
+                "向原租客租房：以維州為例，先確認對方有房東的書面轉租同意，可查[維州分租規定](https://www.consumer.vic.gov.au/housing/renting/starting-and-changing-rental-agreements/different-rental-agreements/subletting)。"
               ],
-              "afterword": "各平台也會有人在短暫離澳時出租自己的房間，日期合適的話，可以比較這類短期轉租，節省初期住宿費。先確認價格、入住期間與房況。"
+              "afterword": "一般住宅租賃可參考[維州官方租約範本](https://www.consumer.vic.gov.au/housing/renting/starting-and-changing-rental-agreements/different-rental-agreements/residential-rental-agreements)。"
+            },
+            {
+              "title": "Bond 押金流程（以維州為例）",
+              "intro": "維州一般住宅租約收取的 Bond，須交由政府的 RTBA 保管，短租分租也可能適用。其他州請查當地規定。",
+              "orderedItems": [
+                "確認登記：房東或仲介發起後，依 RTBA Email 核對姓名、地址與金額。",
+                "付款與存收據：依登記安排付款，完成後保存 RTBA 的 BOND RECEIPT 與 Bond Number。只有轉帳或收款證明，不代表已完成登記。",
+                "退租退款：透過 RTBA 申請退還，確認金額與收款帳戶。有扣款爭議時，可向 RDRV（維州租屋爭議調解服務）尋求協助。"
+              ],
+              "image": {
+                "src": "/examples/bond-receipt-redacted.png",
+                "caption": "RTBA 押金收據（BOND RECEIPT）範例",
+                "alt": "已遮蔽押金編號、日期、金額、地址、出租人及租客姓名的 RTBA 押金收據"
+              },
+              "links": [
+                {
+                  "label": "維州 Bond 登記流程 ↗",
+                  "url": "https://www.consumer.vic.gov.au/housing/renting/rent-bond-bills-and-condition-reports/bond/lodging-the-bond-with-the-rtba"
+                },
+                {
+                  "label": "維州 Bond 退還流程 ↗",
+                  "url": "https://www.consumer.vic.gov.au/housing/renting/rent-bond-bills-and-condition-reports/bond/bond-claims-and-refunds"
+                }
+              ]
+            },
+            {
+              "title": "入住與退租",
+              "items": [
+                "付款前：先看房並確認出租權限，別只憑照片就匯款。可查[租屋詐騙提醒](https://www.consumer.vic.gov.au/consumers-and-businesses/scams/consumer-scams/rental-scam)。",
+                "入住時：拍照記錄房況，核對[Condition report（房況報告）](https://www.consumer.vic.gov.au/housing/renting/rent-bond-bills-and-condition-reports/condition-reports)，保存合約與付款紀錄。",
+                "搬走前：依規定通知退租，處理清潔、交鑰匙與押金退款。自己申請的水電、瓦斯與網路也記得停用。"
+              ]
             }
           ],
           "references": [
@@ -1002,8 +1046,16 @@
               "url": "https://www.domain.com.au/rent/"
             },
             {
-              "label": "澳洲政府／州及領地政府入口",
-              "url": "https://www.australia.gov.au/"
+              "label": "Consumer Affairs Victoria：租屋資訊（維州）",
+              "url": "https://www.consumer.vic.gov.au/housing/renting"
+            },
+            {
+              "label": "維州 Bond 登記流程 ↗",
+              "url": "https://www.consumer.vic.gov.au/housing/renting/rent-bond-bills-and-condition-reports/bond/lodging-the-bond-with-the-rtba"
+            },
+            {
+              "label": "維州 Bond 退還流程 ↗",
+              "url": "https://www.consumer.vic.gov.au/housing/renting/rent-bond-bills-and-condition-reports/bond/bond-claims-and-refunds"
             }
           ],
           "status": "published",
@@ -1023,15 +1075,10 @@
         {
           "id": "job-search",
           "title": "找工作",
-          "details": [
-            "整理能工作的時間、地點、過往經驗與希望嘗試的職位。",
-            "依職位調整履歷，記錄投遞管道與後續聯絡。",
-            "紙本履歷：準備 PDF 並確認聯絡資料與版面，依投遞方式決定是否列印，先少量印出檢查效果。",
-            "在接受工作前，確認職務內容、薪資安排與雇用條件。"
-          ],
+          "details": [],
           "source": {
-            "label": "澳洲政府資訊入口",
-            "url": "https://www.australia.gov.au/"
+            "label": "Workforce Australia：找工作",
+            "url": "https://www.workforceaustralia.gov.au/individuals/jobs/"
           },
           "author": {
             "name": "Wilson",
@@ -1040,8 +1087,53 @@
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
           },
-          "status": "draft",
-          "intro": "==我認為最有效率的方式是，先知道對方有在徵人，再直接到現場詢問。=="
+          "status": "published",
+          "intro": "==我認為最有效率的方式是，先知道對方有在徵人，再直接到現場詢問。==",
+          "sections": [
+            {
+              "title": "先找有在徵人的地方",
+              "intro": "找工作不只限於剛落地，換城市或想換工作時，也可以用這些管道。",
+              "items": [
+                "[SEEK](https://www.seek.com.au/)、[Indeed](https://au.indeed.com/)與[Workforce Australia](https://www.workforceaustralia.gov.au/individuals/jobs/)：用職位加上城市或區域搜尋，例如 kitchen hand（廚房助手）、warehouse（倉庫）、cleaner（清潔），再看自己的經驗與交通是否合適。",
+                "Facebook、LINE 與 Threads：搜尋城市名稱加上「徵人」「工作」或「jobs」。看到職缺後，先問工作地點、內容、時薪與上班時間，再決定是否前往。",
+                "店家官網與現場公告：留意 Careers、Jobs 或 Hiring 頁面，以及門口的徵人公告。餐廳、咖啡店等可接待詢問的地方，可以避開忙碌時段帶履歷去問，若對方指定線上申請，就依要求投遞。",
+                "朋友、室友或同事介紹：可以問對方的工作場所是否缺人，以及實際的工作內容與上班方式。",
+                "人力仲介（Recruitment agency／Labour hire）：查詢當地仲介的職缺並登記，確認實際雇主、工作地點與發薪對象。工廠或倉庫未必接受直接進場詢問，先依招募方式聯絡。"
+              ]
+            },
+            {
+              "title": "履歷與現場詢問",
+              "items": [
+                "準備英文履歷：把澳洲電話、Email、相關經驗、可開始工作的日期與可上班時段寫清楚，依職缺調整內容。",
+                "履歷留一份 PDF 在手機裡。需要紙本投遞時再印，先少量印出檢查，不用一開始印一大疊。",
+                "到現場可以先問：「Hi, are you hiring at the moment? Can I leave my resume with you?」簡單說明想找的職位與可上班時間。",
+                "記下投過哪些地方、聯絡人與回覆。對方有約面試或試工時，確認日期、地址、需要帶什麼，以及試工是否支薪。"
+              ]
+            },
+            {
+              "title": "答應工作前，先問清楚",
+              "items": [
+                "工作內容與地點：實際做什麼、上班時間、交通，以及是否需要證照或自備裝備。",
+                "薪資與雇用方式：時薪、發薪週期，是 Casual、Part-time 還是 Full-time，住宿或交通是否另外扣費。",
+                "到職資料：依雇主要求提供工作權限、收薪銀行帳戶、TFN 與退休金帳戶資料。尚未收到 TFN 時，先告知雇主已申請。"
+              ],
+              "afterword": "薪資、試工與欠薪問題，可接著看[工作權益](#guide/work/work-rights)。"
+            }
+          ],
+          "references": [
+            {
+              "label": "SEEK",
+              "url": "https://www.seek.com.au/"
+            },
+            {
+              "label": "Indeed Australia",
+              "url": "https://au.indeed.com/"
+            },
+            {
+              "label": "Workforce Australia：找工作",
+              "url": "https://www.workforceaustralia.gov.au/individuals/jobs/"
+            }
+          ]
         },
         {
           "id": "work-rights",
@@ -1062,6 +1154,10 @@
             {
               "title": "確認自己的薪資",
               "intro": "薪資會依工作內容、雇用類型、適用的 Award（行業薪資與工作條件規範）或企業協議而不同。可使用[Fair Work 薪資試算工具](https://calculate.fairwork.gov.au/)查詢，並確認週末、國定假日及加班是否適用不同費率。"
+            },
+            {
+              "title": "試工不一定可以不給薪",
+              "intro": "短暫、有人直接監督，且只為了展示職位所需技能的試工，才可能不支薪。若已經在正常工作，或超過合理展示技能所需的時間，可能就需要給薪。試工前先問清楚內容、時間與薪資，可查[Fair Work 試工說明](https://www.fairwork.gov.au/starting-employment/unpaid-work/unpaid-trials)。"
             },
             {
               "title": "保存工時與薪資單",
@@ -1095,9 +1191,13 @@
             {
               "label": "Fair Work：處理工作問題",
               "url": "https://www.fairwork.gov.au/workplace-problems/fixing-a-workplace-problem/resolving-your-problem-in-the-workplace"
+            },
+            {
+              "label": "Fair Work：試工與薪資",
+              "url": "https://www.fairwork.gov.au/starting-employment/unpaid-work/unpaid-trials"
             }
           ],
-          "status": "draft",
+          "status": "published",
           "hideCategory": true
         }
       ],

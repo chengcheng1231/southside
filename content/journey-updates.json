@@ -16,8 +16,12 @@
     "updatedAt": "2026-11-16T15:09:24.478Z"
   },
   "before-departure/driving-insurance-packing": {
-    "hash": "07fea39a115ce79e5e4aa30e8d02ec8eab65c0e7e41ad16d4d2710e6902cc4fb",
-    "updatedAt": "2026-11-16T15:09:24.478Z"
+    "hash": "9e8686b40f1807be1619d8e5e8d59b5760e0174a4194157da6eeedfff7f6aa78",
+    "updatedAt": "2026-11-21T07:21:38.015Z"
+  },
+  "before-departure/medical-insurance": {
+    "hash": "466ae4fdeefb7bef8f716f2859b2099d6d2a38c5c86a6a5f0f31121a94110e2b",
+    "updatedAt": "2026-11-21T07:21:38.015Z"
   },
   "arrival/sim": {
     "hash": "6951e131b84be5664598d06b40bc484d375b73c2affed85e48261f799c46eed8",
@@ -36,16 +40,16 @@
     "updatedAt": "2026-11-16T15:28:49.970Z"
   },
   "settling-in/renting": {
-    "hash": "61d667dad412785f6daa8c6664a863d4b76dc7a064787f44a1f18a6cc5edce1b",
-    "updatedAt": "2026-11-19T13:07:46.769Z"
+    "hash": "ad2de7b7e7848b086442d2eeda2dea55791b1f2a5c49210dedf828532f9cceb8",
+    "updatedAt": "2026-11-21T08:28:35.464Z"
   },
   "work/job-search": {
-    "hash": "39d40ffe05fc64a391044ed331592794b79ddf69571eff8e60f14473a9ea81f4",
-    "updatedAt": "2026-11-19T14:07:13.330Z"
+    "hash": "98a679b1fc70db9f729a4cb6516770812bc925576bccdc731a7bbd440a29f001",
+    "updatedAt": "2026-11-21T07:24:21.214Z"
   },
   "work/work-rights": {
-    "hash": "2c753efdc0aede0c7c79bf3e2ba48c16e7fa11bae63a617ace6ddcf0c7d69396",
-    "updatedAt": "2026-11-19T16:03:45.363Z"
+    "hash": "000df2c019e04abaeb5e3c3f422a2dada3050f7c7889a2b3cee81c274176fbfe",
+    "updatedAt": "2026-11-21T07:24:21.214Z"
   },
   "stay-longer/visa-extension": {
     "hash": "be1acc3662d6f55a652002c9c58211ac7deb9975b7bd1f751fcfc85ae71e63d2",

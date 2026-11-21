@@ -158,15 +158,11 @@
 .guide-byline{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:18px 0;border-bottom:1px solid var(--line);font-size:11px;color:var(--muted)}
 .guide-author{position:relative}.guide-author summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none}.guide-author summary::-webkit-details-marker{display:none}.guide-author summary:focus-visible{outline:2px solid var(--orange);outline-offset:5px}
 .guide-avatar{width:40px;height:40px;border-radius:50%;background:#e5e8dc;overflow:hidden;display:grid;place-items:center;flex-shrink:0}.guide-avatar img{width:100%;height:100%;object-fit:cover}.guide-avatar svg{width:25px;height:25px;stroke:var(--muted);stroke-width:1.5}
-.guide-author-card{position:absolute;top:100%;left:0;z-index:5;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:17px;min-width:220px;max-width:min(300px,75vw);box-shadow:0 6px 22px #283b311a;color:var(--ink);line-height:1.9}
-.guide-author-card strong,.guide-author-card span,.guide-author-card a{display:block;overflow-wrap:anywhere}.guide-author-card a{color:var(--orange);text-decoration:underline;text-underline-offset:3px}
-.guide-author:not([open]):hover>.guide-author-card,.guide-author:not([open]):focus-within>.guide-author-card{display:block;content-visibility:visible}
 .guide-updated{white-space:nowrap}
 @media(max-width:640px){.guide-byline{flex-wrap:wrap}.guide-updated{font-size:10px}}
 
 .guide-author-trigger{display:flex;align-items:center;gap:10px;background:none;border:0;padding:0;font:inherit;color:inherit;text-align:left}
 .guide-author-trigger:focus-visible{outline:2px solid var(--orange);outline-offset:5px}
-.guide-author>.guide-author-card[hidden]{display:none!important}
 
 .guide-author-trigger>span:not(.guide-avatar){font-weight:700}
 
@@ -316,3 +312,5 @@ dialog.guide-image-lightbox{position:fixed;inset:0;box-sizing:border-box;width:1
 .stage:disabled{cursor:default}
 .stage:disabled:hover{background:transparent}
 .stage-arrow.stage-pending-label{font-size:12px;color:var(--muted)}
+
+.guide-author-trigger:hover{color:var(--orange)}
