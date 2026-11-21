@@ -1088,36 +1088,34 @@
             "avatarRotation": -90
           },
           "status": "published",
-          "intro": "==我認為最有效率的方式是，先知道對方有在徵人，再直接到現場詢問。==",
+          "intro": "==我認為最有效率的方式是，先知道對方有在徵人，再直接到現場 Walk in 詢問。==",
           "sections": [
-            {
-              "title": "先找有在徵人的地方",
-              "intro": "找工作不只限於剛落地，換城市或想換工作時，也可以用這些管道。",
-              "items": [
-                "[SEEK](https://www.seek.com.au/)、[Indeed](https://au.indeed.com/)與[Workforce Australia](https://www.workforceaustralia.gov.au/individuals/jobs/)：用職位加上城市或區域搜尋，例如 kitchen hand（廚房助手）、warehouse（倉庫）、cleaner（清潔），再看自己的經驗與交通是否合適。",
-                "Facebook、LINE 與 Threads：搜尋城市名稱加上「徵人」「工作」或「jobs」。看到職缺後，先問工作地點、內容、時薪與上班時間，再決定是否前往。",
-                "店家官網與現場公告：留意 Careers、Jobs 或 Hiring 頁面，以及門口的徵人公告。餐廳、咖啡店等可接待詢問的地方，可以避開忙碌時段帶履歷去問，若對方指定線上申請，就依要求投遞。",
-                "朋友、室友或同事介紹：可以問對方的工作場所是否缺人，以及實際的工作內容與上班方式。",
-                "人力仲介（Recruitment agency／Labour hire）：查詢當地仲介的職缺並登記，確認實際雇主、工作地點與發薪對象。工廠或倉庫未必接受直接進場詢問，先依招募方式聯絡。"
-              ]
-            },
             {
               "title": "履歷與現場詢問",
               "items": [
-                "準備英文履歷：把澳洲電話、Email、相關經驗、可開始工作的日期與可上班時段寫清楚，依職缺調整內容。",
-                "履歷留一份 PDF 在手機裡。需要紙本投遞時再印，先少量印出檢查，不用一開始印一大疊。",
-                "到現場可以先問：「Hi, are you hiring at the moment? Can I leave my resume with you?」簡單說明想找的職位與可上班時間。",
-                "記下投過哪些地方、聯絡人與回覆。對方有約面試或試工時，確認日期、地址、需要帶什麼，以及試工是否支薪。"
+                "Walk-in 現場詢問時會需要紙本履歷，可以到 [Officeworks](https://www.officeworks.com.au/print-copy/info/pcc-print-and-copy-self-serve) 連鎖店或有列印服務的圖書館印出。先少量印，不用一開始印一大疊。 餐廳、咖啡店等可以避開忙碌時段，帶履歷到現場詢問。",
+                "Walk-in 現場詢問時，除了問對方是否有在徵人，也可以問：「你知道附近有什麼店在徵人嗎？」（Do you know if any shops nearby are hiring?）"
+              ]
+            },
+            {
+              "title": "找工作的管道",
+              "items": [
+                "[SEEK](https://www.seek.com.au/)、[Indeed](https://au.indeed.com/)與[Workforce Australia](https://www.workforceaustralia.gov.au/individuals/jobs/)：用職位加上城市或區域搜尋，例如 kitchen hand（廚房助手）、warehouse（倉庫）、cleaner（清潔），線上投遞以外再到現場詢問，因為線上投遞是很難被撈起的。",
+                "Facebook、LINE 與 Threads：搜尋城市名稱加上「徵人」「工作」或「jobs」。我也聽過有人透過 Threads 找到集簽工作。",
+                "直接到官網投遞：例如 [Coles](https://colescareers.com.au/au/en/search-results) 或 [Woolworths（Woolies）](https://careers.woolworthsgroup.com.au/)，可以到官方求職網站查詢職缺並投遞。",
+                "現場徵人公告：留意店門口的 Hiring 公告。",
+                "朋友、室友或同事介紹：可以問對方的工作場所是否缺人，以及實際的工作內容與上班方式。"
               ]
             },
             {
               "title": "答應工作前，先問清楚",
               "items": [
-                "工作內容與地點：實際做什麼、上班時間、交通，以及是否需要證照或自備裝備。",
-                "薪資與雇用方式：時薪、發薪週期，是 Casual、Part-time 還是 Full-time，住宿或交通是否另外扣費。",
-                "到職資料：依雇主要求提供工作權限、收薪銀行帳戶、TFN 與退休金帳戶資料。尚未收到 TFN 時，先告知雇主已申請。"
+                "工作內容：地點、上班時間，以及是否需要證照或自備裝備。符合規定的自費工作裝備可申報扣稅，保留收據。",
+                "薪資條件：時薪、發薪週期、住宿或交通扣款，以及 Casual、Part-time 或 Full-time。三者的時薪、工時保障與有薪假不同，可查 [Fair Work 說明](https://www.fairwork.gov.au/starting-employment/types-of-employees)。",
+                "到職資料：依雇主要求提供銀行帳戶、TFN、退休金帳戶與工作權限資料。TFN 尚未收到就先告知。"
               ],
-              "afterword": "薪資、試工與欠薪問題，可接著看[工作權益](#guide/work/work-rights)。"
+              "afterword": "薪資、試工與欠薪問題，可接著看[工作權益](#guide/work/work-rights)。",
+              "intro": "如果可以，向雇主要一份工作合約。"
             }
           ],
           "references": [
@@ -1132,8 +1130,13 @@
             {
               "label": "Workforce Australia：找工作",
               "url": "https://www.workforceaustralia.gov.au/individuals/jobs/"
+            },
+            {
+              "label": "ATO：工作工具與設備扣稅",
+              "url": "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/work-related-deductions/tools-computers-and-items-you-use-for-work/tools-and-equipment-to-perform-your-work"
             }
-          ]
+          ],
+          "hideCategory": true
         },
         {
           "id": "work-rights",
@@ -1149,8 +1152,24 @@
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
           },
-          "intro": "Fair Work Ombudsman 是澳洲提供薪資與工作權益資訊、諮詢及協助的政府機構。在澳洲工作的打工度假者與留學生，也享有適用的最低薪資與工作條件保障。",
           "sections": [
+            {
+              "title": "我的欠薪求助經驗",
+              "introParagraphs": [
+                "我在澳洲的第一份工作遇到雇主欠薪，當時先上網提交 Enquiry（線上詢問），之後人員打電話了解狀況，也詢問是否需要口譯。有中文口譯協助，比較容易把事情講清楚。",
+                "後續他們聯絡店家、了解狀況並協助處理，最後我成功拿回應得的薪資。所以不用因為英文不好，就不敢向 Fair Work 求助。"
+              ]
+            },
+            {
+              "title": "遇到問題，如何向 Fair Work 求助",
+              "intro": "先整理工時、薪資單、入帳與對話紀錄。若能安全地與雇主溝通，可以先提出問題，無法溝通或未能解決時，就向 Fair Work 求助。",
+              "orderedItems": [
+                "線上提出問題：從 [Fair Work 線上詢問入口](https://www.fairwork.gov.au/about-us/contact-us/online-enquiries)註冊或登入 My account，選擇 My enquiries，說明工作問題並依要求提供資料。",
+                "電話說明情況：留意聯絡電話，需要中文口譯就提出。也可撥 131 450，請口譯服務轉接 Fair Work 的 13 13 94。",
+                "配合後續處理：依承辦人員要求補資料，保存聯絡紀錄。是否聯絡雇主及如何協助，會依案件情況決定。"
+              ],
+              "afterword": "以上是我的實際經驗，個案的處理方式與結果可能不同。"
+            },
             {
               "title": "確認自己的薪資",
               "intro": "薪資會依工作內容、雇用類型、適用的 Award（行業薪資與工作條件規範）或企業協議而不同。可使用[Fair Work 薪資試算工具](https://calculate.fairwork.gov.au/)查詢，並確認週末、國定假日及加班是否適用不同費率。"
@@ -1165,14 +1184,6 @@
                 "自行記錄上下班時間、休息時間與實際工時，保留合約、排班表、入帳紀錄及與雇主的對話。",
                 "雇主須在發薪後 1 個工作日內提供薪資單（Pay slip）。收到後核對工時、時薪及扣款。可參考[官方薪資單說明](https://www.fairwork.gov.au/workplace-problems/common-workplace-problems/im-not-getting-pay-slips)。"
               ]
-            },
-            {
-              "title": "遇到欠薪或工作條件問題",
-              "intro": "先整理實際工時、應領與實領金額，以及相關紀錄。若安全且合適，可先向雇主提出問題。未能解決或不確定如何處理時，可向 Fair Work 尋求協助。可參考[處理工作問題的官方步驟](https://www.fairwork.gov.au/workplace-problems/fixing-a-workplace-problem/resolving-your-problem-in-the-workplace)。"
-            },
-            {
-              "title": "需要中文協助",
-              "intro": "可撥打翻譯與口譯服務 131 450，請對方協助轉接 Fair Work 的 13 13 94。更多資訊可參考[簽證持有人與移民工作者專區](https://www.fairwork.gov.au/find-help-for/visa-holders-migrants)。"
             }
           ],
           "references": [
@@ -1195,10 +1206,21 @@
             {
               "label": "Fair Work：試工與薪資",
               "url": "https://www.fairwork.gov.au/starting-employment/unpaid-work/unpaid-trials"
+            },
+            {
+              "label": "Fair Work：線上詢問",
+              "url": "https://www.fairwork.gov.au/about-us/contact-us/online-enquiries"
+            },
+            {
+              "label": "Fair Work：以你的語言尋求協助",
+              "url": "https://www.fairwork.gov.au/workplace-problems/fixing-a-workplace-problem/get-help-with-a-workplace-problem-in-your-language"
             }
           ],
           "status": "published",
-          "hideCategory": true
+          "hideCategory": true,
+          "introParagraphs": [
+            "Fair Work Ombudsman 是澳洲提供薪資與工作權益協助的政府機構，也是我認為在澳洲工作很重要的一個單位。"
+          ]
         }
       ],
       "intro": "履歷準備、求職方式與工作權益相關事項。",
