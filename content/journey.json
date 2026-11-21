@@ -1284,7 +1284,7 @@
       "title": "離開",
       "en": "UNTIL NEXT TIME",
       "symbol": "↙",
-      "desc": "退稅、退休金、關閉必要服務",
+      "desc": "退稅、退休金",
       "topics": [
         {
           "id": "tax-return",
@@ -1318,30 +1318,6 @@
           "source": {
             "label": "澳洲稅務局 ATO",
             "url": "https://www.ato.gov.au/"
-          },
-          "author": {
-            "name": "Wilson",
-            "email": "yuchenghsu1231@gmail.com",
-            "avatar": "/authors/wilson.jpg",
-            "avatarPosition": "65% 50%",
-            "avatarRotation": -90
-          },
-          "status": "draft"
-        },
-        {
-          "id": "close-services",
-          "title": "關閉必要服務",
-          "details": [
-            "列出銀行、手機、網路、保險與各項訂閱及自動扣款。",
-            "銀行帳戶：確認離澳後是否仍符合免收帳戶管理費的條件。若已收到最後薪資、退款，並處理好退稅與退休金的收款安排，不再需要帳戶時，記得向銀行申請關戶。",
-            "帳戶管理費（Monthly account fee）：以 CommBank Everyday Smart Access 為例，目前每月 AUD 4，未滿 30 歲、每月存入至少 AUD 2,000，或符合其他條件可免收。每月存入 AUD 2,000，不是帳戶裡一直放著 AUD 2,000。離澳後沒有薪資入帳，可能不再符合免收條件，詳見[官方費用說明](https://www.commbank.com.au/banking/everyday-account-smart-access/rates-fees.html)。",
-            "澳洲電信門號：離澳前確認是否要保留或取消門號，以及是否已關閉自動儲值或續費。若銀行、myGov 等服務仍綁定這個號碼，先確認後續驗證方式，再向電信業者辦理取消，並確認合約、最後費用與停用日期。",
-            "水電、瓦斯與網路：如果租屋時是自己申辦，搬離前記得聯絡業者結束自己的帳戶或合約，確認服務結束日期、最後帳單與設備歸還方式。建議人在澳洲時先辦好，避免離境後還要打國際電話處理。以我的經驗，當時使用的 Origin 就需要打電話才能取消。",
-            "向各服務商確認取消程序，保留結清或取消證明。"
-          ],
-          "source": {
-            "label": "CommBank：帳戶管理費與免收條件",
-            "url": "https://www.commbank.com.au/banking/everyday-account-smart-access/rates-fees.html"
           },
           "author": {
             "name": "Wilson",
