@@ -76,9 +76,6 @@ export default function Hero() {
       </div>
       <div className="hero-shade" aria-hidden="true" />
       <div className="hero-copy">
-        <p className="eyebrow light">
-          <span className="tiny-line" /> AUSTRALIA WORKING HOLIDAY EXPERIENCES
-        </p>
         <h1 id="hero-title" className={heroFont.variable}>台灣人的澳洲打工度假<br />生活經驗分享</h1>
       </div>
       <a className="hero-scroll" href="#about" aria-label="向下捲動至下一個區塊">
@@ -93,7 +90,6 @@ export default function Hero() {
         </svg>
       </a>
       <div className="hero-bottom">
-        <span>BEFORE YOU GO · ARRIVAL · EXTENSION · DEPARTURE</span>
         <div className="slide-controls" aria-label="橫幅圖片輪播">
           {slides.map((slide, i) => (
             <button

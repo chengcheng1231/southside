@@ -120,7 +120,7 @@ export default function ContactForm({ initialTopic = '網站建議', emailOnly =
                 </div>
               </fieldset>
               <fieldset>
-                <legend>想分享什麼？或是問題</legend>
+                <legend>分享內容或問題</legend>
                 <div className="contact-topics">
                   {topics.map((topic) => (
                     <label key={topic}>

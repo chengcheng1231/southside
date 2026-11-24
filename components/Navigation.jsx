@@ -27,14 +27,14 @@ export default function Navigation() {
             </svg>
           </span>
           <span className="brand-sub">
-            AUSTRALIA
+            AUSTRALIA WORKING HOLIDAY
             <br />
-            GUIDES & COMMUNITY
+            EXPERIENCES
           </span>
         </a>
         <nav className="desktop-nav" aria-label="主要導覽">
           <a href="#journey">
-            準備流程 <span>↗</span>
+            準備流程
           </a>
           <a href="#housing-and-work">住宿與工作</a>
           {showExperiences&&<a href="/#notes">經驗分享</a>}
@@ -43,11 +43,12 @@ export default function Navigation() {
         </nav>
         <button
           className="menu-button"
+          aria-label={menuOpen ? '關閉選單' : '開啟選單'}
           onClick={() => setMenuOpen(!menuOpen)}
           aria-expanded={menuOpen}
           aria-controls="mobile-nav"
         >
-          <span>☰</span>
+          <span className="menu-icon" aria-hidden="true"><span /><span /><span /></span>
         </button>
       </header>
       <nav

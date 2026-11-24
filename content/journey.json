@@ -26,7 +26,7 @@
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
           },
-          "intro": "台灣一般護照首次申請 Working Holiday visa（subclass 417）的流程整理，不包含二簽／三簽流程。",
+          "intro": "",
           "timelineTitle": "首次 417 申請流程",
           "timeline": [
             {
@@ -41,7 +41,7 @@
                 "年齡限制：需介於 18–30 歲，申請時需要在 31 歲生日前送出申請。",
                 "護照要求：持有效台灣一般護照。公務或外交護照不適用。",
                 "申請地點：申請及作出決定時均須在澳洲境外。",
-                "首次簽證（一簽）：如果以前曾持澳洲打工度假簽證入境，就不能再申請一簽。若要申請二簽或三簽，需參考該申請資格。曾申請或獲准，但從未持該簽證入境者，仍可申請一簽。"
+                "是否曾入境：曾用澳洲打工度假簽證入境，就不能再申請一簽，需另查二簽或三簽資格。若只是申請過或獲准，但沒有用該簽證入境，仍可申請一簽。"
               ],
               "highlight": "申請條件"
             },
@@ -83,7 +83,7 @@
               "items": [
                 "查看通知：付款送件後，查看 Email 或 ImmiAccount「View details → Messages」，確認體檢要求與期限，以個人通知為準。[查看通知信範例](/examples/health-examination-notice.png)。",
                 "下載體檢單：開啟 [ImmiAccount](https://online.immi.gov.au/lusc/login) 該筆申請，點選「View health assessment」→「Organise health examinations」，填寫病史後下載含 HAP ID 的 Referral Letter。[查看體檢單範例](/examples/referral-letter.png)。",
-                "安排體檢：至[官方指定醫院查詢頁](https://immi.homeaffairs.gov.au/help-support/contact-us/offices-and-locations/list)選擇 Taiwan（或所在地），使用 HAP ID 依院方受理方式安排體檢。是否需預約依各院公告。無法如期完成時，透過 ImmiAccount 說明。",
+                "安排體檢：至[官方指定醫院查詢頁](https://immi.homeaffairs.gov.au/help-support/contact-us/offices-and-locations/list)選擇 Taiwan（或所在地），找到醫院後，先查看體檢時間與是否需要預約，再帶體檢單前往。無法如期完成時，透過 ImmiAccount 說明。",
                 "體檢完成：由醫院上傳體檢結果，接著等待簽證審核。"
               ],
               "link": {
@@ -329,7 +329,7 @@
               "items": [],
               "blocks": [
                 {
-                  "title": "國泰｜一般外幣匯出",
+                  "title": "方法一：國泰｜一般外幣匯出",
                   "intro": "台幣換澳幣 → 國泰外幣帳戶 → SWIFT 匯到澳洲。若外幣帳戶已有足夠澳幣，可直接匯出。",
                   "items": [
                     "事先設定：需先到外匯指定分行臨櫃，將澳洲帳戶綁定為約定匯款帳戶，完成後才能透過網銀匯出。",
@@ -337,7 +337,7 @@
                   ]
                 },
                 {
-                  "title": "國泰｜CUBE 小額跨境匯款",
+                  "title": "方法二：國泰｜CUBE 小額跨境匯款",
                   "intro": "直接扣台幣，由服務處理換匯，不用自己先買澳幣。",
                   "items": [
                     "事先設定：不用先臨櫃約定受款帳號，出發前仍需確認帳戶的匯款功能、驗證方式與交易額度可正常使用。",
@@ -368,7 +368,7 @@
                   ]
                 },
                 {
-                  "title": "台新銀行｜易匯通",
+                  "title": "方法三：台新銀行｜易匯通",
                   "items": [
                     "收款資料：需準備收款銀行的 SWIFT Code。",
                     "非約定匯款：不用先臨櫃約定受款帳號，單筆最高等值 USD 1,500。",
@@ -380,7 +380,7 @@
                 }
               ],
               "introParagraphs": [
-                "有了澳洲帳戶資料，接著就可以考慮是否要先到台灣銀行臨櫃設定約定受款帳號。若預計匯款金額較大，建議出發前先辦好。若只是小額匯款，且金額在所選服務的非約定額度內，就不一定需要臨櫃。不論是否需要臨櫃約定，都要在出發前確認台灣銀行帳戶的跨國匯款功能已開通、App 能正常操作，並確認所需的驗證方式與交易額度。我個人使用過國泰一般外幣匯出、國泰的小額跨境匯款和台新易匯通。",
+                "取得澳洲帳戶資料後，就可以準備跨國匯款。金額較大時，可先臨櫃設定約定帳戶。小額則可比較免臨櫃的服務，出發前確認功能、驗證方式與額度即可。以下分享我用過的三種方式。",
                 "也有人分享使用 Wise 或 Revolut 匯款回台灣。我沒有研究這兩種方式，加上自己比較熟悉台灣的銀行，所以這裡先分享我使用過的匯款方式。"
               ]
             }
@@ -483,7 +483,7 @@
             {
               "title": "國民年金（如適用）",
               "items": [
-                "確認是否納保：年滿 25 歲、未滿 65 歲，在台灣設有戶籍，且未參加勞保等相關社會保險者，可能屬於國民年金納保對象。是否適用仍依完整資格與勞保局認定，不是每位出國者都需要。可先查[國民年金納保資格](https://www.bli.gov.tw/0013590.htm)。"
+                "確認是否需要繳：25–64 歲、在台灣有戶籍，離職後沒有勞保等社會保險時，可能需要繳國民年金。可查[納保資格](https://www.bli.gov.tw/0013590.htm)。"
               ],
               "blocks": [
                 {
@@ -582,7 +582,6 @@
           },
           "sections": [
             {
-              "title": "駕照與交通準備（如需）",
               "table": {
                 "caption": "各州／領地駕照規定：台灣駕照、打工度假簽證（資料查詢：2026/11/13）",
                 "headers": [
@@ -648,7 +647,7 @@
               ],
               "orderedItems": [
                 "有效的台灣駕照正本。",
-                "NAATI 認證英文譯本：可從 [NAATI 官方名錄](https://directory.naati.com.au/)查找中翻英認證翻譯員，委託翻譯台灣駕照。不是向 NAATI 本身申請譯本。",
+                "NAATI 認證英文譯本：可從 [NAATI 官方名錄](https://directory.naati.com.au/)查找中翻英認證翻譯員，委託翻譯台灣駕照。",
                 "駐澳館處認可英文譯本：向台灣駐澳辦事處詢問翻譯或譯本驗證程序，例如[駐墨爾本辦事處](https://www.boca.gov.tw/sp-foof-areacp-16-9b625-1.html)。",
                 "有效的國際駕照（IDP）：在台灣向監理所／站申請，須搭配台灣駕照正本使用。可查[公路局申領說明](https://www.thb.gov.tw/cp.aspx?n=96)。",
                 "其他當地認可英文譯本：部分州接受指定政府翻譯服務或當地授權翻譯員製作的文件，依該州官方規定確認。"
@@ -693,13 +692,12 @@
           },
           "sections": [
             {
-              "title": "海外醫療保險",
               "items": [
-                "出發前，需向保險公司確認海外醫療險的海外就醫保障與申請方式。",
+                "出發前，向保險公司確認海外就醫的保障範圍與理賠方式。",
                 "出發後若在海外就醫，記得向醫院取得兩項文件的正本：①診斷證明。②醫療費用明細及繳費收據，以利後續申請健保核退與商業保險理賠。"
               ],
               "introParagraphs": [
-                "在澳洲如果沒有 Medicare（澳洲公費醫療保障），工作受傷時可以確認當地的工傷保障。但是非工作造成的受傷或生病，則需台灣的保險，基本上有健保和個人商業保險，而我個人強烈建議要有個人商業保險，原因有：",
+                "如果沒有 Medicare（澳洲公費醫療保障），建議出發前確認自己的保險是否涵蓋澳洲就醫。工傷保障與日常醫療保障不同，非工作造成的受傷或生病，也要另外確認。我個人建議準備商業醫療保險，主要有兩個原因：",
                 "第一，澳洲就醫費用不低，急診就可能花費數百澳幣。例如 [Bendigo Health 2024 年公開費用表](https://vetinari.bendigohealth.org.au/Assets/Files/Overseas%20Ineligible%20Patients%202024.pdf)曾列急診就診費 AUD 600，檢查、藥物及住院費用可能另計。",
                 "第二，台灣健保的海外醫療核退有其[規定](https://www.nhi.gov.tw/ch/cp-5938-d33aa-2740-1.html)和[上限](https://www.nhi.gov.tw/ch/cp-5183-4df08-2742-1.html)，未必能滿足當地先墊付的醫療費用。"
               ]
@@ -822,7 +820,7 @@
                 "alt": "CommBank 開戶通知與收款資料範例，帳戶號碼等欄位已遮蔽",
                 "caption": "CommBank 開戶通知（Welcome Letter）範例"
               },
-              "afterword": "取得帳戶資料後，可以先設定台幣跨國轉帳或辦理受款帳號約定。完成澳洲分行身分驗證後，再匯入款項。"
+              "afterword": "取得帳戶資料後，可以先設定台幣跨國轉帳或辦理受款帳號約定，做法可參考[出發前的資金與跨國匯款準備](#guide/before-departure/money-transfer)。完成澳洲分行身分驗證後，再匯入款項。"
             },
             {
               "title": "抵澳後到分行完成身分驗證",
@@ -832,7 +830,7 @@
                   "title": "需攜帶的文件與資料",
                   "orderedItems": [
                     "有效護照正本：用於核對身分。",
-                    "稅籍編號（TIN）：提供各海外稅務居住國的稅籍編號。若為台灣稅務居民，且有台灣身分證，台灣的 TIN 就是「身分證字號」，不用另外申請。開戶時不需要先取得澳洲 TFN，收到後再補填即可。",
+                    "稅籍編號（TIN）：台灣稅務居民填身分證字號即可。澳洲 TFN 可在收到後補填，不用等拿到才開戶。",
                     "澳洲政府的簽證核准信：建議手機備好電子檔，依開戶通知要求提供。",
                     "CommBank 開戶通知（Welcome Letter）：就是線上申請後收到的開戶通知。請攜帶或存在手機裡供行員查看。",
                     "澳洲居住地址：你當時住處的英文地址，例如短租或 Hostel，不是銀行分行地址。"
@@ -973,7 +971,7 @@
             "avatarPosition": "65% 50%",
             "avatarRotation": -90
           },
-          "intro": "在澳洲住哪裡，通常會依工作、集簽地點或想去的城市而不同，可以根據目前的安排，選擇短期或長期住宿。除了住 hostel，也可以透過社群、租屋平台或工作附住宿等方式找房。秉持有問有機會的信念，絕對可以找到合適的住宿。",
+          "intro": "在澳洲住哪裡，通常會依工作、集簽地點或想去的城市而不同，可以根據目前的安排，選擇短期或長期住宿。除了住 Hostel，也可以透過社群、租屋平台或工作附住宿等方式找房。多問問身邊的人，也可能找到合適的住宿。",
           "sections": [
             {
               "title": "找住宿的管道",
@@ -982,11 +980,11 @@
                 "Facebook 社團：搜尋「台灣人」+「城市」。例如[墨爾本 台灣人 情報交流站](https://www.facebook.com/groups/361161347395449/)，也有很多人發布租屋或轉租資訊。",
                 "Threads：搜尋城市名稱加上「租屋」「短租」或「轉租」。",
                 "小紅書：如果不排斥的話，可以搜尋城市名稱加上「租房」「短租」或「轉租」，但要小心詐騙。",
-                "[Flatmates](https://flatmates.com.au/)：會比較多 local 的房東或二房東，通常要約時間到現場做 inpsection。",
-                "寵物照顧／看屋換宿（Pet / House Sitting）：可參考 Facebook 社團[Pet Sitters of Melbourne](https://www.facebook.com/groups/888071511763980/)，找照顧寵物或看屋換住宿的機會，但要和飼主確認你什麼時候需要外出，我認為這個方式滿適合情侶的。",
+                "[Flatmates](https://flatmates.com.au/)：可以聯絡房東或二房東，約時間到現場看房。",
+                "寵物照顧／看屋換宿（Pet / House Sitting）：可參考 Facebook 社團[Pet Sitters of Melbourne](https://www.facebook.com/groups/888071511763980/)，找照顧寵物或看屋換住宿的機會，先和飼主確認照顧時段，能否配合自己的工作與外出安排。我認為這個方式滿適合情侶的。",
                 "工作提供住宿：工作的地方可能就有提供住宿或是可以問說他們都住哪裡。",
                 "[realestate.com.au](https://www.realestate.com.au/rent/)、[Domain](https://www.domain.com.au/rent/)：比較適合長租，我個人有用過這個方式找到長租。",
-                "一直跟你遇到的人說你想找宿住：前期我在找長期住宿時，我曾到一家餐廳和老闆聊天，他問我來這裡做什麼，我說我最近在找長期住宿，他就說他那邊有一個房間要出租，後來這個餐廳老闆就成了我的房東和室友，價格還很合理。"
+                "讓身邊的人知道你在找住宿：我找長租時，曾和餐廳老闆聊到自己在找房，剛好他有房間出租，後來就成了我的房東和室友，價格也很合理。"
               ]
             },
             {
@@ -1088,7 +1086,6 @@
             "avatarRotation": -90
           },
           "status": "published",
-          "intro": "==我認為最有效率的方式是，先知道對方有在徵人，再直接到現場 Walk in 詢問。==",
           "sections": [
             {
               "title": "履歷與現場詢問",
@@ -1100,11 +1097,11 @@
             {
               "title": "找工作的管道",
               "items": [
-                "[SEEK](https://www.seek.com.au/)、[Indeed](https://au.indeed.com/)與[Workforce Australia](https://www.workforceaustralia.gov.au/individuals/jobs/)：用職位加上城市或區域搜尋，例如 kitchen hand（廚房助手）、warehouse（倉庫）、cleaner（清潔），線上投遞以外再到現場詢問，因為線上投遞是很難被撈起的。",
+                "[SEEK](https://www.seek.com.au/)、[Indeed](https://au.indeed.com/)與[Workforce Australia](https://www.workforceaustralia.gov.au/individuals/jobs/)：用職位加上城市或區域搜尋，例如 kitchen hand（廚房助手）、warehouse（倉庫）、cleaner（清潔），除了線上投遞，也可以視店家情況到現場詢問，多一個讓對方認識你的機會。",
                 "Facebook、LINE 與 Threads：搜尋城市名稱加上「徵人」「工作」或「jobs」。我也聽過有人透過 Threads 找到集簽工作。",
                 "直接到官網投遞：例如 [Coles](https://colescareers.com.au/au/en/search-results) 或 [Woolworths（Woolies）](https://careers.woolworthsgroup.com.au/)，可以到官方求職網站查詢職缺並投遞。",
                 "現場徵人公告：留意店門口的 Hiring 公告。",
-                "朋友、室友或同事介紹：可以問對方的工作場所是否缺人，以及實際的工作內容與上班方式。"
+                "朋友、室友或同事介紹：可以問對方的工作場所是否缺人，以及實際的工作內容與上班方式，我個人就是用這個方式找到飯店的工作。"
               ]
             },
             {
@@ -1116,6 +1113,43 @@
               ],
               "afterword": "薪資、試工與欠薪問題，可接著看[工作權益](#guide/work/work-rights)。",
               "intro": "如果可以，向雇主要一份工作合約。"
+            },
+            {
+              "title": "季節與集簽工作參考",
+              "introParagraphs": [
+                "我沒有實際集簽經驗，不過當初也查找過產季與農場工作的資料，以下整理給有需要的人參考。",
+                "如果打算集簽，也可以先查各地產季與職缺，依自己的安排決定何時出發，以及之後是否移動到市區。"
+              ],
+              "afterword": "實際機會仍會依地區、工作類型與產季而不同，可以先查以下官方資源，再聯絡農場確認招募時間。",
+              "image": {
+                "src": "https://agriculture.vic.gov.au/__data/assets/image/0019/630064/harvest-map.png",
+                "caption": "維州採收地區與產季地圖（來源：Agriculture Victoria）",
+                "alt": "維州採收地區與作物產季地圖，標示 Sunraysia、Swan Hill、Goulburn Valley、Gippsland 等地區及採收月份",
+                "wide": true,
+                "fallbackUrl": "https://agriculture.vic.gov.au/crops-and-horticulture/Workforce-and-Harvest/how-to-get-a-harvest-job"
+              },
+              "links": [
+                {
+                  "label": "維州 VIC：採收地區與產季",
+                  "url": "https://agriculture.vic.gov.au/crops-and-horticulture/Workforce-and-Harvest/how-to-get-a-harvest-job"
+                },
+                {
+                  "label": "塔斯 TAS：各區作物採收月份",
+                  "url": "https://nre.tas.gov.au/agriculture/multifaceted-agriculture/harvest-jobs/seasonal-produce-harvest-dates"
+                },
+                {
+                  "label": "昆士蘭 QLD：Southern Downs 季節工作與月份",
+                  "url": "https://www.sdrc.qld.gov.au/doing-business/seasonal-work"
+                }
+              ]
+            },
+            {
+              "title": "怎麼聯絡農場與包裝場？",
+              "orderedItems": [
+                "先找地區與職位：在 [Workforce Australia](https://www.workforceaustralia.gov.au/individuals/jobs/search?searchText=harvest)、[SEEK](https://www.seek.com.au/) 或 [Indeed](https://au.indeed.com/) 搜尋「城市或產區＋fruit picker、harvest worker、packing shed 或 packer」，依職缺留下的申請連結、Email 或電話聯絡。",
+                "直接到雇主官網投遞：例如 [Costa 招募頁](https://costagroup.com.au/careers/)有採收工作的入口。若已知道農場或包裝場名稱，可以找官網的 Careers／Jobs 頁面，沒有職缺時再用官方聯絡方式詢問。農場或工廠建議先用電話、Email 或官網詢問，確認能否到現場應徵。",
+                "聯絡時：先問這份工作是否可以集簽（很重要），以及薪資、住宿與交通安排，再說明可開始日期、能做多久、目前所在地、相關經驗及是否有車。"
+              ]
             }
           ],
           "references": [
@@ -1134,13 +1168,37 @@
             {
               "label": "ATO：工作工具與設備扣稅",
               "url": "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/work-related-deductions/tools-computers-and-items-you-use-for-work/tools-and-equipment-to-perform-your-work"
+            },
+            {
+              "label": "維州 VIC：採收地區與產季",
+              "url": "https://agriculture.vic.gov.au/crops-and-horticulture/Workforce-and-Harvest/how-to-get-a-harvest-job"
+            },
+            {
+              "label": "塔斯 TAS：各區作物採收月份",
+              "url": "https://nre.tas.gov.au/agriculture/multifaceted-agriculture/harvest-jobs/seasonal-produce-harvest-dates"
+            },
+            {
+              "label": "昆士蘭 QLD：Southern Downs 季節工作與月份",
+              "url": "https://www.sdrc.qld.gov.au/doing-business/seasonal-work"
+            },
+            {
+              "label": "Costa：官方招募",
+              "url": "https://costagroup.com.au/careers/"
+            },
+            {
+              "label": "移民局：417 指定工作與地區",
+              "url": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/specified-work-conditions/specified-work-417/"
             }
           ],
-          "hideCategory": true
+          "hideCategory": true,
+          "introParagraphs": [
+            "==我認為最有效率的方式是，先知道對方有在徵人，再直接到現場 Walk in 詢問。==",
+            "以市區工作來說，我覺得夏季相對比較好找。如果出發時間有彈性，可以考慮夏季來澳洲。不過，如果你有相關工作經驗、英文能力不錯，或有澳洲當地學歷，就不一定需要把季節當成主要考量。"
+          ]
         },
         {
           "id": "work-rights",
-          "title": "找工作 & 工作權益",
+          "title": "工作權益與欠薪求助",
           "source": {
             "label": "Fair Work Ombudsman",
             "url": "https://www.fairwork.gov.au/"
@@ -1171,12 +1229,17 @@
               "afterword": "以上是我的實際經驗，個案的處理方式與結果可能不同。"
             },
             {
-              "title": "確認自己的薪資",
-              "intro": "薪資會依工作內容、雇用類型、適用的 Award（行業薪資與工作條件規範）或企業協議而不同。可使用[Fair Work 薪資試算工具](https://calculate.fairwork.gov.au/)查詢，並確認週末、國定假日及加班是否適用不同費率。"
+              "title": "確認自己應領的薪資",
+              "intro": "薪資會依工作內容、雇用類型（Full-time 全職、Part-time 兼職或 Casual 臨時僱用）、適用的 Award（行業薪資與工作條件規範）或企業協議而不同。可使用[Fair Work 薪資試算工具](https://calculate.fairwork.gov.au/)查詢，並確認週末、國定假日及加班是否適用不同費率。"
             },
             {
-              "title": "試工不一定可以不給薪",
-              "intro": "短暫、有人直接監督，且只為了展示職位所需技能的試工，才可能不支薪。若已經在正常工作，或超過合理展示技能所需的時間，可能就需要給薪。試工前先問清楚內容、時間與薪資，可查[Fair Work 試工說明](https://www.fairwork.gov.au/starting-employment/unpaid-work/unpaid-trials)。"
+              "title": "試工要不要給薪？",
+              "intro": "不是叫「試工」就能不給薪，重點是你實際在做什麼。",
+              "items": [
+                "短暫展示技能：例如應徵咖啡師，在主管直接監督下展示沖煮技巧，只進行判斷能力所需的時間，可能可以不支薪。",
+                "實際上班：若已超出展示技能的範圍，例如被要求照班表免費工作一週，不能只用「試工」當理由不給薪。"
+              ],
+              "afterword": "沒有統一的「幾小時內都能免費試工」規則，仍要看工作內容、所需時間與監督方式。可查[Fair Work 試工說明](https://www.fairwork.gov.au/starting-employment/unpaid-work/unpaid-trials)。"
             },
             {
               "title": "保存工時與薪資單",
@@ -1219,7 +1282,7 @@
           "status": "published",
           "hideCategory": true,
           "introParagraphs": [
-            "Fair Work Ombudsman 是澳洲提供薪資與工作權益協助的政府機構，也是我認為在澳洲工作很重要的一個單位。"
+            "[Fair Work Ombudsman](https://www.fairwork.gov.au/) 是澳洲提供薪資與工作權益協助的政府機構，也是我認為在澳洲工作很重要的一個單位。"
           ]
         }
       ],
@@ -1339,7 +1402,7 @@
     "typeLine": "內容類型：準備方向／版型初稿",
     "dateLine": "分享者與經驗年份：待填寫 · 資料查證日期：待補",
     "stepsTitle": "先從這幾件事開始",
-    "sourcesTitle": "繼續查找資訊",
+    "sourcesTitle": "參考資料",
     "sourceNote": "官方連結為查詢起點。簽證、稅務、租屋與工作規定，請依所在地及個人情況查閱官方最新資訊。個人經驗與來源資料將分別標示。",
     "nextLabel": "下一篇"
   },

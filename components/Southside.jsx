@@ -104,11 +104,6 @@ export default function Southside({about}) {
                 />
               </svg>
             </span>
-            <span className="brand-sub">
-              AUSTRALIA
-              <br />
-              GUIDES & COMMUNITY
-            </span>
           </a>
 
           <a href="#">回到頂端 ↑</a>
