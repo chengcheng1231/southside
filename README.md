@@ -1,6 +1,8 @@
 # Southside
 
-澳洲打工度假準備與生活經驗分享網站。使用 Next.js App Router、React 與 React Hook Form。目前僅本地開發，不會自動發布至 Sites。
+澳洲打工度假準備與生活經驗分享網站。使用 Next.js App Router、React 與 React Hook Form。
+
+正式網站：[southside.yuchenghsu.dev](https://southside.yuchenghsu.dev)
 
 ## 啟動
 
